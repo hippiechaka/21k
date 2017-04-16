@@ -1,0 +1,391 @@
+* { box-sizing: border-box }
+body {
+  margin: 0;
+  /*background: #131313; */
+  /*background-color: rgba(204,40,124,.7);*/
+  /*background-color: rgb(57, 193, 193);*/
+  background-color: rgb(255, 255, 255);
+  color: #ccc;
+  /* font-family: 'Open Sans', sans-serif; */
+  /* transition: background 1s ease; */
+  /* overflow-x:hidden; */
+}
+video { 
+  /*position: fixed;*/
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100vw;
+  min-height: 110vh;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translateX(-50%) translateY(-50%);
+  /*background: url('../video.jpg') no-repeat;*/
+  background-size: cover;
+  transition: 1s opacity;
+
+}
+#bg-img{
+  /*background-image: url(../images/1.png);*/
+  background-color:#f3f1f0;
+
+
+}
+.grunge{
+  position: absolute;
+  background-image: url('../images/grunge.png');
+  z-index: 2;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+}
+.stopfade { 
+   opacity: .5;
+}
+
+h1 {
+  /*color: #fff;
+  font-family: 'Oswald', sans-serif;
+  font-size: 3em;
+  text-transform: uppercase;
+  margin-top: 0;
+  letter-spacing: 10px;
+  color:white;
+  font-weight: 100;
+  position: absolute;
+  top: 30px;
+  margin:0 auto;
+  text-align: center;
+  left: 0;
+  right: 0; */
+}
+h2{
+  /* font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  letter-spacing: 1px; */
+}
+a {
+  cursor: pointer;
+  /*transition: .6s background; */
+}
+.home{
+  cursor: pointer;
+  max-width: 96%;
+  /*margin-top: 20vh;*/
+  /*text-align: center;*/
+  /*margin: 0 auto;*/
+
+}
+.home .logo{
+  max-width: 100%;
+  margin-top: 2vh;
+  max-height:65vh;
+  display: block;
+  margin: 0 auto;
+}
+.home .trailer{
+  /*width: 150px;*/
+  margin-top: -70px;
+  margin-left: 60px;
+  max-height:12vh;
+}
+
+section.video-bg{
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+}
+
+/*.slide .inside {
+  display: table;
+  height: 100%;
+  width: 100%;
+  padding: 0 3em;
+}
+.slide  p {
+  display: table-cell;
+  width: 100%;
+  clear: both;
+  vertical-align: middle; 
+  text-align: center; 
+}*/
+#btn-trailer{
+  outline: none;
+
+    position: absolute;
+    top: 95px;
+    right: 20px;
+}
+.gallery img{
+  max-width: 100%;
+}
+
+#bg-img section{
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.dl-horizontal dd{
+  font-family: 'Cabin Sketch', cursive;
+  font-size: 1.3em;
+  /*color: #E0E0A4;*/
+}
+.dl-horizontal dt{
+  color: #666;
+}
+.dl-horizontal{
+  font-size: 1.2em;
+  line-height: 1.8em;
+  font-weight: lighter;
+}
+
+.btn-enviar{
+  border-radius: 0;
+  background-color: #d62774;
+  color: white;
+  height: 60px;
+}
+
+footer{
+  /*background: url(../images/gradient.png);*/
+  padding: 150px;
+}
+.social{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 0 34px;
+  display: block;
+}
+.social iframe{
+  right: 0;
+  top: 0;
+
+}
+.social a{
+  padding: 10px 15px 10px 0;
+  display: block;
+
+  width:60px;
+  float:right;
+
+}
+.social a img{
+  width: 50px;
+}
+a:focus, a:hover {
+  color: #23527c;
+  text-decoration: none; 
+}
+a:focus {
+    outline: none;
+}
+
+
+img{
+  max-width: 100%;
+}
+.info{
+  margin-top: 7vh;
+}
+.info img{
+  max-width: 105px;
+  /*max-height: 100px;*/
+  margin-right: 5px;
+  margin-left: 5px;
+}
+
+.billingblock{
+  padding-top: 50px;
+  padding-bottom: 120px;
+}
+.patrocinadores{
+  max-width: 1600px;
+  margin: 0 auto;
+  margin-top:30px;
+}
+.patrocinadores img{
+  max-width: 130px;
+}
+.lang-res{
+  display: none;
+  top: 20px;
+  left:20px;
+  position: absolute;
+}
+
+
+.agradecimiento p{
+  font-size: 3em;
+  margin-top: 30px;
+  color: black;
+  background-color: white;
+}
+.agradecimiento .gif{
+  margin-top: 10px;
+}
+
+.sundown{
+  margin-top: 6vh !important;
+  margin-bottom: 50px;
+}
+.premios{
+  /*background: url(../images/premios_bg.png) no-repeat ;*/
+
+}
+
+
+/*FIRMA*/
+.firma {
+    width: 14px;
+    height: 20px;
+    display: block;
+    background: url(../images/firma.png)no-repeat;
+    /*float: right;*/
+    /*margin-top: 30px;*/
+    margin: 0 auto;
+    margin-top: -90px;
+    -webkit-transition: all 250ms ease;
+    -moz-transition: all 250ms ease;
+}
+ .firma:hover{width:72px;}
+
+#redesSociales{width:60px;float:right;}
+
+
+
+
+
+
+
+/*RESPONSIVE______________________________________________*/
+
+@media screen and (max-width: 500px) { 
+  /*div{width:70%;} */
+  #redesSociales{width:100%;}
+  .patrocinadores {margin-top:190px;}
+  #contacto form{min-height:600px;}
+  .firma{width:72px !important;}
+}
+@media screen and (max-width: 1600px) { 
+  #btn-trailer{
+    right: -60px;
+  }
+}
+@media screen and (max-width: 1300px) { 
+  .home .logo{  
+    max-height: 50vh;
+  }
+  .info img {
+    max-width: 12vh;
+    margin-top: 4vh;
+  }
+  .info{
+    margin-top: 2vh;
+  }
+}
+@media screen and (max-width: 1024px) { 
+  #bg-img section {
+    padding-bottom: 0px;
+  }
+  .info img {
+    max-height: 96px;
+  }
+  .info{
+    margin-top: 1vh;
+  }
+  .navbar-nav>li {
+    font-size: 1em;
+    margin: -4px;
+  }
+}
+@media screen and (max-device-width: 800px) {
+  /*html { background: url(//demosthenes.info/assets/images/polina.jpg) #000 no-repeat center center fixed; }*/
+  #bgvid { display: none; }
+}
+
+@media screen and (max-width: 768px) {
+  dd {
+    margin-bottom: 12px !important;
+  }
+  .social a {
+    padding: 15px;
+  }
+  #bg-img section {
+    padding-top: 60px;
+    padding-bottom: 0px;
+  }
+  .info img {
+    max-width: 18vw;
+    margin: 16px;
+  }
+  nav{
+    display: none;
+  }
+}
+@media screen and (max-width: 991px) {
+#btn-trailer{
+  right: 20%;
+}
+}
+@media screen and (max-width: 767px) {
+  .billingblock-img{
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px){
+  .info img {
+    max-width: 17vw;
+    margin: 0px;
+  }
+  .lang-res{
+    display: block;
+  }
+  #btn-trailer {
+    bottom: 40px !important;
+    right: 10%;
+    top: auto;
+  }
+}
+@media screen and (max-width: 640px){
+  
+  .social iframe{
+    display: none;
+  }
+}
+
+
+
+/*MIN WIDTH___________*/
+
+@media (min-width: 768px){
+  .dl-horizontal dt {
+    color: #666;
+    width: 280px;
+
+  }
+    .dl-horizontal dd{
+    margin-left: 284px;
+  }
+}
+
+@media (min-width: 991px){
+  .estreno{
+    margin-top: 10vh;
+  }
+  .premios{
+    margin-top: 10vh;
+  }
+}
+@media (min-width: 1024px){
+  .estreno{
+    margin-top: 20vh;
+    text-align: center;
+  }
+  .premios{
+    margin-top: 22vh;
+    text-align: center;
+  }
+}
