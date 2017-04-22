@@ -204,40 +204,40 @@
 		<div class="row">
 			<ul id="hotelesGrid">
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 1</h3>
+					<img src="images/hoteles/marival.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">Marival Resorts</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 2</h3>
+					<img src="images/hoteles/hard_rock.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">Hard Rock Hotel</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 3</h3>
+					<img src="images/hoteles/paradise_village.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 3</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 4</h3>
+					<img src="images/hoteles/villa_varadero.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 4</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 5</h3>
+					<img src="images/hoteles/bel_air.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 5</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 6</h3>
+					<img src="images/hoteles/la_estancia.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 6</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 7</h3>
+					<img src="images/hoteles/flamingos.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 7</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 8</h3>
+					<img src="images/hoteles/hilton.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 8</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600" alt="" class="img-responsive hotel">
-					<h3 class="label">hotel 9</h3>
+					<img src="images/hoteles/riu.jpg" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 			</ul>
 		</div>
@@ -249,52 +249,52 @@
 		<div class="row">
 			<ul id="sponsorsGrid">
 				<li>
-					<img src="images/sponsors/sample.jpg" alt="" class="img-responsive sponsor">
-					<h3 class="label">Muestra</h3>
+					<img src="images/sponsors/powerade.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">Muestra</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 2</h3>
+					<img src="images/sponsors/innova.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 2</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 3</h3>
+					<img src="images/sponsors/frogs.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 3</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 4</h3>
+					<img src="images/sponsors/anytime_fitness.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 4</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 5</h3>
+					<img src="images/sponsors/tomtom.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 5</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 6</h3>
+					<img src="images/sponsors/ciel.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 6</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 7</h3>
+					<img src="images/sponsors/paradise_village_convention.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 7</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 8</h3>
+					<img src="images/sponsors/paradise_village_plaza.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 8</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 9</h3>
+					<img src="images/sponsors/la_moderna.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 9</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 10</h3>
+					<img src="images/sponsors/vallarta_adventures.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 10</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 11</h3>
+					<img src="images/sponsors/centro_empresarial.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 <!-- class="label">sponsor 11</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 12</h3>
+					<img src="images/sponsors/el_tigre_club_de_golf.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 12</h3> -->
 				</li>
 				<li>
 					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
