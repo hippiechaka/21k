@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="javascript:void(0);" class="navbar-brand">
-					<img src="http://placehold.it/85x65" alt="LOGO">
+					<img src="images/slider/logo_21k_menu.png" alt="LOGO">
 				</a>
 			</div>
 			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mainNav" aria-expanded="true">
@@ -76,20 +76,20 @@
 <!-- BLOCK -->
 <header class="block">
 <div class="container">
-	<img src="http://placehold.it/420x300/ffffff/000000?text=logo+21k+10k+(420x300)" alt="logo" id="mainLogo" class="img-responsive">	
+	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive">	
 	<a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a>
 	<div class="clearfix"></div>
 
 	<div class="col-md-3 fooCol"></div>
 	<div class="col-md-6 center-block">
-		<img src="http://placehold.it/200x60/000000/ffffff?text=Riviera+Nayarit" alt="Riviera Nayarit" class="pull-left">
-		<img src="http://placehold.it/200x60/000000/ffffff?text=Visit+México" alt="Visit México" class="pull-right">		
+		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left">
+		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right">		
 	</div>
 	<div class="col-md-3 fooCol"></div>
 </div>
 
 	<a href="javascript:void(0);" class="pull-right" id="iaaf-aims" target="_blank">
-		<img src="http://placehold.it/110x70/000000/ffffff?text=IAAF/AIMS" alt="IAAF/AIMS">
+		<img src="images/slider/iaaf_aims.png" alt="IAAF/AIMS">
 	</a>
 
 </header>
@@ -175,8 +175,8 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		<img src="http://placehold.it/1350x470?text=21K" alt="" id="k21" class="wow fedeinleft">
-		<img src="http://placehold.it/750x740?text=corredor" alt="" id="corredor" class="wow fadeInRight" data-wow-delay="1s">
+		<img src="images/galeria/21k_text.png" alt="" id="k21" class="wow fedeinleft">
+		<img src="images/galeria/corredor.png" alt="" id="corredor" class="wow fadeInRight" data-wow-delay="1s">
 	</div>
 </section>
 <!-- convocatoria10k -->
