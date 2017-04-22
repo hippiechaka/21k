@@ -20,7 +20,7 @@
 				<li><a href="javascript:void(0);">Cupones</a></li>
 				<li><a href="javascript:void(0);">Ruta</a></li>
 				<li><a href="javascript:void(0);">Resultados</a></li>
-				<li><a href="javascript:void(0);">FAQ</a></li>
+				<li><a href="javascript:void(0);">Tienda</a></li>
 				<li><a href="javascript:void(0);">Contacto</a></li>
 
 				<li class="divider"><!-- ICONS --></li>
@@ -45,7 +45,7 @@
 
 				<!-- Redes -->
 
-				<li class="redesBtn">
+				<!-- <li class="redesBtn">
 					<a href="javascript:void(0);" class="redesIcon" id="facebook">
 						<i class="fa fa-facebook" aria-hidden="true"></i>
 					</a>
@@ -59,15 +59,15 @@
 					<a href="javascript:void(0);" class="redesIcon" id="youtube">
 						<i class="fa fa-youtube" aria-hidden="true"></i>
 					</a>
-				</li>
+				</li> -->
 
 				<!-- KCHINK -->
 
-				<li id="kchink-menu">
+				<!-- <li id="kchink-menu">
 					<a href="javascript:void(0);">
 						<img src="http://placehold.it/30x30?text=K" alt="k-chink">
 					</a>
-				</li>
+				</li> -->
 
 			</ul>
 		</div>
