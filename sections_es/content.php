@@ -175,15 +175,15 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		<img src="images/galeria/21k_text.png" alt="" id="k21" class="wow fedeinleft">
 		<img src="images/galeria/corredor.png" alt="" id="corredor" class="wow fadeInRight" data-wow-delay="1s">
+		<img src="images/galeria/21k_text.png" alt="" id="k21" class="wow fedeinleft">
 	</div>
 </section>
 <!-- convocatoria10k -->
 <section id="convocatoria10k" class="container-fluid">
 	<div class="col-md-4">
-		<img src="http://www.placehold.it/1350x470?text=10K" alt="" id="k10"  class="wow fedeinRight" data-wow-delay="2s">
-		<img src="http://www.placehold.it/750x740?text=corredora" alt="" id="corredora"  class="wow fedeinLeft" data-wow-delay="3s">
+		<img src="images/galeria/10k_text.png" alt="" id="k10"  class="wow fedeinRight" data-wow-delay="2s">
+		<img src="images/galeria/corredora.png" alt="" id="corredora"  class="wow fedeinLeft" data-wow-delay="3s">
 	</div>
 	<div class="col-md-8">
 		<h1>Inscripciones</h1>
