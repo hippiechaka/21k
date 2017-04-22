@@ -96,23 +96,23 @@
 <!-- mainslideshow -->
 <section id="mainslideshow" class="container-fluid owl-corousel">
 	<div>
-        <img src="http://placehold.it/1920x690?text=21k+-+10k+RivieraNayarit+1" alt="" class="visible-lg-block">
+        <img src="images/slider/01.jpg" alt="" class="visible-lg-block">
         <img src="http://placehold.it/1200x470?text=21k+-+10k+RivieraNayarit+1" alt="" class="hidden-lg"> 	
     </div>
     <div>
-        <img src="http://placehold.it/1920x690?text=21k+-+10k+RivieraNayarit+2" alt="" class="visible-lg-block">
+        <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
         <img src="http://placehold.it/1200x470?text=21k+-+10k+RivieraNayarit+2" alt="" class="hidden-lg"> 	
     </div>
     <div>
-        <img src="http://placehold.it/1920x690?text=21k+-+10k+RivieraNayarit+3" alt="" class="visible-lg-block">
+        <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
         <img src="http://placehold.it/1200x470?text=21k+-+10k+RivieraNayarit+3" alt="" class="hidden-lg"> 	
     </div>
     <div>
-        <img src="http://placehold.it/1920x690?text=21k+-+10k+RivieraNayarit+4" alt="" class="visible-lg-block">
+        <img src="images/slider/04.jpg" alt="" class="visible-lg-block">
         <img src="http://placehold.it/1200x470?text=21k+-+10k+RivieraNayarit+4" alt="" class="hidden-lg"> 	
     </div>
     <div>
-        <img src="http://placehold.it/1920x690?text=21k+-+10k+RivieraNayarit+5" alt="" class="visible-lg-block">
+        <img src="images/slider/05.jpg" alt="" class="visible-lg-block">
         <img src="http://placehold.it/1200x470?text=21k+-+10k+RivieraNayarit+5" alt="" class="hidden-lg"> 	
     </div>
 </section>
