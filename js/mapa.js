@@ -21,7 +21,7 @@ function initialize() {
 
   var myLatlng = new google.maps.LatLng(20.698384, -105.296176);
   var mapOptions = {
-    zoom: 11,
+    zoom: 15,
     center: myLatlng,
     mapTypeControlOptions: {
        mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
@@ -59,6 +59,56 @@ function initialize() {
 	google.maps.event.addListener(marker1, 'click', function() {
 	  cargainfo(marker1,"location");
     });
+
+/////////////////////////////////////////////////////////////////////////KM1
+    marker2 = new google.maps.Marker({
+        position: new google.maps.LatLng(20.706838, -105.299320),
+        map: map,
+        title: 'Kilometro-1',
+    icon: 'images/map/pin.png'
+    });
+  google.maps.event.addListener(marker2, 'click', function() {
+    cargainfo(marker2,"km1");
+    });
+
+/////////////////////////////////////////////////////////////////////////KM2
+    marker3 = new google.maps.Marker({
+        position: new google.maps.LatLng(20.707403, -105.293420),
+        map: map,
+        title: 'Kilometro-2',
+    icon: 'images/map/pin.png'
+    });
+  google.maps.event.addListener(marker3, 'click', function() {
+    cargainfo(marker3,"km2");
+    });
+
+/////////////////////////////////////////////////////////////////////////KM3
+    marker4 = new google.maps.Marker({
+        position: new google.maps.LatLng(20.699332, -105.292718),
+        map: map,
+        title: 'Kilometro-3',
+    icon: 'images/map/pin.png'
+    });
+  google.maps.event.addListener(marker4, 'click', function() {
+    cargainfo(marker4,"km3");
+    });
+
+  /////////////////////////////////////////////////////////////////////////KM4
+    marker5 = new google.maps.Marker({
+        position: new google.maps.LatLng(20.699332, -105.292718),
+        map: map,
+        title: 'Kilometro-4',
+    icon: 'images/map/pin.png'
+    });
+  google.maps.event.addListener(marker5, 'click', function() {
+    cargainfo(marker5,"km4");
+    });
+
+
+
+
+
+
 
 }
   
