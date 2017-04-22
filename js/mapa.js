@@ -19,7 +19,7 @@ function initialize() {
     }	
   ];
 
-  var myLatlng = new google.maps.LatLng(20.3489262,-103.1930628);
+  var myLatlng = new google.maps.LatLng(20.698384, -105.296176);
   var mapOptions = {
     zoom: 11,
     center: myLatlng,
@@ -51,7 +51,7 @@ function initialize() {
     infowindow = new google.maps.InfoWindow({maxWidth:600});
 /////////////////////////////////////////////////////////////////////////MEXICO
     marker1 = new google.maps.Marker({
-        position: new google.maps.LatLng(20.3489262,-103.1930628),
+        position: new google.maps.LatLng(20.698384, -105.296176),
         map: map,
         title: 'Punto de salida',
 		icon: 'images/map/pin.png'

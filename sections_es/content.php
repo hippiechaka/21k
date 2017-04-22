@@ -1,4 +1,4 @@
-<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
+	<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
@@ -77,7 +77,7 @@
 <header class="block">
 <div class="container">
 	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive">	
-	<a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a>
+	<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
 	<div class="clearfix"></div>
 
 	<div class="col-md-3 fooCol"></div>
