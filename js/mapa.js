@@ -325,7 +325,7 @@ marker24 = new google.maps.Marker({
 icon: 'images/map/pin-senal.png'
 });
 google.maps.event.addListener(marker24, 'click', function() {
-cargainfo(marker24,"vuelta-derecha");
+cargainfo(marker24,"vuelta-u");
 });
 
 //Vuelta a la Derecha 3
@@ -341,13 +341,13 @@ cargainfo(marker25,"vuelta-derecha");
 
 //Vuelta U Izquierda 2
 marker26 = new google.maps.Marker({
-    position: new google.maps.LatLng(20.699985, -105.277047),
+    position: new google.maps.LatLng(20.700029, -105.277181),
     map: map,
     title: 'Vuelta en U (izq)',
 icon: 'images/map/pin-senal.png'
 });
 google.maps.event.addListener(marker26, 'click', function() {
-cargainfo(marker26,"vuelta-derecha");
+cargainfo(marker26,"vuelta-u");
 });
 
 //Vuelta a la Derecha 4
