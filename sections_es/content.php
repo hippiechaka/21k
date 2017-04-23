@@ -412,7 +412,7 @@
 	</div>
 </section>
 <!-- altimetria -->
-<section id="altimetria" class="container-fluid"><img src="images/altimetria/altimetria.png" alt="" id="altimetriaImg" class="img-responsive"></section>
+<section id="altimetria" class="container-fluid"><img src="images/altimetria/altimetria.jpg" alt="" id="altimetriaImg" class="img-responsive"></section>
 <!-- KCHINK -->
 <section id="kchinkContainer">
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
