@@ -128,12 +128,12 @@
 <!-- suscribe -->
 <section id="suscribe">
   <a name="suscribeSection" id="suscribeSection"></a>
-  <h1 id="titulo">Suscribete a nuestra lista de contactos<br>
-  <small> y obten beneficios e información exclusiva de la carrera</small></h1>
+  <h1 id="titulo">Solicita información de: Paquetes, Hoteles, Tours.<br>
+  <small> No spam.</small></h1>
   <hr class="dividerB">
   <hr class="dividerW">
   <form method="post" action="#suscribeSection" id="suscribeForm">
-    <input type="text" id="email" name="email" value="<?php echo $msg?>" placeholder="tucorreo@" />
+    <input type="text" id="email" name="email" value="<?php echo $msg?>" placeholder="Solicita información con tu e-mail aquí" />
     <button type="submit" class="btn btn-4 btn-4c icon-arrow-right" id="submitButton">Enviar</button>
   </form>
 </section>
@@ -358,7 +358,7 @@
 	<div id="sidebarMap" class="col-md-3">
 		<h3>Ruta</h3>
 		<hr class="ultraLight">
-		<img src="http://placehold.it/160x160?text=Tu+Logo+AQUÍ" alt="Tu Logo AQUÍ" class="center-block">
+		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" class="sideBarMapBtn">Salida/Meta</a>
 		<a href="javascript:void(0);" class="sideBarMapBtn">Puntos de Hidratación</a>
@@ -412,7 +412,7 @@
 	</div>
 </section>
 <!-- altimetria -->
-<section id="altimetria" class="container-fluid"><img src="http://www.placehold.it/1920x800?text=Altimetría" alt="" id="altimetriaImg" class="img-responsive"></section>
+<section id="altimetria" class="container-fluid"><img src="images/altimetria/altimetria.png" alt="" id="altimetriaImg" class="img-responsive"></section>
 <!-- KCHINK -->
 <section id="kchinkContainer">
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
