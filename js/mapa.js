@@ -8,6 +8,26 @@ marker7,
 marker8,
 marker9,
 marker10,
+marker11,
+marker12,
+marker13,
+marker14,
+marker15,
+marker16,
+marker17,
+marker18,
+marker19,
+marker20,
+marker21,
+//marker22,
+marker23,
+marker24,
+marker25,
+marker26,
+marker27,
+marker28,
+marker29,
+marker30,
 infowindow,
 map;
 
@@ -28,9 +48,9 @@ function initialize() {
     }	
   ];
 
-  var myLatlng = new google.maps.LatLng(20.698384, -105.296176);
+  var myLatlng = new google.maps.LatLng(20.715000, -105.296176);
   var mapOptions = {
-    zoom: 15,
+    zoom: 14,
     center: myLatlng,
     mapTypeControlOptions: {
        mapTypeIds: [google.maps.MapTypeId.ROADMAP, MY_MAPTYPE_ID]
@@ -58,236 +78,242 @@ function initialize() {
   map.mapTypes.set(MY_MAPTYPE_ID, jayzMapType);
         
     infowindow = new google.maps.InfoWindow({maxWidth:600});
-/////////////////////////////////////////////////////////////////////////SALIDA/META
-    marker1 = new google.maps.Marker({
-        position: new google.maps.LatLng(20.698384, -105.296176),
-        map: map,
-        title: 'Punto de salida',
-		icon: 'images/map/pin.png'
-    });
-	google.maps.event.addListener(marker1, 'click', function() {
-	  cargainfo(marker1,"location");
-    });
 
 /////////////////////////////////////////////////////////////////////////KM1
-    marker2 = new google.maps.Marker({
+    marker1 = new google.maps.Marker({
         position: new google.maps.LatLng(20.706838, -105.299320),
         map: map,
         title: 'Kilometro-1',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker2, 'click', function() {
-    cargainfo(marker2,"km1");
+  google.maps.event.addListener(marker1, 'click', function() {
+    cargainfo(marker1,"km1");
     });
 
 /////////////////////////////////////////////////////////////////////////KM2
-    marker3 = new google.maps.Marker({
+    marker2 = new google.maps.Marker({
         position: new google.maps.LatLng(20.707403, -105.293420),
         map: map,
         title: 'Kilometro-2',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker3, 'click', function() {
-    cargainfo(marker3,"km2");
+  google.maps.event.addListener(marker2, 'click', function() {
+    cargainfo(marker2,"km2");
     });
 
 /////////////////////////////////////////////////////////////////////////KM3
-    marker4 = new google.maps.Marker({
+    marker3 = new google.maps.Marker({
         position: new google.maps.LatLng(20.699318, -105.292763),
         map: map,
         title: 'Kilometro-3',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker4, 'click', function() {
-    cargainfo(marker4,"km3");
+  google.maps.event.addListener(marker3, 'click', function() {
+    cargainfo(marker3,"km3");
     });
 
   /////////////////////////////////////////////////////////////////////////KM4
-    marker5 = new google.maps.Marker({
+    marker4 = new google.maps.Marker({
         position: new google.maps.LatLng(20.691319, -105.288518),
         map: map,
         title: 'Kilometro-4',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker5, 'click', function() {
-    cargainfo(marker5,"km4");
+  google.maps.event.addListener(marker4, 'click', function() {
+    cargainfo(marker4,"km4");
     });
 
     /////////////////////////////////////////////////////////////////////////KM5
-    marker6 = new google.maps.Marker({
+    marker5 = new google.maps.Marker({
         position: new google.maps.LatLng(20.693908, -105.288611),
         map: map,
         title: 'Kilometro-5',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker6, 'click', function() {
-    cargainfo(marker6,"km5");
+  google.maps.event.addListener(marker5, 'click', function() {
+    cargainfo(marker5,"km5");
     });
 
     /////////////////////////////////////////////////////////////////////////KM6
-    marker7 = new google.maps.Marker({
+    marker6 = new google.maps.Marker({
         position: new google.maps.LatLng(20.700298, -105.289152),
         map: map,
         title: 'Kilometro-6',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker7, 'click', function() {
-    cargainfo(marker7,"km6");
+  google.maps.event.addListener(marker6, 'click', function() {
+    cargainfo(marker6,"km6");
     });  
 
     /////////////////////////////////////////////////////////////////////////KM7
-    marker8 = new google.maps.Marker({
+    marker7 = new google.maps.Marker({
         position: new google.maps.LatLng(20.700022, -105.277694),
         map: map,
         title: 'Kilometro-7',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker8, 'click', function() {
-    cargainfo(marker8,"km7");
+  google.maps.event.addListener(marker7, 'click', function() {
+    cargainfo(marker7,"km7");
     }); 
 
     /////////////////////////////////////////////////////////////////////////KM8
-    marker9 = new google.maps.Marker({
+    marker8 = new google.maps.Marker({
         position: new google.maps.LatLng(20.698195, -105.281926),
         map: map,
         title: 'Kilometro-8',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker9, 'click', function() {
-    cargainfo(marker9,"km8");
+  google.maps.event.addListener(marker8, 'click', function() {
+    cargainfo(marker8,"km8");
     }); 
 
     /////////////////////////////////////////////////////////////////////////KM9
-    marker10 = new google.maps.Marker({
+    marker9 = new google.maps.Marker({
         position: new google.maps.LatLng(20.699618, -105.291943),
         map: map,
         title: 'Kilometro-9',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker10, 'click', function() {
-    cargainfo(marker10,"km9");
+  google.maps.event.addListener(marker9, 'click', function() {
+    cargainfo(marker9,"km9");
     }); 
 
     /////////////////////////////////////////////////////////////////////////KM10
-    marker11 = new google.maps.Marker({
+    marker10 = new google.maps.Marker({
         position: new google.maps.LatLng(20.706693, -105.292880),
         map: map,
         title: 'Kilometro-10',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker11, 'click', function() {
-    cargainfo(marker11,"km10");
+  google.maps.event.addListener(marker10, 'click', function() {
+    cargainfo(marker10,"km10");
     }); 
 
     /////////////////////////////////////////////////////////////////////////KM11
-    marker12 = new google.maps.Marker({
+    marker11 = new google.maps.Marker({
         position: new google.maps.LatLng(20.708881, -105.299993),
         map: map,
         title: 'Kilometro-11',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker12, 'click', function() {
-    cargainfo(marker12,"km11");
+  google.maps.event.addListener(marker11, 'click', function() {
+    cargainfo(marker11,"km11");
     }); 
 
     /////////////////////////////////////////////////////////////////////////KM12
-    marker13 = new google.maps.Marker({
+    marker12 = new google.maps.Marker({
         position: new google.maps.LatLng(20.718045, -105.303798),
         map: map,
         title: 'Kilometro-12',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker13, 'click', function() {
-    cargainfo(marker13,"km12");
+  google.maps.event.addListener(marker12, 'click', function() {
+    cargainfo(marker12,"km12");
     });
 
     /////////////////////////////////////////////////////////////////////////km13
-    marker14 = new google.maps.Marker({
+    marker13 = new google.maps.Marker({
         position: new google.maps.LatLng(20.725868, -105.307313),
         map: map,
         title: 'Kilometro-13',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker14, 'click', function() {
-    cargainfo(marker14,"km13");
+  google.maps.event.addListener(marker13, 'click', function() {
+    cargainfo(marker13,"km13");
     });
 
     /////////////////////////////////////////////////////////////////////////km14
-    marker15 = new google.maps.Marker({
+    marker14 = new google.maps.Marker({
         position: new google.maps.LatLng(20.735852, -105.313512),
         map: map,
         title: 'Kilometro-14',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker15, 'click', function() {
-    cargainfo(marker15,"km14");
+  google.maps.event.addListener(marker14, 'click', function() {
+    cargainfo(marker14,"km14");
     });
 
     /////////////////////////////////////////////////////////////////////////km15
-    marker16 = new google.maps.Marker({
+    marker15 = new google.maps.Marker({
         position: new google.maps.LatLng(20.740773, -105.319668),
         map: map,
         title: 'Kilometro-15',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker16, 'click', function() {
-    cargainfo(marker16,"km15");
+  google.maps.event.addListener(marker15, 'click', function() {
+    cargainfo(marker15,"km15");
     });
 
     /////////////////////////////////////////////////////////////////////////km16
-    marker18 = new google.maps.Marker({
+    marker16 = new google.maps.Marker({
         position: new google.maps.LatLng(20.738409, -105.317855),
         map: map,
         title: 'Kilometro-16',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker18, 'click', function() {
-    cargainfo(marker18,"km16");
+  google.maps.event.addListener(marker16, 'click', function() {
+    cargainfo(marker16,"km16");
     });
 
     /////////////////////////////////////////////////////////////////////////km17
-    marker19 = new google.maps.Marker({
+    marker17 = new google.maps.Marker({
         position: new google.maps.LatLng(20.735046, -105.313158),
         map: map,
         title: 'Kilometro-17',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker19, 'click', function() {
-    cargainfo(marker19,"km17");
+  google.maps.event.addListener(marker17, 'click', function() {
+    cargainfo(marker17,"km17");
     });
 
     /////////////////////////////////////////////////////////////////////////km18
-    marker20 = new google.maps.Marker({
+    marker18 = new google.maps.Marker({
         position: new google.maps.LatLng(20.724112, -105.306819),
         map: map,
         title: 'Kilometro-18',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker20, 'click', function() {
-    cargainfo(marker20,"km18");
+  google.maps.event.addListener(marker18, 'click', function() {
+    cargainfo(marker18,"km18");
     });
 
     /////////////////////////////////////////////////////////////////////////km19
-    marker21 = new google.maps.Marker({
+    marker19 = new google.maps.Marker({
         position: new google.maps.LatLng(20.716199, -105.303326),
         map: map,
         title: 'Kilometro-19',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker21, 'click', function() {
-    cargainfo(marker21,"km19");
+  google.maps.event.addListener(marker19, 'click', function() {
+    cargainfo(marker19,"km19");
     });
 
     /////////////////////////////////////////////////////////////////////////km20
-    marker22 = new google.maps.Marker({
+    marker20 = new google.maps.Marker({
         position: new google.maps.LatLng(20.707165, -105.299637),
         map: map,
-        title: 'Kilometro-120',
+        title: 'Kilometro-20',
     icon: 'images/map/pin-km.png'
     });
-  google.maps.event.addListener(marker22, 'click', function() {
-    cargainfo(marker22,"km20");
+  google.maps.event.addListener(marker20, 'click', function() {
+    cargainfo(marker20,"km20");
     });
+/*
+=================================================================
+SALIDA/META (OJO)
+=================================================================
+*/
+
+/////////////////////////////////////////////////////////////////////////SALIDA/META 
+    marker21 = new google.maps.Marker({
+        position: new google.maps.LatLng(20.698384, -105.296176),
+        map: map,
+        title: 'Salida/Meta',
+        icon: 'images/map/pin.png'
+    });
+    google.maps.event.addListener(marker21, 'click', function() {
+      cargainfo(marker21,"location");
+    });  
 
 /*
 =================================================================
@@ -384,14 +410,14 @@ cargainfo(marker29,"vuelta-derecha");
 });
 
     /////////////////////////////////////////////////////////////////////////RETORNO
-    marker17 = new google.maps.Marker({
+    marker30 = new google.maps.Marker({
         position: new google.maps.LatLng(20.741876, -105.321472),
         map: map,
         title: 'Retorno',
-    icon: 'images/map/pin-left.png'
+    icon: 'images/map/pin-u-izq.png'
     });
-  google.maps.event.addListener(marker17, 'click', function() {
-    cargainfo(marker17,"km15");
+  google.maps.event.addListener(marker30, 'click', function() {
+    cargainfo(marker30,"km15");
     });
 
 }
