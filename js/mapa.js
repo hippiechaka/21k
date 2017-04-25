@@ -300,7 +300,7 @@ marker23 = new google.maps.Marker({
     position: new google.maps.LatLng(20.708621, -105.299873),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-right.png'
 });
 google.maps.event.addListener(marker23, 'click', function() {
 cargainfo(marker23,"vuelta-derecha");
@@ -311,7 +311,7 @@ marker23 = new google.maps.Marker({
     position: new google.maps.LatLng(20.709368, -105.294348),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-right.png'
 });
 google.maps.event.addListener(marker23, 'click', function() {
 cargainfo(marker23,"vuelta-derecha");
@@ -322,7 +322,7 @@ marker24 = new google.maps.Marker({
     position: new google.maps.LatLng(20.689126, -105.286731),
     map: map,
     title: 'Vuelta en U (izq) ',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-u-izq.png'
 });
 google.maps.event.addListener(marker24, 'click', function() {
 cargainfo(marker24,"vuelta-u");
@@ -333,7 +333,7 @@ marker25 = new google.maps.Marker({
     position: new google.maps.LatLng(20.699085, -105.291872),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-right.png'
 });
 google.maps.event.addListener(marker25, 'click', function() {
 cargainfo(marker25,"vuelta-derecha");
@@ -344,7 +344,7 @@ marker26 = new google.maps.Marker({
     position: new google.maps.LatLng(20.700029, -105.277181),
     map: map,
     title: 'Vuelta en U (izq)',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-u-izq.png'
 });
 google.maps.event.addListener(marker26, 'click', function() {
 cargainfo(marker26,"vuelta-u");
@@ -355,7 +355,7 @@ marker27 = new google.maps.Marker({
     position: new google.maps.LatLng(20.699337, -105.292322),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-right.png'
 });
 google.maps.event.addListener(marker27, 'click', function() {
 cargainfo(marker27,"vuelta-derecha");
@@ -366,7 +366,7 @@ marker28 = new google.maps.Marker({
     position: new google.maps.LatLng(20.709323, -105.293942),
     map: map,
     title: 'Vuelta en U (izq)',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-u-izq.png'
 });
 google.maps.event.addListener(marker28, 'click', function() {
 cargainfo(marker28,"vuelta-glorieta");
@@ -377,7 +377,7 @@ marker29 = new google.maps.Marker({
     position: new google.maps.LatLng(20.708846, -105.299972),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-senal.png'
+icon: 'images/map/pin-right.png'
 });
 google.maps.event.addListener(marker29, 'click', function() {
 cargainfo(marker29,"vuelta-derecha");
@@ -387,8 +387,8 @@ cargainfo(marker29,"vuelta-derecha");
     marker17 = new google.maps.Marker({
         position: new google.maps.LatLng(20.741876, -105.321472),
         map: map,
-        title: 'Kilometro-15',
-    icon: 'images/map/pin-senal.png'
+        title: 'Retorno',
+    icon: 'images/map/pin-left.png'
     });
   google.maps.event.addListener(marker17, 'click', function() {
     cargainfo(marker17,"km15");
