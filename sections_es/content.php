@@ -18,7 +18,7 @@
 				<li><a href="javascript:void(0);">Inscripciones</a></li>
 				<li><a href="javascript:void(0);">Patrocinadores</a></li>
 				<li><a href="javascript:void(0);">Cupones</a></li>
-				<li><a href="javascript:void(0);" onClick="cargainfo(marker21,'location');">Ruta</a></li>
+				<li><a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
 				<li><a href="javascript:void(0);">Resultados</a></li>
 				<li><a href="javascript:void(0);">Tienda</a></li>
 				<li><a href="javascript:void(0);">Contacto</a></li>
@@ -129,7 +129,7 @@
 <section id="suscribe">
   <a name="suscribeSection" id="suscribeSection"></a>
   <h1 id="titulo">Solicita información de: Paquetes, Hoteles, Tours.<br>
-  <small> No spam.</small></h1>
+  <small>No spam.</small></h1>
   <hr class="dividerB">
   <hr class="dividerW">
   <form method="post" action="#suscribeSection" id="suscribeForm">
@@ -359,7 +359,7 @@
 </section>
 <!-- ubicacion -->
 <section id="ubicacion" class="container-fluid">
-	<div id="sidebarMap" class="col-md-3">
+	<div id="sidebarMap" class="col-md-3 hidden-sm">
 		<h3>Ruta</h3>
 		<hr class="ultraLight">
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
@@ -371,7 +371,7 @@
 		<a href="javascript:void(0);" class="ghostButtonHome">Ver en Google Maps</a>
 		<!-- <a href="javascript:void(0);">link 4</a> -->
 	</div>
-	<div id="contemap" class="col-md-9">
+	<div id="contemap" class="col-md-9 col-xs-12">
 		<div id="map_canvas"></div>
 	</div>
 	<hr class="ultralight clearfix">
@@ -501,8 +501,9 @@
 <div class="descripcionoculta km20">kilómetro-20</div>
 <div class="descripcionoculta km21">kilómetro-21</div>
 <!-- magia emmet (señalética):
-(div.descripcionoculta.vuelta-derecha{Vuelta a la derecha})+(div.descripcionoculta.vuelta-glorieta{Vuelta a la glorieta})+(div.descripcionoculta.vuelta-u{Vuelta en U})
+(div.descripcionoculta.vuelta-derecha{Vuelta a la derecha})+(div.descripcionoculta.vuelta-glorieta{Vuelta a la glorieta})+(div.descripcionoculta.vuelta-u{Vuelta en U})+(div.descripcionoculta.retorno{Retorno})
 -->
 <div class="descripcionoculta vuelta-derecha">Vuelta a la derecha</div>
 <div class="descripcionoculta vuelta-glorieta">Vuelta a la glorieta</div>
 <div class="descripcionoculta vuelta-u">Vuelta en U</div>
+<div class="descripcionoculta retorno">Retorno</div>

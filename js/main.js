@@ -137,14 +137,15 @@ $( '#ri-grid' ).gridrotator( {
 
 
 // init controller
-  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
 
-  // build scenes
-  new ScrollMagic.Scene({triggerElement: "#parallax1"})
-          .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
-          //.addIndicators()
+new ScrollMagic.Scene({triggerElement: "#parallax1"})
+        .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
+        .addTo(controller);
+//Cambio de Clases para menú
+new ScrollMagic.Scene({triggerElement: "#ubicacion"})
+          .setClassToggle("#ubicacionBtn", "current") // add class toggle
           .addTo(controller);
-
 
 
 });
