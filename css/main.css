@@ -55,7 +55,7 @@ header img#mainLogo{position:relative;max-width:420px;top:15px;left:calc(50% - 2
 
 section.container-fluid{padding:0;clear:both;display:block;overflow:hidden;}
 
-#iaaf-aims{position:absolute;right:15px;top:calc(100% - 70px);}
+#iaaf-aims{position:absolute;right:15px;top:calc(100% - 0px);}
 
 /* BACKGROUNDS: */
 
@@ -191,6 +191,14 @@ section#convocatoria10k div.col-md-4, section#convocatoria21k div.col-md-4{heigh
 .tituloverde{color:#1B8577; font-weight:bold}
 .ventanidahtml{font-family:'Ubuntu', Helvetica, Arial, sans-serif; font-size:13px; min-width: 400px; /*min-height: 300px;*/ }
 .ventanidahtml .small{min-width: 400px; height: 250px; }
+
+
+
+#mainslideshow{}
+#mainslideshow div.owl-controls{display:none !important;}
+
+
+
 #suscribe{
 	background: #7f75b2;
     display: block;
@@ -256,6 +264,7 @@ hr.dividerB {
    font-size:21px;
    color:rgba(255,255,255,0.75);
 }
+#suscribe form input#email::placeholder{color:rgba(255,255,255,0.2);}
 #suscribe form input#submitButton{
 	width: calc(33.3% - 10px);
     height: 60px;

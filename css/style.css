@@ -253,8 +253,17 @@ img{
 
 #redesSociales{width:60px;float:right;}
 
+/* PARALLAX - scrollmagic */
 
-
+.parallaxParent {
+    height: 100vh;
+    overflow: hidden;
+  }
+  .parallaxParent > * {
+    height: 200%;
+    position: relative;
+    top: -100%;
+  }
 
 
 

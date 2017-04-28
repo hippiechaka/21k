@@ -68,7 +68,6 @@ if(!empty($_REQUEST['nombre'])){
 	<meta property="og:description" content="<?php echo($descripcion); ?>">
 	<!-- Fin de OpenGraph-->
 
-
 	<!--Twitter Card-->
 	<meta name="twitter:card" content="summary">
 	<meta name="twitter:site" content="">

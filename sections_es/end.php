@@ -1,6 +1,9 @@
-<script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
+<!-- <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script> -->
  
+<script type="text/javascript" src="js/lib/jquery.min.js"></script>
+
+
     <script src="js/popup.min.js"></script>
     <script src="js/classie.js"></script>
     <script src="js/wow.min.js"></script>
@@ -15,6 +18,11 @@
     <script type="text/javascript" src="js/mapa.js"></script>
 
     <script type="text/javascript" src="js/video-bg.js"></script>
+    <!-- scrollmagic -->
+    <script type="text/javascript" src="js/lib/greensock/TweenMax.min.js"></script>
+    <script src="js/scrollmagic/minified/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
+    <!-- <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script> -->
     <script src="js/main.js"></script>
     
 <!-- GoogleAnalytics -->

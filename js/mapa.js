@@ -19,7 +19,7 @@ marker18,
 marker19,
 marker20,
 marker21,
-//marker22,
+marker22,
 marker23,
 marker24,
 marker25,
@@ -322,14 +322,14 @@ SEÑALÉTICA
 */
 
 //Vuelta a la Derecha
-marker23 = new google.maps.Marker({
+marker22 = new google.maps.Marker({
     position: new google.maps.LatLng(20.708621, -105.299873),
     map: map,
     title: 'Vuelta a la Derecha',
 icon: 'images/map/pin-right.png'
 });
-google.maps.event.addListener(marker23, 'click', function() {
-cargainfo(marker23,"vuelta-derecha");
+google.maps.event.addListener(marker22, 'click', function() {
+cargainfo(marker22,"vuelta-derecha");
 });
 
 //Vuelta a la Derecha 2
@@ -417,7 +417,7 @@ cargainfo(marker29,"vuelta-derecha");
     icon: 'images/map/pin-u-izq.png'
     });
   google.maps.event.addListener(marker30, 'click', function() {
-    cargainfo(marker30,"km15");
+    cargainfo(marker30,"retorno");
     });
 
 }
@@ -427,4 +427,4 @@ function cargainfo(marcador,classinfo){
 	infowindow.open(map,marcador);
 }
 
-initialize();
+//initialize();

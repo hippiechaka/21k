@@ -1,4 +1,4 @@
-	<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
+<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
@@ -18,7 +18,7 @@
 				<li><a href="javascript:void(0);">Inscripciones</a></li>
 				<li><a href="javascript:void(0);">Patrocinadores</a></li>
 				<li><a href="javascript:void(0);">Cupones</a></li>
-				<li><a href="javascript:void(0);">Ruta</a></li>
+				<li><a href="javascript:void(0);" onClick="cargainfo(marker21,'location');">Ruta</a></li>
 				<li><a href="javascript:void(0);">Resultados</a></li>
 				<li><a href="javascript:void(0);">Tienda</a></li>
 				<li><a href="javascript:void(0);">Contacto</a></li>
@@ -175,15 +175,15 @@
 		</div>
 	</div>
 	<div class="col-md-4">
-		<img src="images/galeria/corredor.png" alt="" id="corredor" class="wow fadeInRight" data-wow-delay="1s">
-		<img src="images/galeria/21k_text.png" alt="" id="k21" class="wow fedeinleft">
+		<img src="images/galeria/corredor.png" alt="" id="corredor">
+		<img src="images/galeria/21k_text.png" alt="" id="k21">
 	</div>
 </section>
 <!-- convocatoria10k -->
 <section id="convocatoria10k" class="container-fluid">
 	<div class="col-md-4">
-		<img src="images/galeria/10k_text.png" alt="" id="k10"  class="wow fedeinRight" data-wow-delay="2s">
-		<img src="images/galeria/corredora.png" alt="" id="corredora"  class="wow fedeinLeft" data-wow-delay="3s">
+		<img src="images/galeria/10k_text.png" alt="" id="k10">
+		<img src="images/galeria/corredora.png" alt="" id="corredora">
 	</div>
 	<div class="col-md-8">
 		<h1>Inscripciones</h1>
@@ -200,6 +200,10 @@
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
+<div class="parallaxParent" id="parallax1">
+<div style="background-image: url(images/example_parallax_bg1.png);"></div>
+</div>
+	
 	<div class="container">
 		<div class="row">
 			<ul id="hotelesGrid">
@@ -412,7 +416,9 @@
 	</div>
 </section>
 <!-- altimetria -->
-<section id="altimetria" class="container-fluid"><img src="images/altimetria/altimetria.jpg" alt="" id="altimetriaImg" class="img-responsive"></section>
+<section id="altimetria" class="container-fluid">
+<img src="images/altimetria/altimetria.jpg" alt="" id="altimetriaImg" class="img-responsive">
+</section>
 <!-- KCHINK -->
 <section id="kchinkContainer">
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
@@ -435,7 +441,7 @@
 	</div>
 </section>
 <!-- contacto -->
-<!-- <section id="contacto" class="container-fluid">
+<section id="contacto" class="container-fluid">
 	<div class="container">
 		<form action="" id="contactForm">
 			<div class="field"><input type="text" placehold="Nombre"></div>
@@ -445,17 +451,58 @@
 			</div>
 		</form>
 	</div>
-</section> -->
-<!-- Descripción Oculta -->
+	<!-- magia emmet (botones Gigantes): 
+	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
+	-->
+	<div class="bigBtns">
+		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
+		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
+		<a href="http://" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
+	</div>
+</section>
+
+<!-- Descripciones para el MAPA -->
+<!-- SALIDA / META -->
 <div class="location descripcionoculta">
     <div class="ventanidahtml">
         <div class="imagenventanitahtml">
-          <img src="images/map/small_logo.jpg" style="max-width:300px;height:auto;" class="img-responsive" />
+          <img src="images/map/small_logo.jpg" style="max-width:300px;height:auto;" class="img-responsive center-block" />
         </div>
-        <div class="separadorMap"></div>
+        <hr class="dividerB center-block">
+  		<hr class="dividerW center-block">
         <div class="textoventanitahtml">
-          <h3 class="rojo" align="center">Ubicación</h3>
+          <h3 class="rojo" align="center">SALIDA / META</h3>
           <p><?php echo($descripcion); ?></p>
     	</div>
  	</div> 
 </div>
+<!-- magia emmet (descripción de kilómetros):
+(div.descripcionoculta.km-${kilómetro-$})*21
+-->
+<div class="descripcionoculta km1">kilómetro-1</div>
+<div class="descripcionoculta km2">kilómetro-2</div>
+<div class="descripcionoculta km3">kilómetro-3</div>
+<div class="descripcionoculta km4">kilómetro-4</div>
+<div class="descripcionoculta km5">kilómetro-5</div>
+<div class="descripcionoculta km6">kilómetro-6</div>
+<div class="descripcionoculta km7">kilómetro-7</div>
+<div class="descripcionoculta km8">kilómetro-8</div>
+<div class="descripcionoculta km9">kilómetro-9</div>
+<div class="descripcionoculta km10">kilómetro-10</div>
+<div class="descripcionoculta km11">kilómetro-11</div>
+<div class="descripcionoculta km12">kilómetro-12</div>
+<div class="descripcionoculta km13">kilómetro-13</div>
+<div class="descripcionoculta km14">kilómetro-14</div>
+<div class="descripcionoculta km15">kilómetro-15</div>
+<div class="descripcionoculta km16">kilómetro-16</div>
+<div class="descripcionoculta km17">kilómetro-17</div>
+<div class="descripcionoculta km18">kilómetro-18</div>
+<div class="descripcionoculta km19">kilómetro-19</div>
+<div class="descripcionoculta km20">kilómetro-20</div>
+<div class="descripcionoculta km21">kilómetro-21</div>
+<!-- magia emmet (señalética):
+(div.descripcionoculta.vuelta-derecha{Vuelta a la derecha})+(div.descripcionoculta.vuelta-glorieta{Vuelta a la glorieta})+(div.descripcionoculta.vuelta-u{Vuelta en U})
+-->
+<div class="descripcionoculta vuelta-derecha">Vuelta a la derecha</div>
+<div class="descripcionoculta vuelta-glorieta">Vuelta a la glorieta</div>
+<div class="descripcionoculta vuelta-u">Vuelta en U</div>

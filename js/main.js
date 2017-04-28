@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 // WOW  http://mynameismatthieu.com/WOW/
-  new WOW().init();
+//  new WOW().init();
 
 // magnificPopup  http://dimsemenov.com/plugins/magnific-popup/documentation.html
   $('.home').magnificPopup({type:'iframe'});
@@ -67,12 +67,14 @@ $(".client-logos").owlCarousel({
 
 $('#mainslideshow').owlCarousel({
     //smartSpeed:450,
+    animateOut: 'fadeOut',
+    animateIn: 'fadeIn',
     singleItem: true,
-    pagination: true,
+    pagination: false,
     loop: true,
     margin: 0,
-    nav: true,
-    controls: true,
+    nav: false,
+    controls: false,
     items: 1,
     slideSpeed: 300,
     paginationSpeed: 400,
@@ -82,19 +84,19 @@ $('#mainslideshow').owlCarousel({
                 autoplayTimeout: 3000,
                 autoplayHoverPause: true,
     
-    navText: [
-        "<i class='fa fa-angle-left' aria-hidden='true'></i>",
-        "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
+    // navText: [
+    //     "<i class='fa fa-angle-left' aria-hidden='true'></i>",
+    //     "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
 
 
     });
 
-    $(".next").click(function() {
-        owl.trigger('owl.next');
-    })
-    $(".prev").click(function() {
-        owl.trigger('owl.prev');
-    })
+    // $(".next").click(function() {
+    //     owl.trigger('owl.next');
+    // })
+    // $(".prev").click(function() {
+    //     owl.trigger('owl.prev');
+    // })
 
 
 /* 
@@ -128,10 +130,24 @@ $( '#ri-grid' ).gridrotator( {
             rows : 4,
             columns : 1
           },
-        } );	
+        } );
+
+
+//ScrollMagic!!!!!
+
+
+// init controller
+  var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+  // build scenes
+  new ScrollMagic.Scene({triggerElement: "#parallax1"})
+          .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
+          //.addIndicators()
+          .addTo(controller);
+
+
 
 });
-
 
 
 
