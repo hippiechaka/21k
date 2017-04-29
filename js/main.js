@@ -146,6 +146,9 @@ new ScrollMagic.Scene({triggerElement: "#parallax1"})
 new ScrollMagic.Scene({triggerElement: "#ubicacion"})
           .setClassToggle("#ubicacionBtn", "current") // add class toggle
           .addTo(controller);
+new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
+          .setClassToggle("#convocatoriaBtn", "current") // add class toggle
+          .addTo(controller);          
 
 
 });

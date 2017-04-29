@@ -4,7 +4,7 @@ body, html { font-size: 100%; padding: 0; margin: 0;font-family:'Lato', sans-ser
 .clearfix:before, .clearfix:after { content: " "; display: table; }
 .clearfix:after { clear: both; }
 body {
-    font-family: 'Muli', Arial, sans-serif;
+    font-family: 'Overpass', Arial, sans-serif;
     color: #000;
     background:#f1f1f1;
 }
@@ -23,7 +23,7 @@ a:hover {color: #000;}
 }
 .navbar-inverse .navbar-nav > li.idioma, .navbar-inverse .navbar-nav > li.redesBtn,  .navbar-inverse .navbar-nav > li#kchink-menu{padding:0;}
 
-#mainNav li.current{color:#fff;}
+#mainNav li a.current{color:#fff;}
 .navbar-brand {
     height: 65px;
     padding: 0;

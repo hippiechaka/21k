@@ -14,7 +14,7 @@
 				<span class="icon-bar"></span>
 			</button>
 			<ul class="nav navbar-nav list-inline" id="mainNav">
-				<li><a href="javascript:void(0);">Convocatoria</a></li>
+				<li><a href="javascript:void(0);" id="convocatoriaBtn">Convocatoria</a></li>
 				<li><a href="javascript:void(0);">Inscripciones</a></li>
 				<li><a href="javascript:void(0);">Patrocinadores</a></li>
 				<li><a href="javascript:void(0);">Cupones</a></li>
@@ -324,7 +324,7 @@
 	</div>
 	<div class="container">
 		<div class="row">
-			<ul class="sort list-inline" id="filters">
+			<ul class="sort list-inline center-block" id="filters">
 				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a>&nbsp;|&nbsp;</li>
 				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a>&nbsp;|&nbsp;</li>
 				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a>&nbsp;|&nbsp;</li>
@@ -360,11 +360,11 @@
 <!-- ubicacion -->
 <section id="ubicacion" class="container-fluid">
 	<div id="sidebarMap" class="col-md-3 hidden-sm">
-		<h3>Ruta</h3>
+		<h3 class="center-block">Ruta</h3>
 		<hr class="ultraLight">
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
-		<a href="javascript:void(0);" class="sideBarMapBtn">Salida/Meta</a>
+		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="sideBarMapBtn">Salida/Meta</a>
 		<a href="javascript:void(0);" class="sideBarMapBtn">Puntos de Hidratación</a>
 		<a href="javascript:void(0);" class="sideBarMapBtn">Servicios Médicos</a>
 		<hr class="ultraLight">

@@ -87,7 +87,7 @@ if(!empty($_REQUEST['nombre'])){
 	<link href="css/popup.css" rel="stylesheet">    
 	<link href="css/style.css" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/style2.css" />
-	<link href="https://fonts.googleapis.com/css?family=Muli:400,900" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Overpass:400,900" rel="stylesheet">
 	<link rel="stylesheet" href="css/main.css" />
 	<script type="text/javascript" src="js/modernizr.custom.26633.js"></script>
 	<noscript>
