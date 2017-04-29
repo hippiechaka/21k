@@ -19,11 +19,12 @@
 				<li><a href="javascript:void(0);">Patrocinadores</a></li>
 				<li><a href="javascript:void(0);">Cupones</a></li>
 				<li><a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
+				<li><a href="javascript:void(0);">Galería</a></li>
 				<li><a href="javascript:void(0);">Resultados</a></li>
-				<li><a href="javascript:void(0);">Tienda</a></li>
-				<li><a href="javascript:void(0);">Contacto</a></li>
+				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
+				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
 
-				<li class="divider"><!-- ICONS --></li>
+				<li class="divider pull-right"><!-- ICONS --></li>
 
 				<!-- Idioma -->
 
@@ -174,17 +175,17 @@
 			</div>
 		</div>
 	</div>
-	<div class="col-md-4">
-		<img src="images/galeria/corredor.png" alt="" id="corredor">
-		<img src="images/galeria/21k_text.png" alt="" id="k21">
-	</div>
+	<div class="col-md-4"></div><!-- empty column -->
+	<img src="images/galeria/corredor.png" alt="" id="corredor">
+	<img src="images/galeria/21k_text.png" alt="" id="k21">
+	
 </section>
 <!-- convocatoria10k -->
 <section id="convocatoria10k" class="container-fluid">
-	<div class="col-md-4">
-		<img src="images/galeria/10k_text.png" alt="" id="k10">
-		<img src="images/galeria/corredora.png" alt="" id="corredora">
-	</div>
+	
+	<img src="images/galeria/10k_text.png" alt="" id="k10">
+	<img src="images/galeria/corredora.png" alt="" id="corredora">
+	<div class="col-md-4"></div><!-- empty column -->
 	<div class="col-md-8">
 		<h1>Inscripciones</h1>
 		<hr class="ultraLight">

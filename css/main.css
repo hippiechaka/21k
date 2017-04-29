@@ -64,7 +64,8 @@ section.container-fluid{padding:0;clear:both;display:block;overflow:hidden;}
 .counterBg{background:#00afc4;min-height:300px;}
 
 section#mainVideo{height:720px;overflow:hidden;position:relative;display:block;}
-section#convocatoria21k{min-height:900px;
+section#convocatoria21k{position:relative; 
+	min-height:900px;
 /* http://colorzilla.com/gradient-editor/#8bd331+0,8bd331+75,ffffff+75,ffffff+100 */	
 background: #8bd331;
 background: -moz-linear-gradient(left, #8bd331 0%, #8bd331 75%, #ffffff 75%, #ffffff 100%);
@@ -72,9 +73,10 @@ background: -webkit-linear-gradient(left, #8bd331 0%,#8bd331 75%,#ffffff 75%,#ff
 background: linear-gradient(to right, #8bd331 0%,#8bd331 75%,#ffffff 75%,#ffffff 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bd331', endColorstr='#ffffff',GradientType=1 );
 }
-#k21{position: absolute;right:0;top:calc(100% - 470px);}
-#corredor{position: absolute;right:0;top:calc(100% - 740px);}
+#k21{position: absolute;right:0;top:calc(100% - 470px);z-index:1;}
+#corredor{position: absolute;right:0;top:calc(100% - 740px);width:750px;height:740px;z-index:2;}
 section#convocatoria10k{
+	position: relative;
 min-height:900px;
 /* http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,831d80+25,831d80+100 */
 background: #ffffff;
@@ -87,8 +89,8 @@ section#convocatoria10k div.col-md-4, section#convocatoria21k div.col-md-4{heigh
 
 .ultraLight{opacity:0.161803398874988}
 
-#k10{position: absolute;left:0;top:calc(100% - 470px);}
-#corredora{position: absolute;left:0;top:calc(100% - 740px);}
+#k10{position: absolute;left:0;top:calc(100% - 470px);z-index:1;}
+#corredora{position: absolute;left:-5%;top:calc(100% - 740px);z-index:2;}
 
 #hoteles{background:#7cd5ff;}
 #hotelesGrid{list-style:none;padding:0;margin:0;display:block;text-align:center;}
@@ -608,6 +610,16 @@ a.circleSocialBtn i{
 a.circleSocialBtn i.fa-facebook{left:9px;}
 a.circleSocialBtn#facebook:hover{background:#3b5998;border-color:#3b5998;}
 a.circleSocialBtn#facebook:hover i{color:#fff;}
+
+
+.bigBTN{width:100%;height:360px;line-height:360px;display:block;text-align:center;color:#fff;font-size:168px !important;}
+.bigBTN:hover{color:#000;}
+.bigBTN:visited{color:#fff;}
+
+.bigBTN#facebookBtn{background:#3b5998;}
+.bigBTN#instagramBtn{background:#3b7298;}
+.bigBTN#youtubeBtn{background:#ff0000;}
+
 /*
 
 =========================================================  QUERIES
