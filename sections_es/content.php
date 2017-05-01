@@ -30,17 +30,17 @@
 
 				<li class="idioma">
 					<a href="javascript:void(0);" class="flagIdioma" id="espanol">
-						<img src="http://placehold.it/30x30?text=ES" alt="Español">
+						<img src="images/menu/lang_mx.png" alt="Español">
 					</a>
 				</li>
 				<li class="idioma">
 					<a href="javascript:void(0);" class="flagIdioma" id="ingles">
-						<img src="http://placehold.it/30x30?text=EN" alt="Inglés">
+						<img src="images/menu/lang_eng.png" alt="Inglés">
 					</a>
 				</li>
 				<li class="idioma">
 					<a href="javascript:void(0);" class="flagIdioma" id="portugues">
-						<img src="http://placehold.it/30x30?text=PO" alt="Portugués">
+						<img src="images/menu/lang_port.png" alt="Portugués">
 					</a>
 				</li>
 

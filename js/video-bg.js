@@ -7,7 +7,8 @@ var tv,
 var vid = [
 
       {'videoId': 'xO6jTvI6S3s', 'startSeconds': 0, 'endSeconds': 53, 'suggestedQuality': 'hd720'},
-      {'videoId': 'ZAP49deErec', 'startSeconds': 0, 'endSeconds': 309, 'suggestedQuality': 'hd720'}
+      {'videoId': 'Cg_djzLHEqE', 'startSeconds': 0, 'endSeconds': 309, 'suggestedQuality': 'hd720'},
+      {'videoId': 'ZAP49deErec', 'startSeconds': 0, 'endSeconds': 242, 'suggestedQuality': 'hd720'}
 
 		],
 		randomVid = Math.floor(Math.random() * vid.length),
