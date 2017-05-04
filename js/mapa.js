@@ -36,6 +36,50 @@ var MY_MAPTYPE_ID = 'hiphop';
 function initialize() {
     
   var stylez = [
+
+{
+      featureType: "all",
+      elementType: "all",
+      stylers: [
+      { "lightness": -10 },
+      { "saturation": -60 },
+      { "gamma": 0.66 },
+      { "hue": "#0066ff" }
+    ]
+},
+
+
+  {
+    "featureType": "administrative.land_parcel",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road.local",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  }
+]
+
+
+  /*[
     {
       featureType: "all",
       elementType: "all",
@@ -46,7 +90,7 @@ function initialize() {
       { "hue": "#0066ff" }
     ]
     }	
-  ];
+  ]*/;
 
   var myLatlng = new google.maps.LatLng(20.715000, -105.296176);
   var mapOptions = {
