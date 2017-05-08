@@ -76,8 +76,7 @@ function initialize() {
       }
     ]
   }
-]
-
+];
 
   /*[
     {
@@ -90,7 +89,7 @@ function initialize() {
       { "hue": "#0066ff" }
     ]
     }	
-  ]*/;
+  ];*/
 
   var myLatlng = new google.maps.LatLng(20.715000, -105.296176);
   var mapOptions = {

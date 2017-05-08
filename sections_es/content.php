@@ -1,10 +1,10 @@
-<div class="clearfix" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
+<div class="clearfix" id="top" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
 		<div class="container">
 			<div class="navbar-header">
-				<a href="javascript:void(0);" class="navbar-brand">
+				<a href="#top" class="navbar-brand">
 					<img src="images/slider/logo_21k_menu.png" alt="LOGO">
 				</a>
 			</div>
@@ -14,17 +14,19 @@
 				<span class="icon-bar"></span>
 			</button>
 			<ul class="nav navbar-nav list-inline" id="mainNav">
-				<li><a href="javascript:void(0);" id="convocatoriaBtn">Convocatoria</a></li>
-				<li><a href="javascript:void(0);">Inscripciones</a></li>
-				<li><a href="javascript:void(0);">Patrocinadores</a></li>
-				<li><a href="javascript:void(0);">Cupones</a></li>
-				<li><a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
-				<li><a href="javascript:void(0);">Galería</a></li>
+				<li><a href="#convocatoria21k" id="convocatoriaBtn">Convocatoria</a></li>
+				<li><a href="#inscripciones">Inscripciones</a></li>
+				<li><a href="#sponsors">Patrocinadores</a></li>
+				<li><a href="#cupones-servicios">Cupones</a></li>
+				<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
+				<li><a href="#galeria">Galería</a></li>
 				<li><a href="javascript:void(0);">Resultados</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
 
-				<li class="divider pull-right"><!-- ICONS --></li>
+				<!-- <li class="divider pull-right"></li> -->
+			</ul>
+			<ul class="nav navbar-nav navbar-right">
 
 				<!-- Idioma -->
 
@@ -120,10 +122,55 @@
 <!-- widgets -->
 <section id="widgets" class="container-fluid">
 	<div class="col-md-6 weatherBg">
-		<div class="widget pull-right" id="weatherWidget">Weather Channel</div>
+		<div class="widget pull-right" id="weatherWidget">
+			<!-- Weather Channel -->
+			<div id="weather"></div>
+		</div>
 	</div>
 	<div class="col-md-6 counterBg">
-		<div class="widget pull-left" id="CounterWidget">00:00:00</div>
+		<div class="widget pull-left" id="CounterWidgetContainer">
+			<!--00:00:00-->
+			<p>Faltan:</p>
+			<h2 id="CounterWidget"></h2>
+			<p>
+				<span>Para el disparo de Salida</span><br>
+				<small>Fecha: 25 Noviembre 2017, 7:00 am</small><br>
+				<small style="opacity:0.5;">*días:horas:minutos:segundos</small>
+			</p>
+
+			<script>
+				// Set the date we're counting down to
+				var countDownDate = new Date("Nov 25, 2017 07:00:00").getTime();
+
+				// Update the count down every 1 second
+				var x = setInterval(function() {
+
+				    // Get todays date and time
+				    var now = new Date().getTime();
+				    
+				    // Find the distance between now an the count down date
+				    var distance = countDownDate - now;
+				    
+				    // Time calculations for days, hours, minutes and seconds
+				    var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+				    var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+				    var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+				    var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+				    
+				    // Output the result in an element with id="CounterWidget"
+				    // document.getElementById("CounterWidget").innerHTML = days + "d " + hours + "h "
+				    // + minutes + "m " + seconds + "s ";
+				    document.getElementById("CounterWidget").innerHTML = days + "d:" + hours + "h:"
+				    + minutes + "m:" + seconds + "s";
+				    
+				    // If the count down is over, write some text 
+				    if (distance < 0) {
+				        clearInterval(x);
+				        document.getElementById("CounterWidget").innerHTML = "EXPIRED";
+				    }
+				}, 1000);
+			</script>
+		</div>
 	</div>
 </section>
 <!-- suscribe -->
@@ -155,33 +202,45 @@
 <!-- convocatoria21k -->
 <section id="convocatoria21k" class="container-fluid">
 	<div class="col-md-8">
-		<ul class="nav nav-tabs">
-			<li class="active"><a href="#link1" data-toggle="tab">Link 1</a></li>
-			<li><a href="#link2" data-toggle="tab">Link 2</a></li>
-			<li><a href="#link3" data-toggle="tab">Link 3</a></li>
-		</ul>
-		<div class="tab-content">
-			<div id="link1" class="tab-pane fade active">
-				<h3>Link 1</h3>
-				<p>somecontent</p>
-			</div>
-			<div id="link2" class="tab-pane fade">
-				<h3>Link 2</h3>
-				<p>somecontent</p>
-			</div>
-			<div id="link3" class="tab-pane fade">
-				<h3>Link 3</h3>
-				<p>somecontent</p>
-			</div>
+		<div class="container">
+		  <h2>Dynamic Tabs</h2>
+		 <!--  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p> -->
+
+		  <ul class="nav nav-tabs">
+		    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
+		    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
+		    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
+		    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
+		  </ul>
+
+		  <div class="tab-content">
+		    <div id="home" class="tab-pane fade in active">
+		      <h3>HOME</h3>
+		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+		    </div>
+		    <div id="menu1" class="tab-pane fade">
+		      <h3>Menu 1</h3>
+		      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+		    </div>
+		    <div id="menu2" class="tab-pane fade">
+		      <h3>Menu 2</h3>
+		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
+		    </div>
+		    <div id="menu3" class="tab-pane fade">
+		      <h3>Menu 3</h3>
+		      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+		    </div>
+		  </div>
 		</div>
+
 	</div>
 	<div class="col-md-4"></div><!-- empty column -->
 	<img src="images/galeria/corredor.png" alt="" id="corredor">
 	<img src="images/galeria/21k_text.png" alt="" id="k21">
 	
 </section>
-<!-- convocatoria10k -->
-<section id="convocatoria10k" class="container-fluid">
+<!-- inscripciones -->
+<section id="inscripciones" class="container-fluid">
 	
 	<img src="images/galeria/10k_text.png" alt="" id="k10">
 	<img src="images/galeria/corredora.png" alt="" id="corredora">
