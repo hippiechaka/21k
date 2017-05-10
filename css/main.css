@@ -183,9 +183,7 @@ i {
 	max-width:585px;
 	height:300px;
 	display:block;
-	background:url('images/tomtom.png'); /* <<<<<<<<<<<<<< IMAGEN TOM TOM !!!!!! */
-	background-position:top center;
-	background-repeat:no-repeat;
+	background:url(images/tomtom.png)no-repeat top center; /* <<<<<<<<<<<<<< IMAGEN TOM TOM !!!!!! */
 	background-size:cover;
 	padding:3em 0 0 3em;
 }
@@ -195,6 +193,7 @@ i {
 section#mainVideo{height:720px;overflow:hidden;position:relative;display:block;}
 section#convocatoria21k{position:relative; 
 min-height:900px;
+padding-top:90px;
 /* http://colorzilla.com/gradient-editor/#8bd331+0,8bd331+75,ffffff+75,ffffff+100 */	
 background: #8bd331;
 background: -moz-linear-gradient(left, #8bd331 0%, #8bd331 75%, #ffffff 75%, #ffffff 100%);
@@ -202,6 +201,10 @@ background: -webkit-linear-gradient(left, #8bd331 0%,#8bd331 75%,#ffffff 75%,#ff
 background: linear-gradient(to right, #8bd331 0%,#8bd331 75%,#ffffff 75%,#ffffff 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bd331', endColorstr='#ffffff',GradientType=1 );
 }
+convocatoriaSlide
+
+
+
 #k21{position: absolute;right:0;top:calc(100% - 470px);z-index:1;}
 #corredor{position: absolute;right:0;top:calc(100% - 740px);width:750px;height:740px;z-index:2;}
 section#inscripciones{

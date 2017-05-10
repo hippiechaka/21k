@@ -51,7 +51,7 @@ if($_POST['email']){
 <!DOCTYPE html>
 <html lang="<?php echo $lang;?>">
   <?php require_once "sections_".$lang."/head".".php"; ?>
-  <body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <body>
       <?php require_once "sections_".$lang."/content".".php"; ?>
       <?php require_once "sections_".$lang."/end".".php"; ?>
   </body>

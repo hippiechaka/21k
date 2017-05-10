@@ -13,7 +13,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<ul class="nav navbar-nav list-inline" id="mainNav">
+			<ul class="nav navbar-nav list-inline" id="mainNav" data-spy="affix">
 				<li><a href="#convocatoria21k" id="convocatoriaBtn">Convocatoria</a></li>
 				<li><a href="#inscripciones">Inscripciones</a></li>
 				<li><a href="#sponsors">Patrocinadores</a></li>
@@ -176,6 +176,7 @@
 <!-- suscribe -->
 <section id="suscribe">
   <a name="suscribeSection" id="suscribeSection"></a>
+  <img src="images/fitness.png" class="img-responsive center-block" id="fitness_logo" alt="anytime fitness">
   <h1 id="titulo">Solicita información de: Paquetes, Hoteles, Tours.<br>
   <small>No spam.</small></h1>
   <hr class="dividerB">
@@ -202,35 +203,119 @@
 <!-- convocatoria21k -->
 <section id="convocatoria21k" class="container-fluid">
 	<div class="col-md-8">
-		<div class="container">
-		  <h2>Dynamic Tabs</h2>
-		 <!--  <p>To make the tabs toggleable, add the data-toggle="tab" attribute to each link. Then add a .tab-pane class with a unique ID for every tab and wrap them inside a div element with class .tab-content.</p> -->
 
-		  <ul class="nav nav-tabs">
-		    <li class="active"><a data-toggle="tab" href="#home">Home</a></li>
-		    <li><a data-toggle="tab" href="#menu1">Menu 1</a></li>
-		    <li><a data-toggle="tab" href="#menu2">Menu 2</a></li>
-		    <li><a data-toggle="tab" href="#menu3">Menu 3</a></li>
-		  </ul>
 
-		  <div class="tab-content">
-		    <div id="home" class="tab-pane fade in active">
-		      <h3>HOME</h3>
-		      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-		    </div>
-		    <div id="menu1" class="tab-pane fade">
-		      <h3>Menu 1</h3>
-		      <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-		    </div>
-		    <div id="menu2" class="tab-pane fade">
-		      <h3>Menu 2</h3>
-		      <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.</p>
-		    </div>
-		    <div id="menu3" class="tab-pane fade">
-		      <h3>Menu 3</h3>
-		      <p>Eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
-		    </div>
-		  </div>
+
+
+		<div class="container convocatoriaSlide">
+			<div class="item">
+1- PROGRAMA OFICIAL
+Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017
+VIERNES 24 NOVIEMBRE: UNICO DÍA
+De 09:00 a 21:30 horas.
+Entrega de números, paquetes e información oficial. En Paradise Plaza. 
+Avenida Paseo Cocoteros # 85 Sur.
+
+*Sin excepción, no habrá entrega de Paquetes el día de la carrera.
+				
+			</div>
+			<div class="item">
+
+2- SÁBADO 25 DE NOVIEMBRE:
+De 5:00 a 14:00 horas.	 Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock. 
+De 6:15 a 10:15 horas.	Apertura de guardarropa.
+De 6:15 a 6:45 horas.	Apertura zona de calentamiento.
+De 6:30 a 6:40 horas.	Tomar su lugar en la línea de salida.
+De 6:40 a 6:55 horas.	Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.
+ 
+7:00 horas en punto.	Disparo de salida.
+10:00 horas.			Cierre de la carrera.
+10:00 horas.			Inicio de Premiación 10K después premiación 21K
+12:00 horas.	 		Cierre del evento.
+
+*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.
+
+
+			</div>
+			</div>
+
+<div class="container convocatoriaSlide">
+				<div class="item">
+					1- CONSERVIEXPRESS S. A. de C. V.
+
+Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.
+				</div>
+				<div class="item">
+					2- BASES
+
+Fecha: Sábado 25 de noviembre de 2017.
+Hora: 7:00 horas. Hora centro de México.
+Pruebas: Medio Maratón (21.0975 km). / 10 kilómetros.
+Ruta: Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
+				</div>
+				<div class="item">
+					3- CATEGORÍAS:
+
+10 Kilómetros
+Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
+Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
+ 	 
+MEDIO MARATÓN
+Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
+Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
+				</div>
+				<div class="item">
+					4- PREMIACIÓN:
+Premiación 10K:	 
+Trofeo para los tres primeros lugares de cada rama y categoría.
+
+Cuota de inscripción de  Medio Maratón y 10K:  
+Etapa 1: 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
+Etapa 2: 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
+Etapa 3: 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
+
+Notas: 
+Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
+La inscripción no es transferible.
+				</div>
+				<div class="item">
+5- PRECIO MEDIO MARATÓN Y 10K:
+Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
+Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
+Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
+
+Nota: 
+Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
+				</div>
+				<div class="item">
+6- BENEFICIOS POR INSCRIPCIÓN:
+1- Playera oficial del evento.
+2- Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.
+3- Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.
+4- Chip. INDISPENSABLE PARA PODER PARTICIPAR.
+5- Hidratación a lo largo del recorrido.
+6- Refrigerio en la zona de recuperación.
+7- Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.
+8- Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema
+”Time Ipico-sports”.
+9- Certificado oficial de tiempo vía internet.
+
+
+				</div>
+				<div class="item">
+7- ENTREGA DE KITS:
+Para la entrega de Kits será necesario presentar la siguiente información:
+• Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).
+• Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.
+• Comprobante de pago.
+• Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.
+				</div>
+</div>
+
+
+
+
+		  
 		</div>
 
 	</div>
@@ -248,12 +333,52 @@
 	<div class="col-md-8">
 		<h1>Inscripciones</h1>
 		<hr class="ultraLight">
-		<a href="javascript:void(0);"><img src="http://www.placehold.it/180x60" alt="" class="logo"></a>
-		<a href="javascript:void(0);"><img src="http://www.placehold.it/180x60" alt="" class="logo"></a>
-		<a href="javascript:void(0);"><img src="http://www.placehold.it/180x60" alt="" class="logo"></a>
-		<a href="javascript:void(0);"><img src="http://www.placehold.it/180x60" alt="" class="logo"></a>
+		<a href="http://google.com" target="_blank"><img src="images/inscripciones/santander_white.png" alt="Santander" class="logo"></a>
+		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/active_white.png" alt="Active" class="logo"></a>
+		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/innova_white.png" alt="Innova" class="logo"></a>
+		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo"></a>
+
 		<hr class="ultraLight">
-		<p>Contenido..</p>
+
+		
+
+<div id="santanderContent">En banco Santander, depósito o transferencia SPEI:
+
+Paso 1-  Realiza tu pago en la siguiente cuenta:
+Banco: Santander 
+Número de cuenta: 92001068047
+Clabe: 014320920010680473 
+Sucursal: 4707 Jardines de Guadalupe.
+A nombre de: Conserviexpress, Convenciones y Servicios Express S. A. de C. V.
+En referencia: Proporciona tu nombre completo al cajero.
+
+Paso 2-  Llena la ficha de registro  Aquí   por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.
+
+Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.
+</div>
+
+<div id="activeContent">
+Active network
+
+Visita e portal:  http://www.active.com
+
+<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank">ir al portal</a>
+
+</div>
+
+<div id="innovaContent">
+	
+-Todas las tiendas Innovasport
+http://sucursales.innovasport.com
+
+Nombre / revisar info
+Oficina:   01 (33) 3616-6428
+
+</div>
+<p>Paypal</p>
+		<form action=""></form>
+
+
 		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
 		<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 	</div>
@@ -474,11 +599,17 @@
 			</div>
 		</div>
 	</div>
+<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
+
+
+
+
+
 </section>
 <!-- altimetria -->
-<section id="altimetria" class="container-fluid">
-<img src="images/altimetria/altimetria.jpg" alt="" id="altimetriaImg" class="img-responsive">
-</section>
+<!-- <section id="altimetria" class="container-fluid">
+
+</section> -->
 <!-- KCHINK -->
 <section id="kchinkContainer">
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>

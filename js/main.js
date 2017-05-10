@@ -32,35 +32,19 @@ $(document).ready(function() {
   });
 
 
-$(".client-logos").owlCarousel({
+$(".convocatoriaSlide").owlCarousel({
  
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
       nav: true,
       controls: true,
-      items : 5,
+      items : 1,
       itemsMobile : true,
       loop:true,
       autoplay: true,
       autoplayTimeout: 3000,
       autoplayHoverPause: true,
-      responsiveClass:true,
-      responsive:{
-          0:{
-              items:1,
-              nav:true
-          },
-          600:{
-              items:3,
-              nav:true
-          },
-          1000:{
-              items:5,
-              nav:true,
-              loop:true
-          }
-      },
       navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"]
  
   });
@@ -154,7 +138,7 @@ new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
 // v3.1.0
 //Docs at http://simpleweatherjs.com
 //$(document).ready(function() {
-  $.simpleWeather({
+ /* $.simpleWeather({
     location: 'Austin, TX',
     woeid: '',
     unit: 'c',
@@ -169,7 +153,7 @@ new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
-  });
+  });*/
 //});
 
 
