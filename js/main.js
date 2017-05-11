@@ -138,8 +138,8 @@ new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
 // v3.1.0
 //Docs at http://simpleweatherjs.com
 //$(document).ready(function() {
- /* $.simpleWeather({
-    location: 'Austin, TX',
+  $.simpleWeather({
+    location: 'Puerto Vallarta, JA, Mexico',
     woeid: '',
     unit: 'c',
     success: function(weather) {
@@ -153,7 +153,7 @@ new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
     error: function(error) {
       $("#weather").html('<p>'+error+'</p>');
     }
-  });*/
+  });
 //});
 
 

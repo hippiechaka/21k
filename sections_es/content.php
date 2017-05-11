@@ -1,4 +1,4 @@
-<div class="clearfix" id="top" style="height:90px;"></div><!-- ALTO DE NAVBAR-->
+<div class="clearfix" id="top"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
 	<div class="container-fluid">
@@ -20,7 +20,7 @@
 				<li><a href="#cupones-servicios">Cupones</a></li>
 				<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
 				<li><a href="#galeria">Galería</a></li>
-				<li><a href="javascript:void(0);">Resultados</a></li>
+				<li><a href="#contacto">Contacto</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
 
@@ -85,8 +85,8 @@
 
 	<div class="col-md-3 fooCol"></div>
 	<div class="col-md-6 center-block">
-		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left">
-		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right">		
+		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs">
+		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs">		
 	</div>
 	<div class="col-md-3 fooCol"></div>
 </div>
@@ -119,6 +119,7 @@
         <img src="images/slider/05s.jpg" alt="" class="hidden-lg"> 	
     </div>
 </section>
+
 <!-- widgets -->
 <section id="widgets" class="container-fluid">
 	<div class="col-md-6 weatherBg">
@@ -170,14 +171,15 @@
 				    }
 				}, 1000);
 			</script>
+			<img src="images/tomtom.png" alt="tom tom" id="tomtomImg" class="img-responsive center-block">
 		</div>
 	</div>
 </section>
+
 <!-- suscribe -->
-<section id="suscribe">
-  <a name="suscribeSection" id="suscribeSection"></a>
+<section id="suscribe" style="padding-top:30px;">
   <img src="images/fitness.png" class="img-responsive center-block" id="fitness_logo" alt="anytime fitness">
-  <h1 id="titulo">Solicita información de: Paquetes, Hoteles, Tours.<br>
+  <h1>Solicita información de: Paquetes, Hoteles, Tours.<br>
   <small>No spam.</small></h1>
   <hr class="dividerB">
   <hr class="dividerW">
@@ -186,6 +188,7 @@
     <button type="submit" class="btn btn-4 btn-4c icon-arrow-right" id="submitButton">Enviar</button>
   </form>
 </section>
+
 <!-- mainVideo -->
 <section id="mainVideo" class="container-fluid">
   <div class="cover">
@@ -599,6 +602,7 @@ Oficina:   01 (33) 3616-6428
 			</div>
 		</div>
 	</div>
+<!-- altimetria -->
 <img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
 
 
@@ -606,14 +610,12 @@ Oficina:   01 (33) 3616-6428
 
 
 </section>
-<!-- altimetria -->
-<!-- <section id="altimetria" class="container-fluid">
 
-</section> -->
 <!-- KCHINK -->
 <section id="kchinkContainer">
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
 </section>
+
 <!-- score -->
 <section id="score" class="container-fluid">
 	<div class="container">
