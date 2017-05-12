@@ -91,7 +91,7 @@
 	<div class="col-md-3 fooCol"></div>
 </div>
 
-	<a href="javascript:void(0);" class="pull-right" id="iaaf-aims" target="_blank">
+	<a href="http://distancerunning.co.uk/races/10000.html" class="pull-right" id="iaaf-aims" target="_blank">
 		<img src="images/slider/iaaf_aims.png" alt="IAAF/AIMS">
 	</a>
 
@@ -396,7 +396,7 @@ Oficina:   01 (33) 3616-6428
 		<div class="row">
 			<ul id="hotelesGrid">
 				<li>
-					<a href="http://nopall.com" target="_blank">
+					<a href="http://www.marival.com.mx/" target="_blank">
 						<img src="images/hoteles/marival.png" alt="" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">Marival Resorts</h3> -->
