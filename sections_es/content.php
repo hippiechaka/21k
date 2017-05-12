@@ -388,16 +388,45 @@ Oficina:   01 (33) 3616-6428
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
-<div class="parallaxParent" id="parallax1">
+<!-- <div class="parallaxParent" id="parallax1">
 <div style="background-image: url(images/example_parallax_bg1.png);"></div>
-</div>
+</div> -->
+
+<style>
+.linkHotel{
+	background:#fff;
+	width:90%;
+	height:90%;
+	display:block;
+	border-radius:50%;
+	overflow:hidden;
+	position: relative;
+	border:4px solid rgba(255, 255, 255, 0);
+	opacity:0.75;
+	-webkit-transition: all 0.3s;
+	-moz-transition: all 0.3s;
+	transition: all 0.3s;
+}
+.linkHotel img{
+	max-width:60%;
+	max-height:60%;
+	position:absolute;
+	top:20%;
+	left:20%;
+}
+.linkHotel:hover{
+	opacity:1;
+	border:4px solid rgba(255, 255, 255, 0.3);
+}
+
+</style>
 	
 	<div class="container">
 		<div class="row">
 			<ul id="hotelesGrid">
 				<li>
-					<a href="http://www.marival.com.mx/" target="_blank">
-						<img src="images/hoteles/marival.png" alt="Marival Hotel" class="img-responsive hotel">
+					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
+						<img src="images/hoteles/marival-test.jpg" alt="Marival Hotel" class="img-responsive center-block hotel">
 					</a>
 					<!-- <h3 class="label">Marival Resorts</h3> -->
 				</li>
