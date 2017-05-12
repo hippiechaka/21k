@@ -396,51 +396,75 @@ Oficina:   01 (33) 3616-6428
 		<div class="row">
 			<ul id="hotelesGrid">
 				<li>
-					<img src="images/hoteles/marival.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/marival.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">Marival Resorts</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/hard_rock.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/hard_rock.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">Hard Rock Hotel</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/paradise_village.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/paradise_village.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 3</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/villa_varadero.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/villa_varadero.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 4</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/bel_air.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/bel_air.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 5</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/la_estancia.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/la_estancia.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 6</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/flamingos.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/flamingos.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 7</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/hilton.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/hilton.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 8</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/kristal.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/kristal.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/riu_jalisco.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/riu_jalisco.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/riu_palace.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/riu_palace.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/riu_vallarta.png" alt="" class="img-responsive hotel">
+					<a href="http://nopall.com" target="_blank">
+						<img src="images/hoteles/riu_vallarta.png" alt="" class="img-responsive hotel">
+					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 			</ul>
