@@ -715,7 +715,7 @@ Oficina:   01 (33) 3616-6428
 	<div class="bigBtns">
 		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
 		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
-		<a href="http://" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
+		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
 	</div>
 </section>
 
