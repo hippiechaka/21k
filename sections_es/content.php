@@ -428,7 +428,19 @@ Oficina:   01 (33) 3616-6428
 					<!-- <h3 class="label">hotel 8</h3> -->
 				</li>
 				<li>
-					<img src="images/hoteles/riu.png" alt="" class="img-responsive hotel">
+					<img src="images/hoteles/kristal.png" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 9</h3> -->
+				</li>
+				<li>
+					<img src="images/hoteles/riu_jalisco.png" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 9</h3> -->
+				</li>
+				<li>
+					<img src="images/hoteles/riu_palace.png" alt="" class="img-responsive hotel">
+					<!-- <h3 class="label">hotel 9</h3> -->
+				</li>
+				<li>
+					<img src="images/hoteles/riu_vallarta.png" alt="" class="img-responsive hotel">
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 			</ul>
