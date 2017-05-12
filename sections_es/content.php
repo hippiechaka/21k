@@ -397,73 +397,73 @@ Oficina:   01 (33) 3616-6428
 			<ul id="hotelesGrid">
 				<li>
 					<a href="http://www.marival.com.mx/" target="_blank">
-						<img src="images/hoteles/marival.png" alt="" class="img-responsive hotel">
+						<img src="images/hoteles/marival.png" alt="Marival Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">Marival Resorts</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/hard_rock.png" alt="" class="img-responsive hotel">
+					<a href="http://es.hrhvallarta.com/" target="_blank">
+						<img src="images/hoteles/hard_rock.png" alt="Hard Rock Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">Hard Rock Hotel</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/paradise_village.png" alt="" class="img-responsive hotel">
+					<a href="http://paradisevillage.com.mx" target="_blank">
+						<img src="images/hoteles/paradise_village.png" alt="Paradise Village Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 3</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/villa_varadero.png" alt="" class="img-responsive hotel">
+					<a href="http://www.hotelvillavaradero.com/esp" target="_blank">
+						<img src="images/hoteles/villa_varadero.png" alt="Villa Varadero Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 4</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/bel_air.png" alt="" class="img-responsive hotel">
+					<a href="http://www.belairvallarta.com/" target="_blank">
+						<img src="images/hoteles/bel_air.png" alt="Bel Air Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 5</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/la_estancia.png" alt="" class="img-responsive hotel">
+					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank">
+						<img src="images/hoteles/la_estancia.png" alt="Villa la Estancia Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 6</h3> -->
 				</li>
 				<li>
 					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/flamingos.png" alt="" class="img-responsive hotel">
+						<img src="images/hoteles/flamingos.png" alt="Villa del Palmar Flamingos Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 7</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/hilton.png" alt="" class="img-responsive hotel">
+					<a href="http://www.hiltonhotels.com/es_XM/mexico/" target="_blank">
+						<img src="images/hoteles/hilton.png" alt="Hilton Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 8</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/kristal.png" alt="" class="img-responsive hotel">
+					<a href="http://www.krystalvallartaresort.com/" target="_blank">
+						<img src="images/hoteles/kristal.png" alt="Kristal Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/riu_jalisco.png" alt="" class="img-responsive hotel">
+					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank">
+						<img src="images/hoteles/riu_jalisco.png" alt="Rie Jalisco Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/riu_palace.png" alt="" class="img-responsive hotel">
+					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank">
+						<img src="images/hoteles/riu_palace.png" alt="Riu Palace Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
 				<li>
-					<a href="http://nopall.com" target="_blank">
-						<img src="images/hoteles/riu_vallarta.png" alt="" class="img-responsive hotel">
+					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank">
+						<img src="images/hoteles/riu_vallarta.png" alt="Riu Vallarta Hotel" class="img-responsive hotel">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
