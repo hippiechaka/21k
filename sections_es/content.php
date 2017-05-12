@@ -411,8 +411,8 @@ Oficina:   01 (33) 3616-6428
 	max-width:60%;
 	max-height:60%;
 	position:absolute;
-	top:20%;
-	left:20%;
+	top:20% !important;
+	left:20% !important;
 }
 .linkHotel:hover{
 	opacity:1;
