@@ -1,6 +1,6 @@
 
 <?php
-  $titulo     = '';
+  $titulo     = 'Medio Maratón Rivera Nayarit';
   $descripcion  = '';
   $keywords     = '';
   $fb_img     = '';

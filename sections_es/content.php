@@ -211,8 +211,8 @@
 
 
 		<div class="container convocatoriaSlide">
-			<div class="item">
-1- PROGRAMA OFICIAL
+<div class="item">
+<h3>1- PROGRAMA OFICIAL</h3>
 Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017
 VIERNES 24 NOVIEMBRE: UNICO DÍA
 De 09:00 a 21:30 horas.
@@ -220,17 +220,17 @@ Entrega de números, paquetes e información oficial. En Paradise Plaza.
 Avenida Paseo Cocoteros # 85 Sur.
 
 *Sin excepción, no habrá entrega de Paquetes el día de la carrera.
-				
-			</div>
-			<div class="item">
 
-2- SÁBADO 25 DE NOVIEMBRE:
+</div>
+<div class="item">
+
+<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
 De 5:00 a 14:00 horas.	 Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock. 
 De 6:15 a 10:15 horas.	Apertura de guardarropa.
 De 6:15 a 6:45 horas.	Apertura zona de calentamiento.
 De 6:30 a 6:40 horas.	Tomar su lugar en la línea de salida.
 De 6:40 a 6:55 horas.	Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.
- 
+
 7:00 horas en punto.	Disparo de salida.
 10:00 horas.			Cierre de la carrera.
 10:00 horas.			Inicio de Premiación 10K después premiación 21K
@@ -239,36 +239,36 @@ De 6:40 a 6:55 horas.	Honores a la Bandera e Himno Nacional. Banda de guerra de 
 *Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.
 
 
-			</div>
+</div>
 			</div>
 
 <div class="container convocatoriaSlide">
-				<div class="item">
-					1- CONSERVIEXPRESS S. A. de C. V.
+<div class="item">
+<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
 
 Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.
-				</div>
-				<div class="item">
-					2- BASES
+</div>
+<div class="item">
+<h3>2- BASES</h3>
 
 Fecha: Sábado 25 de noviembre de 2017.
 Hora: 7:00 horas. Hora centro de México.
 Pruebas: Medio Maratón (21.0975 km). / 10 kilómetros.
 Ruta: Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
-				</div>
-				<div class="item">
-					3- CATEGORÍAS:
+</div>
+<div class="item">
+<h3>3- CATEGORÍAS:</h3>
 
 10 Kilómetros
 Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
 Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
- 	 
+
 MEDIO MARATÓN
 Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
 Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
-				</div>
-				<div class="item">
-					4- PREMIACIÓN:
+</div>
+<div class="item">
+<h3>4- PREMIACIÓN:</h3>
 Premiación 10K:	 
 Trofeo para los tres primeros lugares de cada rama y categoría.
 
@@ -280,39 +280,42 @@ Etapa 3: 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
 Notas: 
 Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
 La inscripción no es transferible.
-				</div>
-				<div class="item">
-5- PRECIO MEDIO MARATÓN Y 10K:
+</div>
+<div class="item">
+<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
 Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
 Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
 Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
 
 Nota: 
 Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
-				</div>
-				<div class="item">
-6- BENEFICIOS POR INSCRIPCIÓN:
-1- Playera oficial del evento.
-2- Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.
-3- Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.
-4- Chip. INDISPENSABLE PARA PODER PARTICIPAR.
-5- Hidratación a lo largo del recorrido.
-6- Refrigerio en la zona de recuperación.
-7- Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.
-8- Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema
-”Time Ipico-sports”.
-9- Certificado oficial de tiempo vía internet.
+</div>
+	<div class="item">
+		<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
+		<ol>
+			<li>Playera oficial del evento.</li>
+			<li>Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.</li>
+			<li>Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.</li>
+			<li>Chip. INDISPENSABLE PARA PODER PARTICIPAR.</li>
+			<li>Hidratación a lo largo del recorrido.</li>
+			<li>Refrigerio en la zona de recuperación.</li>
+			<li>Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.</li>
+			<li>Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema ”Time Ipico-sports”.</li>
+			<li>Certificado oficial de tiempo vía internet.</li>
+		</ol>
 
 
-				</div>
-				<div class="item">
-7- ENTREGA DE KITS:
-Para la entrega de Kits será necesario presentar la siguiente información:
-• Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).
-• Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.
-• Comprobante de pago.
-• Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.
-				</div>
+	</div>
+	<div class="item">
+		<h3>7- ENTREGA DE KITS:</h3>
+		<p>Para la entrega de Kits será necesario presentar la siguiente información:</p>
+		<ul>
+			<li>Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).</li>
+			<li>Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.</li>
+			<li>Comprobante de pago.</li>
+			<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
+		</ul>				
+	</div>
 </div>
 
 
@@ -336,10 +339,18 @@ Para la entrega de Kits será necesario presentar la siguiente información:
 	<div class="col-md-8">
 		<h1>Inscripciones</h1>
 		<hr class="ultraLight">
-		<a href="http://google.com" target="_blank"><img src="images/inscripciones/santander_white.png" alt="Santander" class="logo"></a>
-		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/active_white.png" alt="Active" class="logo"></a>
-		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/innova_white.png" alt="Innova" class="logo"></a>
-		<a href="javascript:void(0);" target="_blank"><img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo"></a>
+		<a href="http://google.com" target="_blank">
+			<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
+		</a>
+		<a href="javascript:void(0);" target="_blank">
+			<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
+		</a>
+		<a href="javascript:void(0);" target="_blank">
+			<img src="images/inscripciones/innova_white.png" alt="Innova" class="logo">
+		</a>
+		<a href="javascript:void(0);" target="_blank">
+			<img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo">
+		</a>
 
 		<hr class="ultraLight">
 
@@ -388,10 +399,6 @@ Oficina:   01 (33) 3616-6428
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
-<!-- <div class="parallaxParent" id="parallax1">
-<div style="background-image: url(images/example_parallax_bg1.png);"></div>
-</div> -->
-
 	
 	<div class="container">
 		<div class="row">
@@ -550,10 +557,10 @@ Oficina:   01 (33) 3616-6428
 	<div class="container">
 		<div class="row">
 			<ul class="sort list-inline center-block" id="filters">
-				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a>&nbsp;|&nbsp;</li>
-				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a>&nbsp;|&nbsp;</li>
-				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a>&nbsp;|&nbsp;</li>
-				<li><a href="javascript:void(0);" class="categoria" id="cat4">Transportación</a><!-- &nbsp;|&nbsp; --></li>
+				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" id="cat4">Transportación</a></li>
 			</ul>
 			<hr class="ultraLight">
 			<ul id="cupones-serviciosGrid">
@@ -584,7 +591,7 @@ Oficina:   01 (33) 3616-6428
 </section>
 <!-- ubicacion -->
 <section id="ubicacion" class="container-fluid">
-	<div id="sidebarMap" class="col-md-3 hidden-sm">
+	<div id="sidebarMap" class="col-md-3 hidden-xs">
 		<h3 class="center-block">Ruta</h3>
 		<hr class="ultraLight">
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
@@ -641,10 +648,6 @@ Oficina:   01 (33) 3616-6428
 	</div>
 <!-- altimetria -->
 <img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
-
-
-
-
 
 </section>
 

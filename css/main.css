@@ -259,6 +259,13 @@ section#inscripciones div.col-md-4, section#convocatoria21k div.col-md-4{height:
 #hotelesGrid li h3{position:absolute;width:80%;height:40px;background:rgba(0,0,0,0.4);line-height:40px;text-align:center;color:#fff;top:calc(100% - 80px);left:10%;}
 
 #sponsors{background:#fff;}
+#filters{text-align:center;display:block;margin-top:20px;list-style:none;}
+#filters li{}
+#filters li a{color:#ccc;}
+#filters li a:hover{color:#ff0000;}
+
+
+
 #sponsorsGrid{list-style:none;padding:0;margin:0;display:block;text-align:center;}
 #sponsorsGrid li{display:inline-block;margin:5px;width:200px;height:200px;position:relative;overflow:hidden;}
 #sponsorsGrid li img{position:absolute;top:0;left:0;z-index:0;}
