@@ -43,7 +43,7 @@ $(".convocatoriaSlide").owlCarousel({
       itemsMobile : true,
       loop:true,
       autoplay: true,
-      autoplayTimeout: 3000,
+      autoplayTimeout: 5000,
       autoplayHoverPause: true,
       navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"]
  

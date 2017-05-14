@@ -13,7 +13,7 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<ul class="nav navbar-nav list-inline" id="mainNav" data-spy="affix">
+			<ul class="nav navbar-nav list-inline" id="mainNav">
 				<li><a href="#convocatoria21k" id="convocatoriaBtn">Convocatoria</a></li>
 				<li><a href="#inscripciones">Inscripciones</a></li>
 				<li><a href="#sponsors">Patrocinadores</a></li>
@@ -23,8 +23,6 @@
 				<li><a href="#contacto">Contacto</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
-
-				<!-- <li class="divider pull-right"></li> -->
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 
@@ -205,129 +203,128 @@
 </section>
 <!-- convocatoria21k -->
 <section id="convocatoria21k" class="container-fluid">
-	<div class="col-md-8">
-
-
-
+	<div class="col-md-9">
+		<h1>Inscripciones</h1>
+		<hr class="ultrlight">
 
 		<div class="container convocatoriaSlide">
-<div class="item">
-<h3>1- PROGRAMA OFICIAL</h3>
-Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017
-VIERNES 24 NOVIEMBRE: UNICO DÍA
-De 09:00 a 21:30 horas.
-Entrega de números, paquetes e información oficial. En Paradise Plaza. 
-Avenida Paseo Cocoteros # 85 Sur.
+			<div class="item">
+				<h3>1- PROGRAMA OFICIAL</h3>
+				<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
+				VIERNES 24 NOVIEMBRE: UNICO DÍA<br>
+				De 09:00 a 21:30 horas.<br>
+				Entrega de números, paquetes e información oficial. En Paradise Plaza.<br>
+				Avenida Paseo Cocoteros # 85 Sur.<br>
+				<br>
+				*Sin excepción, no habrá entrega de Paquetes el día de la carrera.</p>
+			</div>
+			<div class="item">
+				<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
+				<p>
+				De 5:00 a 14:00 horas.&emsp;Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock.<br> 
+				De 6:15 a 10:15 horas.&emsp;Apertura de guardarropa.<br>
+				De 6:15 a 6:45 horas.&emsp;Apertura zona de calentamiento.<br>
+				De 6:30 a 6:40 horas.&emsp;Tomar su lugar en la línea de salida.<br>
+				De 6:40 a 6:55 horas.&emsp;Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.<br>
+				<br>
+				7:00 horas en punto.&emsp;Disparo de salida.<br>
+				10:00 horas.&emsp;Cierre de la carrera.<br>
+				10:00 horas.&emsp;Inicio de Premiación 10K después premiación 21K<br>
+				12:00 horas.&emsp;Cierre del evento.<br>
+				<br>
+				*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.</p>
+			</div>
+		</div>
 
-*Sin excepción, no habrá entrega de Paquetes el día de la carrera.
+		<div class="container convocatoriaSlide">
+			<div class="item">
+				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
 
-</div>
-<div class="item">
+				<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
+			</div>
+			<div class="item">
+				<h3>2- BASES</h3>
 
-<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
-De 5:00 a 14:00 horas.	 Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock. 
-De 6:15 a 10:15 horas.	Apertura de guardarropa.
-De 6:15 a 6:45 horas.	Apertura zona de calentamiento.
-De 6:30 a 6:40 horas.	Tomar su lugar en la línea de salida.
-De 6:40 a 6:55 horas.	Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.
+				<p>
+					<strong>Fecha:</strong> Sábado 25 de noviembre de 2017.<br>
+					<strong>Hora:</strong> 7:00 horas. Hora centro de México.<br>
+					<strong>Pruebas:</strong> Medio Maratón (21.0975 km). / 10 kilómetros.<br>
+					<strong>Ruta:</strong> Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
+				</p>
+			</div>
+			<div class="item">
+				<h3>3- CATEGORÍAS:</h3>
+				<p>
+					<strong>10 Kilómetros</strong><br>
+					Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
+					Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
+				</p>
 
-7:00 horas en punto.	Disparo de salida.
-10:00 horas.			Cierre de la carrera.
-10:00 horas.			Inicio de Premiación 10K después premiación 21K
-12:00 horas.	 		Cierre del evento.
+				<p>
+					<strong>MEDIO MARATÓN</strong><br>
+					Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
+					Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
+				</p>
+			</div>
+			<div class="item">
+			<h3>4- PREMIACIÓN:</h3>
+			Premiación 10K:	Trofeo para los tres primeros lugares de cada rama y categoría.
 
-*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.
+			Cuota de inscripción de  Medio Maratón y 10K:  
+			Etapa 1: 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
+			Etapa 2: 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
+			Etapa 3: 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
+
+			Notas: 
+			Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
+			La inscripción no es transferible.
+			</div>
+			<div class="item">
+				<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
+				<p>Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</p>
+				<p>Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</p> 
+				<p>Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</p>
+				<br>
+				<p>Nota: Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
+			</div>
+			<div class="item">
+				<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
+				<ol>
+					<li>Playera oficial del evento.</li>
+					<li>Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.</li>
+					<li>Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.</li>
+					<li>Chip. INDISPENSABLE PARA PODER PARTICIPAR.</li>
+					<li>Hidratación a lo largo del recorrido.</li>
+					<li>Refrigerio en la zona de recuperación.</li>
+					<li>Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.</li>
+					<li>Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema ”Time Ipico-sports”.</li>
+					<li>Certificado oficial de tiempo vía internet.</li>
+				</ol>
 
 
-</div>
+			</div>
+			<div class="item">
+				<h3>7- ENTREGA DE KITS:</h3>
+				<p>Para la entrega de Kits será necesario presentar la siguiente información:</p>
+				<ul class="list-group">
+					<li>Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).</li>
+					<li>Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.</li>
+					<li>Comprobante de pago.</li>
+					<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
+				</ul>				
 			</div>
 
-<div class="container convocatoriaSlide">
-<div class="item">
-<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
-
-Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.
-</div>
-<div class="item">
-<h3>2- BASES</h3>
-
-Fecha: Sábado 25 de noviembre de 2017.
-Hora: 7:00 horas. Hora centro de México.
-Pruebas: Medio Maratón (21.0975 km). / 10 kilómetros.
-Ruta: Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
-</div>
-<div class="item">
-<h3>3- CATEGORÍAS:</h3>
-
-10 Kilómetros
-Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
-Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
-
-MEDIO MARATÓN
-Femenil: 18-39	40-44	45-49	50-54	55-59	60 y +
-Varonil:  18-39	40-44	45-49	50-54	55-59	60-64	65 y +
-</div>
-<div class="item">
-<h3>4- PREMIACIÓN:</h3>
-Premiación 10K:	 
-Trofeo para los tres primeros lugares de cada rama y categoría.
-
-Cuota de inscripción de  Medio Maratón y 10K:  
-Etapa 1: 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
-Etapa 2: 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
-Etapa 3: 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
-
-Notas: 
-Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
-La inscripción no es transferible.
-</div>
-<div class="item">
-<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
-Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
-Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
-Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
-
-Nota: 
-Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
-</div>
-	<div class="item">
-		<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
-		<ol>
-			<li>Playera oficial del evento.</li>
-			<li>Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.</li>
-			<li>Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.</li>
-			<li>Chip. INDISPENSABLE PARA PODER PARTICIPAR.</li>
-			<li>Hidratación a lo largo del recorrido.</li>
-			<li>Refrigerio en la zona de recuperación.</li>
-			<li>Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.</li>
-			<li>Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema ”Time Ipico-sports”.</li>
-			<li>Certificado oficial de tiempo vía internet.</li>
-		</ol>
-
-
-	</div>
-	<div class="item">
-		<h3>7- ENTREGA DE KITS:</h3>
-		<p>Para la entrega de Kits será necesario presentar la siguiente información:</p>
-		<ul>
-			<li>Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).</li>
-			<li>Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.</li>
-			<li>Comprobante de pago.</li>
-			<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
-		</ul>				
-	</div>
-</div>
+		</div>
 
 
 
 
 		  
-		</div>
-
 	</div>
-	<div class="col-md-4"></div><!-- empty column -->
-	<img src="images/galeria/corredor.png" alt="" id="corredor">
-	<img src="images/galeria/21k_text.png" alt="" id="k21">
+
+	<div class="col-md-3"></div><!-- empty column -->
+	<img src="images/galeria/corredor.png" id="corredor">
+	<img src="images/galeria/21k_text.png" id="k21">
 	
 </section>
 <!-- inscripciones -->
@@ -335,20 +332,22 @@ Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsar�
 	
 	<img src="images/galeria/10k_text.png" alt="" id="k10">
 	<img src="images/galeria/corredora.png" alt="" id="corredora">
-	<div class="col-md-4"></div><!-- empty column -->
-	<div class="col-md-8">
+	<div class="col-md-3"></div><!-- empty column -->
+	<div class="col-md-9">
 		<h1>Inscripciones</h1>
 		<hr class="ultraLight">
-		<a href="http://google.com" target="_blank">
+
+		
+		<a href="javascript:void(0);">
 			<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
 		</a>
-		<a href="javascript:void(0);" target="_blank">
+		<a href="javascript:void(0);">
 			<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
 		</a>
-		<a href="javascript:void(0);" target="_blank">
+		<a href="javascript:void(0);">
 			<img src="images/inscripciones/innova_white.png" alt="Innova" class="logo">
 		</a>
-		<a href="javascript:void(0);" target="_blank">
+		<a href="javascript:void(0);">
 			<img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo">
 		</a>
 
@@ -356,19 +355,22 @@ Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsar�
 
 		
 
-<div id="santanderContent">En banco Santander, depósito o transferencia SPEI:
+<div id="santanderContent">
+	<p>En banco Santander, depósito o transferencia SPEI:</p>
+	<ul>
+		<li>
+			Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
+			<strong>Banco:</strong> Santander<br>
+			<strong>Número de cuenta:</strong> 92001068047<br>
+			<strong>Clabe:</strong> 014320920010680473<br> 
+			<strong>Sucursal:</strong> 4707 Jardines de Guadalupe.<br>
+			<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
+			<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
+		</li>
+		<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
 
-Paso 1-  Realiza tu pago en la siguiente cuenta:
-Banco: Santander 
-Número de cuenta: 92001068047
-Clabe: 014320920010680473 
-Sucursal: 4707 Jardines de Guadalupe.
-A nombre de: Conserviexpress, Convenciones y Servicios Express S. A. de C. V.
-En referencia: Proporciona tu nombre completo al cajero.
-
-Paso 2-  Llena la ficha de registro  Aquí   por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.
-
-Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.
+		<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
+	</ul>
 </div>
 
 <div id="activeContent">
@@ -387,15 +389,32 @@ http://sucursales.innovasport.com
 
 Nombre / revisar info
 Oficina:   01 (33) 3616-6428
-
 </div>
-<p>Paypal</p>
-		<form action=""></form>
-
-
-		<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor incidunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquid ex ea commodi consequat.</p>
-		<p>Quis aute iure reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint obcaecat cupiditat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-	</div>
+<div id="paypalContent">
+	<p>Paypal</p>
+	<!-- FORM sample -->
+	<form>
+	  <div class="form-group">
+	    <label for="exampleInputEmail1">Email address</label>
+	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputPassword1">Password</label>
+	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+	  </div>
+	  <div class="form-group">
+	    <label for="exampleInputFile">File input</label>
+	    <input type="file" id="exampleInputFile">
+	    <p class="help-block">Example block-level help text here.</p>
+	  </div>
+	  <div class="checkbox">
+	    <label>
+	      <input type="checkbox"> Check me out
+	    </label>
+	  </div>
+	  <button type="submit" class="btn btn-default">Submit</button>
+	</form>
+</div>
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
