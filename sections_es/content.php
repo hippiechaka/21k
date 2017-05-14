@@ -212,7 +212,7 @@
 		</div>
 		<hr class="ultraLight">
 
-		<div class="container convocatoriaSlide" style="display:block;">
+		<div class="container convocatoriaSlide" id="slidePrograma">
 			<div class="item">
 				<h3>1- PROGRAMA OFICIAL</h3>
 				<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
@@ -236,12 +236,13 @@
 				10:00 horas.&emsp;Cierre de la carrera.<br>
 				10:00 horas.&emsp;Inicio de Premiación 10K después premiación 21K<br>
 				12:00 horas.&emsp;Cierre del evento.<br>
-				<br>
+				</p>
+				<p>
 				*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.</p>
 			</div>
 		</div>
 
-		<div class="container convocatoriaSlide" style="display:none;">
+		<div class="container convocatoriaSlide" style="display:none;" id="slideConvocatoria">
 			<div class="item">
 				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
 
@@ -423,7 +424,7 @@
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
 
-<div class="container">
+	<div class="container">
 		<div class="row">
 			<h2 class="whiteTxt" align="center">Hoteles</h2>
 			<hr class="ultraLight">
@@ -700,6 +701,23 @@
 		</div>
 	</div>
 </section> -->
+<!--
+section#lenguajes.container-fluid>(div.col-md-6.interlingua>a.link.center-block>img.img-responsive#logo-interlingua[src="http://placehold.it/600x300"])+(div.col-md-6.alianzaFr>a.link.center-block>img.img-responsive#logo-alianzaFr[src="http://placehold.it/600x300"])
+-->
+
+<section id="lenguajes" class="container-fluid">
+	<div class="col-md-6 interlingua">
+		<a href="" class="link center-block">
+			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-interlingua">
+		</a>
+	</div>
+	<div class="col-md-6 alianzaFr">
+		<a href="" class="link center-block">
+			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-alianzaFr">
+		</a>
+	</div>
+</section>
+
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
 	<div class="container">
