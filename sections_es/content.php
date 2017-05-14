@@ -14,13 +14,13 @@
 				<span class="icon-bar"></span>
 			</button>
 			<ul class="nav navbar-nav list-inline" id="mainNav">
-				<li><a href="#convocatoria21k" id="convocatoriaBtn">Convocatoria</a></li>
-				<li><a href="#inscripciones">Inscripciones</a></li>
-				<li><a href="#sponsors">Patrocinadores</a></li>
-				<li><a href="#cupones-servicios">Cupones</a></li>
+				<li><a href="#convocatoria" id="convocatoriaBtn">Convocatoria</a></li>
+				<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
+				<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
+				<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
 				<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
-				<li><a href="#galeria">Galería</a></li>
-				<li><a href="#contacto">Contacto</a></li>
+				<li><a href="#galeria" id="galeriaBtn">Galería</a></li>
+				<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
 			</ul>
@@ -77,14 +77,14 @@
 <!-- BLOCK -->
 <header class="block">
 <div class="container">
-	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive">	
+	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive animated pulse">	
 	<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
 	<div class="clearfix"></div>
 
 	<div class="col-md-3 fooCol"></div>
 	<div class="col-md-6 center-block">
-		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs">
-		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs">		
+		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs animated fadeIn">
+		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs animated fadeIn">		
 	</div>
 	<div class="col-md-3 fooCol"></div>
 </div>
@@ -201,13 +201,18 @@
     <div class="screen mute" id="tv"></div>
   </div>
 </section>
-<!-- convocatoria21k -->
-<section id="convocatoria21k" class="container-fluid">
+<!-- convocatoria -->
+<section id="convocatoria" class="container-fluid">
 	<div class="col-md-9">
-		<h1>Inscripciones</h1>
-		<hr class="ultrlight">
+		<h1 class="whiteTxt">Convocatoria</h1>
+		<hr class="ultraLight">
+		<div class="group-btns" id="convocatoriaControls">
+			<a href="javascript:void(0);" class="btn convocatoriaBtn active">Opción 1</a>
+			<a href="javascript:void(0);" class="btn convocatoriaBtn">Opción 2</a>
+		</div>
+		<hr class="ultraLight">
 
-		<div class="container convocatoriaSlide">
+		<div class="container convocatoriaSlide" style="display:block;">
 			<div class="item">
 				<h3>1- PROGRAMA OFICIAL</h3>
 				<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
@@ -236,7 +241,7 @@
 			</div>
 		</div>
 
-		<div class="container convocatoriaSlide">
+		<div class="container convocatoriaSlide" style="display:none;">
 			<div class="item">
 				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
 
@@ -267,23 +272,27 @@
 				</p>
 			</div>
 			<div class="item">
-			<h3>4- PREMIACIÓN:</h3>
-			Premiación 10K:	Trofeo para los tres primeros lugares de cada rama y categoría.
-
-			Cuota de inscripción de  Medio Maratón y 10K:  
-			Etapa 1: 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).
-			Etapa 2: 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.) 
-			Etapa 3: 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)
-
-			Notas: 
-			Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.
-			La inscripción no es transferible.
+				<h3>4- PREMIACIÓN:</h3>
+				<p>Premiación 10K:	Trofeo para los tres primeros lugares de cada rama y categoría.</p>
+				<p>Cuota de inscripción de  Medio Maratón y 10K:</p>
+				<ul>			  
+					<li><strong>Etapa 1:</strong> 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
+					<li><strong>Etapa 2:</strong> 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
+					<li><strong>Etapa 3:</strong> 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
+				</ul>
+				<p><strong>Notas:</strong></p>
+				<ul>
+					<li>Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</li>
+					<li>La inscripción no es transferible.</li>
+				</ul>			
 			</div>
 			<div class="item">
 				<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
-				<p>Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</p>
-				<p>Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</p> 
-				<p>Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</p>
+				<ul>
+					<li><strong>Etapa 1:</strong></srt> 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
+					<li><strong>Etapa 2:</strong></srt> 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
+					<li><strong>Etapa 3:</strong></srt> 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
+				</ul>
 				<br>
 				<p>Nota: Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
 			</div>
@@ -313,15 +322,8 @@
 					<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
 				</ul>				
 			</div>
-
-		</div>
-
-
-
-
-		  
+		</div>		  
 	</div>
-
 	<div class="col-md-3"></div><!-- empty column -->
 	<img src="images/galeria/corredor.png" id="corredor">
 	<img src="images/galeria/21k_text.png" id="k21">
@@ -333,94 +335,98 @@
 	<img src="images/galeria/10k_text.png" alt="" id="k10">
 	<img src="images/galeria/corredora.png" alt="" id="corredora">
 	<div class="col-md-3"></div><!-- empty column -->
-	<div class="col-md-9">
-		<h1>Inscripciones</h1>
+	<div class="col-md-8 pull-right">
+		<h1 class="whiteTxt">Inscripciones</h1>
 		<hr class="ultraLight">
 
-		
-		<a href="javascript:void(0);">
-			<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
-		</a>
-		<a href="javascript:void(0);">
-			<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
-		</a>
-		<a href="javascript:void(0);">
-			<img src="images/inscripciones/innova_white.png" alt="Innova" class="logo">
-		</a>
-		<a href="javascript:void(0);">
-			<img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo">
-		</a>
+		<div class="group-btns" id="inscripcionesControls">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn active">
+				<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
+			</a>
+			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+				<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
+			</a>
+			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+				<img src="images/inscripciones/innova_white.png" alt="Innova" class="logo">
+			</a>
+			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+				<img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo">
+			</a>
+		</div>
 
 		<hr class="ultraLight">
 
-		
+		<div id="santanderContent" style="display:block;" class="contentInsc">
+			<p>En banco Santander, depósito o transferencia SPEI:</p>
+			<ul>
+				<li>
+					Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
+					<strong>Banco:</strong> Santander<br>
+					<strong>Número de cuenta:</strong> 92001068047<br>
+					<strong>Clabe:</strong> 014320920010680473<br> 
+					<strong>Sucursal:</strong> 4707 Jardines de Guadalupe.<br>
+					<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
+					<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
+				</li>
+				<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
 
-<div id="santanderContent">
-	<p>En banco Santander, depósito o transferencia SPEI:</p>
-	<ul>
-		<li>
-			Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
-			<strong>Banco:</strong> Santander<br>
-			<strong>Número de cuenta:</strong> 92001068047<br>
-			<strong>Clabe:</strong> 014320920010680473<br> 
-			<strong>Sucursal:</strong> 4707 Jardines de Guadalupe.<br>
-			<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
-			<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
-		</li>
-		<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
+				<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
+			</ul>
+		</div>
 
-		<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
-	</ul>
-</div>
+		<div id="activeContent" style="display:none;" class="contentInsc">
+			<p>en Active network<br>
+			Visita e portal http://www.active.com y sigue las instrucciones:<br>
+			<br>
+			<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn center-block">ir al portal</a>
+			</p>
+		</div>
 
-<div id="activeContent">
-Active network
+		<div id="innovaContent" style="display:none;" class="contentInsc">
+			<p>- Todas las tiendas Innovasport:<br>
+			<a href="http://sucursales.innovasport.com" target="_blank">http://sucursales.innovasport.com</a></p>
+			<p>Nombre / revisar info</p>
+			<div class="input-group innovaData center-block">
+			  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
+			  <span class="form-control">Oficina:   01 (33) 3616-6428</span>
+			  <!-- <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"> -->
+			</div>
+		</div>
 
-Visita e portal:  http://www.active.com
+		<div id="paypalContent" style="display:none;" class="contentInsc">
+			<p>Paypal</p>
+			<!-- FORM sample -->
+			<form>
+			  <div class="form-group">
+			    <label for="exampleInputEmail1">Email address</label>
+			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputPassword1">Password</label>
+			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+			  </div>
+			  <div class="form-group">
+			    <label for="exampleInputFile">File input</label>
+			    <input type="file" id="exampleInputFile">
+			    <p class="help-block">Example block-level help text here.</p>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
 
-<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank">ir al portal</a>
-
-</div>
-
-<div id="innovaContent">
-	
--Todas las tiendas Innovasport
-http://sucursales.innovasport.com
-
-Nombre / revisar info
-Oficina:   01 (33) 3616-6428
-</div>
-<div id="paypalContent">
-	<p>Paypal</p>
-	<!-- FORM sample -->
-	<form>
-	  <div class="form-group">
-	    <label for="exampleInputEmail1">Email address</label>
-	    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleInputPassword1">Password</label>
-	    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
-	  </div>
-	  <div class="form-group">
-	    <label for="exampleInputFile">File input</label>
-	    <input type="file" id="exampleInputFile">
-	    <p class="help-block">Example block-level help text here.</p>
-	  </div>
-	  <div class="checkbox">
-	    <label>
-	      <input type="checkbox"> Check me out
-	    </label>
-	  </div>
-	  <button type="submit" class="btn btn-default">Submit</button>
-	</form>
-</div>
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
-	
-	<div class="container">
+
+<div class="container">
 		<div class="row">
+			<h2 class="whiteTxt" align="center">Hoteles</h2>
+			<hr class="ultraLight">
 			<ul id="hotelesGrid">
 				<li>
 					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
@@ -497,9 +503,11 @@ Oficina:   01 (33) 3616-6428
 			</ul>
 		</div>
 	</div>
+
+
 </section>
 <!-- sponsors -->
-<section id="sponsors" class="container-fluid">
+<section id="patrocinadores" class="container-fluid">
 	<div class="container">
 		<div class="row">
 			<ul id="sponsorsGrid">
@@ -545,7 +553,7 @@ Oficina:   01 (33) 3616-6428
 				</li>
 				<li>
 					<img src="images/sponsors/centro_empresarial.jpg" alt="" class="img-responsive sponsor">
-					<!-- <h3 <!-- class="label">sponsor 11</h3> -->
+					<!-- <h3 class="label">sponsor 11</h3> -->
 				</li>
 				<li>
 					<img src="images/sponsors/el_tigre_club_de_golf.jpg" alt="" class="img-responsive sponsor">
@@ -676,31 +684,45 @@ Oficina:   01 (33) 3616-6428
 </section>
 
 <!-- score -->
-<section id="score" class="container-fluid">
+<!-- <section id="score" class="container-fluid">
 	<div class="container">
 		<div class="col-md-6">
 			<a href="javascript:void(0);" class="scoreLink">
 				<img src="http://www.placehold.it/600x600?text=Score+2016" alt="" class="center-block scoreLogo img-responsive">
-				<!-- <h3 class="label">Label 1</h3> -->
+				<h3 class="label">Label 1</h3>
 			</a>
 		</div>
 		<div class="col-md-6">
 			<a href="javascript:void(0);" class="scoreLink">
 				<img src="http://www.placehold.it/600x600?text=Score+2017" alt="" class="center-block scoreLogo img-responsive">
-				<!-- <h3 class="label">Label 2</h3> -->
+				<h3 class="label">Label 2</h3>
 			</a>
 		</div>
 	</div>
-</section>
+</section> -->
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
 	<div class="container">
-		<form action="" id="contactForm">
-			<div class="field"><input type="text" placehold="Nombre"></div>
-			<div class="field"><input type="text" placehold="e-mail"></div>
-			<div class="field">
-				<text-area placehold="comments"></text-area>
-			</div>
+		<form>
+		  <div class="form-group">
+		    <label for="exampleInputEmail1">Email address</label>
+		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		  </div>
+		  <div class="form-group">
+		    <label for="exampleInputPassword1">Password</label>
+		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		  </div>
+		  <!-- <div class="form-group">
+		    <label for="exampleInputFile">File input</label>
+		    <input type="file" id="exampleInputFile">
+		    <p class="help-block">Example block-level help text here.</p>
+		  </div> -->
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Check me out
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
 		</form>
 	</div>
 	<!-- magia emmet (botones Gigantes): 

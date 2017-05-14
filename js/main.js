@@ -1,8 +1,5 @@
 $(document).ready(function() {
 
-// WOW  http://mynameismatthieu.com/WOW/
-//  new WOW().init();
-
 // magnificPopup  http://dimsemenov.com/plugins/magnific-popup/documentation.html
   $('.home').magnificPopup({type:'iframe'});
 
@@ -123,16 +120,38 @@ $( '#ri-grid' ).gridrotator( {
 // init controller
 var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
 
-new ScrollMagic.Scene({triggerElement: "#parallax1"})
+/*new ScrollMagic.Scene({triggerElement: "#parallax1"})
         .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
-        .addTo(controller);
-//Cambio de Clases para menú
+        .addTo(controller);*/
+//Cambio de Clases para menú:
+//convocatoria          
+new ScrollMagic.Scene({triggerElement: "#convocatoria"})
+          .setClassToggle("#convocatoriaBtn", "current") // add class toggle
+          .addTo(controller);
+//inscripciones          
+new ScrollMagic.Scene({triggerElement: "#inscripciones"})
+          .setClassToggle("#inscripcionesBtn", "current") // add class toggle
+          .addTo(controller);
+//patrocinadores          
+new ScrollMagic.Scene({triggerElement: "#patrocinadores"})
+          .setClassToggle("#patrocinadoresBtn", "current") // add class toggle
+          .addTo(controller);
+//cupones-servicios          
+new ScrollMagic.Scene({triggerElement: "#cupones-servicios"})
+          .setClassToggle("#cupones-serviciosBtn", "current") // add class toggle
+          .addTo(controller);
+//ubicacion
 new ScrollMagic.Scene({triggerElement: "#ubicacion"})
           .setClassToggle("#ubicacionBtn", "current") // add class toggle
           .addTo(controller);
-new ScrollMagic.Scene({triggerElement: "#convocatoria21k"})
-          .setClassToggle("#convocatoriaBtn", "current") // add class toggle
-          .addTo(controller);      
+//galeria
+new ScrollMagic.Scene({triggerElement: "#galeria"})
+          .setClassToggle("#galeriaBtn", "current") // add class toggle
+          .addTo(controller);
+//contacto
+new ScrollMagic.Scene({triggerElement: "#contacto"})
+          .setClassToggle("#contactoBtn", "current") // add class toggle
+          .addTo(controller);    
 
 
 // v3.1.0

@@ -8,14 +8,14 @@ body {
     color: #000;
     background:#f1f1f1;
 }
-section{padding-top:90px;}
+/* section{padding-top:90px;} */
 a {
 	color: #f0f0f0;
 	text-decoration: none;
 	outline: none;
 }
 a:hover {color: #000;}
-
+.whiteTxt{color:#fff;}
 #top{height:90px;}
 
 .navbar{height:90px;}
@@ -36,7 +36,7 @@ a:hover {color: #000;}
     margin-top: 12px;
 }
 header.block{position:absolute;top:90px;left:0;width:100%;height:auto;z-index:999;}
-header img#mainLogo{position:relative;max-width:420px;top:15px;left:calc(50% - 210px);}
+header img#mainLogo{position:relative;max-width:420px;top:15px;left:calc(50% - 210px);-webkit-animation-iteration-count: 10;animation-iteration-count: 10;}
 
 #llamanosBtn{
 	width:300px;
@@ -172,7 +172,7 @@ img#tomtomImg{position:absolute;top:0;left:0;z-index:2;max-width:585px;}
 /* CONTADOR */
 #CounterWidget{font-size:60px;color:#fff; position:relative; z-index:3;}
 section#mainVideo{height:720px;overflow:hidden;position:relative;display:block;}
-section#convocatoria21k{position:relative; 
+section#convocatoria{position:relative; 
 min-height:900px;
 padding-top:90px;
 /* http://colorzilla.com/gradient-editor/#8bd331+0,8bd331+75,ffffff+75,ffffff+100 */	
@@ -183,13 +183,17 @@ background: linear-gradient(to right, #8bd331 0%,#8bd331 75%,#ffffff 75%,#ffffff
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8bd331', endColorstr='#ffffff',GradientType=1 );
 }
 .convocatoriaSlide{position:relative;z-index:99;}
-
+#convocatoriaControls{width:100%;text-align:center;display:block;position:relative;z-index:999;}
+a.convocatoriaBtn{color:#fff;border-color:#fff;width:280px;margin:0 30px;}
+a.convocatoriaBtn:hover{color:#fff;background-color:rgba(0,0,0,0.3);}
+a.convocatoriaBtn.active{cursor:default;color:#fff;background-color:rgba(0,0,0,0.3);}
 
 
 #k21{position: absolute;right:0;top:calc(100% - 470px);z-index:1;}
 #corredor{position: absolute;right:0;top:calc(100% - 740px);width:750px;height:740px;z-index:2;}
 section#inscripciones{
-	position: relative;
+padding-top:90px;
+position: relative;
 min-height:900px;
 /* http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+25,831d80+25,831d80+100 */
 background: #ffffff;
@@ -198,14 +202,18 @@ background: -webkit-linear-gradient(left, #ffffff 0%,#ffffff 25%,#831d80 25%,#83
 background: linear-gradient(to right, #ffffff 0%,#ffffff 25%,#831d80 25%,#831d80 100%);
 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#831d80',GradientType=1 );
 }
-section#inscripciones div.col-md-4, section#convocatoria21k div.col-md-4{height:900px;}
-
+section#inscripciones div.col-md-4, section#convocatoria div.col-md-4{height:900px;}
+#inscripcionesControls{text-align:center;position:relative;z-index:999;}
+a.inscripcionesBtn{border-color:#fff !important;max-width:180px;}
+a.inscripcionesBtn:hover{background-color:rgba(0,0,0,0.3);}
+a.inscripcionesBtn.active{background-color:rgba(0,0,0,0.3);}
 .ultraLight{opacity:0.161803398874988}
 
 #k10{position: absolute;left:0;top:calc(100% - 470px);z-index:1;}
-#corredora{position: absolute;left:-5%;top:calc(100% - 740px);z-index:2;}
-
-#hoteles{background:#7cd5ff;}
+#corredora{position: absolute;left:-7%;top:calc(100% - 740px);z-index:2;}
+.innovaData{max-width:640px;}
+.contentInsc{position:relative;z-index:999;}
+#hoteles{padding-top:90px;background:url(../images/bg-hoteles.jpg)no-repeat;background-size:cover;background-attachment:fixed;}
 #hotelesGrid{list-style:none;padding:0;margin:0;display:block;text-align:center;}
 #hotelesGrid li{display:inline-block;margin:5px;width:300px;height:300px;position:relative;overflow:hidden;}
 .linkHotel{
@@ -236,7 +244,7 @@ section#inscripciones div.col-md-4, section#convocatoria21k div.col-md-4{height:
 /* #hotelesGrid li img{position:absolute;top:0;left:0;z-index:0;} */
 #hotelesGrid li h3{position:absolute;width:80%;height:40px;background:rgba(0,0,0,0.4);line-height:40px;text-align:center;color:#fff;top:calc(100% - 80px);left:10%;}
 
-#sponsors{background:#fff;}
+#patrocinadores{background:#fff;padding-top:90px;}
 #filters{text-align:center;display:block;margin-top:20px;list-style:none;}
 #filters li{}
 #filters li a{color:#ccc;}
@@ -249,7 +257,7 @@ section#inscripciones div.col-md-4, section#convocatoria21k div.col-md-4{height:
 #sponsorsGrid li img{position:absolute;top:0;left:0;z-index:0;}
 #sponsorsGrid li h3{position:absolute;width:80%;height:40px;background:rgba(0,0,0,0.4);line-height:40px;text-align:center;color:#fff;top:calc(100% - 80px);left:10%;}
 
-#cupones-servicios{background:#fff;}
+#cupones-servicios{background:#fff;padding-top:90px;}
 #cupones-serviciosGrid{list-style:none;padding:0;margin:0;display:block;text-align:center;}
 #cupones-serviciosGrid li{display:inline-block;margin:5px;width:160px;height:160px;position:relative;overflow:hidden;border:1px dashed #ccc;}
 
