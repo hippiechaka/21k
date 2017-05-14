@@ -707,12 +707,12 @@ section#lenguajes.container-fluid>(div.col-md-6.interlingua>a.link.center-block>
 
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
-		<a href="" class="link center-block">
+		<a href="" class="link pull-right">
 			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-interlingua">
 		</a>
 	</div>
 	<div class="col-md-6 alianzaFr">
-		<a href="" class="link center-block">
+		<a href="" class="link pull-left">
 			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-alianzaFr">
 		</a>
 	</div>

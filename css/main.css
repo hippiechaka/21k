@@ -588,11 +588,17 @@ padding: 10px 0;
   opacity: 1;
 }
 
-section#patrocinadores{background-color:#fff; padding-top:68px;}
-section#galeria{background-color:#000; padding-top:68px;}
-section#video{background-color:#fff; padding-top:68px;}
-section#contacto{background-color:#fff; padding-top:68px;}
+section#patrocinadores{background-color:#fff; padding-top:90px;}
+section#galeria{background-color:#000; padding-top:90px;}
+section#video{background-color:#fff; padding-top:90px;}
+section#contacto{background-color:#fff; padding-top:90px;}
 section#contacto form{height:510px;}
+
+section#lenguajes{}
+section#lenguajes .interlingua{background-color:#117079;padding:150px 0;}
+section#lenguajes .alianzaFr{background-color:#ffd200;padding:150px 0;}
+
+
 
 .large-header{
 	min-height:100vh;
