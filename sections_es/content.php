@@ -207,12 +207,12 @@
 		<h1 class="whiteTxt">Convocatoria</h1>
 		<hr class="ultraLight">
 		<div class="group-btns" id="convocatoriaControls">
-			<a href="javascript:void(0);" class="btn convocatoriaBtn active">Opción 1</a>
-			<a href="javascript:void(0);" class="btn convocatoriaBtn">Opción 2</a>
+			<a href="javascript:void(0);" class="btn convocatoriaBtn active" id="btnConvocatoria">Convocatoria</a>
+			<a href="javascript:void(0);" class="btn convocatoriaBtn" id="btnPrograma">Programa Oficial</a>
 		</div>
 		<hr class="ultraLight">
 
-		<div class="container convocatoriaSlide" id="slidePrograma">
+		<div class="container convocatoriaSlide animated fadeIn" id="slidePrograma" style="display:none;">
 			<div class="item">
 				<h3>1- PROGRAMA OFICIAL</h3>
 				<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
@@ -242,7 +242,7 @@
 			</div>
 		</div>
 
-		<div class="container convocatoriaSlide" style="display:none;" id="slideConvocatoria">
+		<div class="container convocatoriaSlide animated fadeIn" id="slideConvocatoria">
 			<div class="item">
 				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
 
@@ -341,23 +341,23 @@
 		<hr class="ultraLight">
 
 		<div class="group-btns" id="inscripcionesControls">
-			<a href="javascript:void(0);" class="btn inscripcionesBtn active">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn active" id="btnSantander">
 				<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
 			</a>
-			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnActiveW">
 				<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
 			</a>
-			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnInnova">
 				<img src="images/inscripciones/innova_white.png" alt="Innova" class="logo">
 			</a>
-			<a href="javascript:void(0);" class="btn inscripcionesBtn">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnPaypal">
 				<img src="images/inscripciones/paypal_white.png" alt="Paypal" class="logo">
 			</a>
 		</div>
 
 		<hr class="ultraLight">
 
-		<div id="santanderContent" style="display:block;" class="contentInsc">
+		<div id="santanderContent" class="contentInsc animated fadeIn">
 			<p>En banco Santander, depósito o transferencia SPEI:</p>
 			<ul>
 				<li>
@@ -375,7 +375,7 @@
 			</ul>
 		</div>
 
-		<div id="activeContent" style="display:none;" class="contentInsc">
+		<div id="activeContent" style="display:none;" class="contentInsc animated fadeIn">
 			<p>en Active network<br>
 			Visita e portal http://www.active.com y sigue las instrucciones:<br>
 			<br>
@@ -383,7 +383,7 @@
 			</p>
 		</div>
 
-		<div id="innovaContent" style="display:none;" class="contentInsc">
+		<div id="innovaContent" style="display:none;" class="contentInsc animated fadeIn">
 			<p>- Todas las tiendas Innovasport:<br>
 			<a href="http://sucursales.innovasport.com" target="_blank">http://sucursales.innovasport.com</a></p>
 			<p>Nombre / revisar info</p>
@@ -394,7 +394,7 @@
 			</div>
 		</div>
 
-		<div id="paypalContent" style="display:none;" class="contentInsc">
+		<div id="paypalContent" style="display:none;" class="contentInsc animated fadeIn">
 			<p>Paypal</p>
 			<!-- FORM sample -->
 			<form>

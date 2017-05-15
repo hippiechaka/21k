@@ -175,10 +175,68 @@ new ScrollMagic.Scene({triggerElement: "#contacto"})
   });
 //});
 
+//CONVOCATORIA
 
+$('#btnConvocatoria').click(
+  function () {
+    $('.convocatoriaBtn').removeClass('active');
+    $(this).addClass('active');
+    $('#slidePrograma').css('display','none');
+    $('#slideConvocatoria').css('display','block')
+  }
+);
+$('#btnPrograma').click(
+  function () {
+    $('.convocatoriaBtn').removeClass('active');
+    $(this).addClass('active');
+    $('#slidePrograma').css('display','block');
+    $('#slideConvocatoria').css('display','none')
+  }
+);
 
+//INSCRIPCIONES
 
- 
+// 
+// 
+// 
+// 
+
+$('#btnSantander').click(
+  function () {
+    $('.inscripcionesBtn').removeClass('active');
+    $(this).addClass('active');
+    $('.contentInsc').css('display','none');
+    $('#santanderContent').css('display','block')
+  }
+);
+
+$('#btnActiveW').click(
+  function () {
+    $('.inscripcionesBtn').removeClass('active');
+    $(this).addClass('active');
+    $('.contentInsc').css('display','none');
+    $('#activeContent').css('display','block')
+  }
+);
+
+$('#btnInnova').click(
+  function () {
+    $('.inscripcionesBtn').removeClass('active');
+    $(this).addClass('active');
+    $('.contentInscs').css('display','none');
+    $('#innovaContent').css('display','block')
+  }
+); 
+
+$('#btnPaypal').click(
+  function () {
+    $('.inscripcionesBtn').removeClass('active');
+    $(this).addClass('active');
+    $('.contentInsc').css('display','none');
+    $('#paypalContent').css('display','block')
+  }
+); 
+
 });
 
 
