@@ -602,13 +602,13 @@ section#contacto form{height:510px;}
 
 
 #contactForm{background:#2c7e0c;}
-#resultado{background:#8ad330;}
+#resultado{background:#8ad330;min-height:604px;}
 
 section#lenguajes{}
 section#lenguajes .interlingua{background-color:#117079;padding:150px 0;}
 section#lenguajes .alianzaFr{background-color:#ffd200;padding:150px 0;}
 
-section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;background-image:url(images/runner_girl.png), url(images/runner_man.png)}
+section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;background-image:url(../images/runner_girl.png), url(../images/runner_man.png);background-repeat:no-repeat;}
 
 .large-header{
 	min-height:100vh;
