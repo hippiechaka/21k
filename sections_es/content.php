@@ -692,13 +692,13 @@
 
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
-		<a href="" class="pull-right">
-			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-interlingua">
+		<a href="http://www.interlingua.com.mx/" target="_blank" class="pull-right">
+			<img src="images/interlingua.png" alt="" class="img-responsive" id="logo-interlingua">
 		</a>
 	</div>
 	<div class="col-md-6 alianzaFr">
-		<a href="" class="pull-left">
-			<img src="http://placehold.it/600x300" alt="" class="img-responsive" id="logo-alianzaFr">
+		<a href="http://alianzafrancesagdl.mx/" target="_blank" class="pull-left">
+			<img src="alianzafr.png" alt="" class="img-responsive" id="logo-alianzaFr">
 		</a>
 	</div>
 </section>
