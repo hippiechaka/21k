@@ -212,6 +212,9 @@ a.inscripcionesBtn:hover{background-color:rgba(0,0,0,0.3);}
 a.inscripcionesBtn.active{background-color:rgba(0,0,0,0.3);}
 .ultraLight{opacity:0.161803398874988}
 
+.short{width:70%;}
+
+
 #k10{position: absolute;left:0;top:calc(100% - 470px);z-index:1;}
 #corredora{position: absolute;left:-7%;top:calc(100% - 740px);z-index:2;}
 .innovaData{max-width:640px;}
@@ -597,11 +600,15 @@ section#video{background-color:#fff; padding-top:90px;}
 section#contacto{background-color:#fff; padding-top:90px;}
 section#contacto form{height:510px;}
 
+
+#contactForm{background:#2c7e0c;}
+#resultado{background:#8ad330;}
+
 section#lenguajes{}
 section#lenguajes .interlingua{background-color:#117079;padding:150px 0;}
 section#lenguajes .alianzaFr{background-color:#ffd200;padding:150px 0;}
 
-
+section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;background-image:url(images/runner_girl.png), url(images/runner_man.png)}
 
 .large-header{
 	min-height:100vh;

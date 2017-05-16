@@ -218,10 +218,10 @@ $('#btnInnova').click(
   function () {
     $('.inscripcionesBtn').removeClass('active');
     $(this).addClass('active');
-    $('.contentInscs').css('display','none');
+    $('.contentInsc').css('display','none');
     $('#innovaContent').css('display','block')
   }
-); 
+);
 
 $('#btnPaypal').click(
   function () {

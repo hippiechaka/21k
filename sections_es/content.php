@@ -214,16 +214,19 @@
 
 		<div class="container convocatoriaSlide animated fadeIn" id="slidePrograma" style="display:none;">
 			<div class="item">
-				<h3>1- PROGRAMA OFICIAL</h3>
-				<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
-				VIERNES 24 NOVIEMBRE: UNICO DÍA<br>
-				De 09:00 a 21:30 horas.<br>
-				Entrega de números, paquetes e información oficial. En Paradise Plaza.<br>
-				Avenida Paseo Cocoteros # 85 Sur.<br>
-				<br>
-				*Sin excepción, no habrá entrega de Paquetes el día de la carrera.</p>
+				<div class="short">
+					<h3>1- PROGRAMA OFICIAL</h3>
+					<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
+					VIERNES 24 NOVIEMBRE: UNICO DÍA<br>
+					De 09:00 a 21:30 horas.<br>
+					Entrega de números, paquetes e información oficial. En Paradise Plaza.<br>
+					Avenida Paseo Cocoteros # 85 Sur.<br>
+					<br>
+					*Sin excepción, no habrá entrega de Paquetes el día de la carrera.</p>
+				</div>
 			</div>
 			<div class="item">
+				<div class="short center-block">
 				<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
 				<p>
 				De 5:00 a 14:00 horas.&emsp;Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock.<br> 
@@ -239,6 +242,7 @@
 				</p>
 				<p>
 				*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.</p>
+				</div>
 			</div>
 		</div>
 
@@ -639,8 +643,7 @@
 		<div id="map_canvas"></div>
 	</div>
 	<hr class="ultralight clearfix">
-		
-
+	
 </section>
 <!-- galeria -->
 <section id="galeria" class="container-fluid">
@@ -683,11 +686,6 @@
 
 </section>
 
-<!-- KCHINK -->
-<section id="kchinkContainer">
-	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
-</section>
-
 <!-- LENGUAJES -->
 
 <section id="lenguajes" class="container-fluid">
@@ -703,17 +701,39 @@
 	</div>
 </section>
 
+<!-- KCHINK -->
+<section id="kchinkContainer" class="container-fluid">
+	<!-- <div id="kchink" class="iframe">contenido de k-chink</div> -->
+	<img src="images/sample-kichink.jpg" alt="muestra kichink" class="img-responsive">
+</section>
+
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
-	<div class="container">
-		<form>
+	<div class="col-md-6" id="resultado">
+		<h3>Resultados</h3>
+		<hr class="ultraLight">
+		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="scoreLsink disabled" title="Se activará una vez terminada la carrera">2017</a>	
+
+	</div>
+	<div class="col-md-6" id="contactForm">
+		<h2>Contacto</h2>
+		<hr class="ultraLight">
+		<form id="formaContacto">
 		  <div class="form-group">
-		    <label for="exampleInputEmail1">Email address</label>
-		    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
+		    <label for="Inputname">Nombre</label>
+		    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
 		  </div>
 		  <div class="form-group">
-		    <label for="exampleInputPassword1">Password</label>
-		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+		    <label for="Inputplace">Ciudad/País</label>
+		    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
+		  </div>
+		  <div class="form-group">
+		    <label for="InputTel">Teléfono</label>
+		    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
+		  </div>
+		  <div class="form-group">
+		    <label for="InputMessage">Mensaje</label>
+		    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
 		  </div>
 		  <div class="checkbox">
 		    <label>
@@ -723,7 +743,109 @@
 		  <button type="submit" class="btn btn-default">Submit</button>
 		</form>
 	</div>
-	<!-- magia emmet (botones Gigantes): 
+
+<div class="clearfix"></div>
+	
+</section>
+
+<section class="container-fluid" id="faqSection">
+<div class="container">
+
+<div class="convocatoriaSlide animated fadeIn" id="faqPreguntas">
+
+
+		<div class="item">
+<p><strong>1- ¿Cómo me puedo inscribir?</strong></p>
+<ul>
+	<li>A) En línea dos opciones: 1- PayPal  2- ACTIVE</li>
+	<li>B) Banco Santander, depósito o transferencia SPEI</li>
+	<li>C) Todas las tiendas “Innovasport”</li>
+	<li>D) Personalmente: El viernes 24 de noviembre, 2017 de acuerdo a disponibilidad.</li>
+</ul>
+<p>*Más información en el menú “INSCRIPCIONES”</p>
+
+<p><strong>2- ¿Cuánto cuesta la inscripción al Medio Maratón y 10K? </strong></p>
+<p>La inscripción tanto para el Medio Maratón como para el 10k es de:</p>
+<ul>
+	<li>Etapa 1: 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
+	<li>Etapa 2: 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
+	<li>Etapa 3: 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
+</ul>
+		</div>
+		<div class="item">
+<p><strong>3- ¿Cuántos participantes habrá en la carrera?</strong></p>
+<p>El evento está limitado a 1,500 corredores.</p>
+
+<p><strong>4- ¿En cuál categoría me inscribo si cumplo años en el mes de Noviembre?</strong></p>
+<p>En la que corresponda a la edad que tengas el día de la carrera. (Sábado 25 de noviembre de 2017).</p>
+
+<p><strong>5- ¿Dónde me entregan mi número de competencia y qué necesito para que me lo entreguen?</strong></p>
+<p>La entrega de números y paquetes se llevará a cabo en la Paradise Plaza Av. Paseo Cocoteros # 85 sur el viernes 24 de noviembre 2017, de 09:30 a 21:30 horas.<br>
+Para que te entreguen tú paquete, deberás presentar impresa la confirmación que se te envió por correo electrónico, (el original de la ficha de depósito) y una identificación con fotografía.<br>
+NOTA IMPORTANTE: No habrá entrega de números el día de la carrera.</p>
+		</div>
+		<div class="item">
+<p><strong>6- ¿Puede recoger otra persona mi paquete?</strong></p>
+<p>Si puede recogerlo, deberá presentar los mismos documentos y copia de tu identificación.</p>
+
+<p><strong>7- ¿A qué hora inicia la carrera?</strong></p>
+<p>La carrera inicia en punto de las 7:00 horas. Hora centro de México. Por lo que te recomendamos que estés en la zona de salida por lo menos 45 minutos antes para realizar estiramientos y calentamiento previo y tengas un mejor desempeño.</p>
+<p><strong>8- ¿Dónde está el estacionamiento?</strong></p>
+<p>Desde las 5:00 a.m. estará abierto el estacionamiento del centro empresarial frente al hotel Hard Rock. </p>
+<p><strong>9- ¿Dónde puedo dejar mi ropa y pertenencias durante el evento?</strong></p>
+<p>Desde las 6:15 a.m. te podrán recibir tu ropa y pertenencias en el “Guardarropa”. Ubicado dentro del estacionamiento del Centro Empresarial. (Consulta el mapa que viene en el boletín del corredor, éste se te enviará por correo electrónico).</p>		</div>
+		<div class="item">
+<p><strong>10) ¿Cómo me debo colocar el número de competencia?</strong></p>
+<p>El número lo debes colocar al frente en el torso con los seguros que se te entregaron en tu paquete de inscripción.<br>
+Nota: Recuerda que es intransferible, es requisito traerlo puesto para poder entrar al corral de salida. No debe sufrir alteraciones o modificaciones.</p>
+
+<p><strong>11) ¿Dónde me coloco a la hora del disparo de salida?</strong></p>
+<p>De acuerdo a tu tiempo probable declarado en la ficha de inscripción. (Menos de 1:30, menos de 1:45, menos de 2:00 horas,  más de 2:00 horas.</p>
+
+<p><strong>12) ¿Qué bebidas habrá en los puestos de hidratación?</strong></p>
+<p>Agua y Powerade (10 estaciones de hidratación). En los Km.: 3, 6, 8, 10, 12, 14, 16, 18, 20 y Zona de recuperación.</p>
+
+<p><strong>13) ¿Qué sistema de medición se utiliza?</strong></p>
+<p>Se utiliza el sistema: “Time Ipico-sports”</p> 
+		</div>
+		<div class="item">
+<p><strong>14) ¿Dónde puedo consultar mí tiempo oficial?</strong></p>
+<p>A partir de las 15:00 horas del mismo sábado podrás: Consultar tu tiempo oficial. www.mediomaratonrivieranayarit.com/resultados</p> 
+
+<p><strong>15) ¿Habrá tarifas especiales en hoteles cercanos a la zona de salida y meta, para los que participemos en el evento?</strong></p>
+<p>Sí, tenemos dos Hoteles, sede y subsede respectivamente, además de otros hoteles con tarifas preferentes para los participantes. Solicita la información con el comité organizador. ruth@conserviexpress.com<br>
+<strong>Hotel Sede:</strong> Village Paradise<br>
+<strong>Hotel Sub Sede:</strong> Hotel Hard Rock</p>
+
+<p><strong>16) ¿Habrá carga de carbohidratos el día previo?</strong></p>
+<p>En esta ocasión no habrá comida de carbohidratos.</p>
+		</div>
+		<div class="item">
+<p><strong>17) ¿Cuáles son las condiciones climáticas en Riviera Nayarit para esas fechas?</strong></p>
+<p>La temperatura fluctúa entre 20 ºC y 28 ºC en la fecha y hora en que se lleva a cabo la carrera. (De 7 a.m. a 10 a.m.) Y generalmente se encuentra soleado con escasas posibilidades de lluvia.</p>
+
+<p><strong>18) ¿Es un recorrido rápido?</strong></p>
+<p>Debido a la altitud de la zona (nivel del mar) y a las condiciones del terreno (plano en su mayoría) es un recorrido rápido. Debiendo ser muy cuidadosos con la temperatura ambiente y la humedad. Recomendamos se hidraten con frecuencia durante el recorrido.</p>
+
+<p><strong>19) ¿Es un recorrido escénico</strong>?</p>
+<p>El recorrido está diseñado para disfrutar de los lugares, avenidas sombreadas, hoteles y Campo de Golf más representativos de los desarrollos turísticos Nuevo Vallarta y Flamingos.</p>
+		</div>
+		<div class="item">
+<p><strong>20) ¿Habrá rembolso de la inscripción en caso de que no pudiera asistir?</strong></p>
+<p>Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
+
+<p><strong>21) ¿Cómo llego a Nuevo Vallarta?</strong></p>
+<p>Por tierra: Si vienes de la Ciudad de Guadalajara por la autopista (México 200), la primera entrada a Nuevo Vallarta está a 8 Km. de Bucerías.</p>
+<p>Por aire: Llegas al Aeropuerto Internacional “Lic. Gustavo Díaz Ordaz” de la Ciudad de Puerto Vallarta. De ahí a la entrada al desarrollo turístico Nuevo Vallarta son 7 Km.</p>
+		</div>
+
+	</div>
+	</div>
+
+</section>
+
+<section class="container-fluid" id="botonzotes">
+<!-- magia emmet (botones Gigantes): 
 	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
 	-->
 	<div class="bigBtns">
@@ -732,7 +854,6 @@
 		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
 	</div>
 </section>
-
 <!-- Descripciones para el MAPA -->
 <!-- SALIDA / META -->
 <div class="location descripcionoculta">
