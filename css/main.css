@@ -589,7 +589,7 @@ padding: 10px 0;
 }
 
 section#patrocinadores{background-color:#fff; padding-top:90px;}
-section#galeria{background-color:#000; padding-top:90px;}
+section#galeria{background:url(../images/galeria-bg.jpg);background-attachment:fixed;padding-top:90px;}
 section#video{background-color:#fff; padding-top:90px;}
 section#contacto{background-color:#fff; padding-top:90px;}
 section#contacto form{height:510px;}

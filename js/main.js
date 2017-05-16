@@ -196,11 +196,6 @@ $('#btnPrograma').click(
 
 //INSCRIPCIONES
 
-// 
-// 
-// 
-// 
-
 $('#btnSantander').click(
   function () {
     $('.inscripcionesBtn').removeClass('active');

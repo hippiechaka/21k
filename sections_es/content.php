@@ -245,7 +245,6 @@
 		<div class="container convocatoriaSlide animated fadeIn" id="slideConvocatoria">
 			<div class="item">
 				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
-
 				<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
 			</div>
 			<div class="item">
@@ -295,7 +294,7 @@
 					<li><strong>Etapa 3:</strong></srt> 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
 				</ul>
 				<br>
-				<p>Nota: Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
+				<p><strong>Nota:</strong> Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
 			</div>
 			<div class="item">
 				<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
@@ -358,7 +357,7 @@
 		<hr class="ultraLight">
 
 		<div id="santanderContent" class="contentInsc animated fadeIn">
-			<p>En banco Santander, depósito o transferencia SPEI:</p>
+			<h3>En banco Santander, depósito o transferencia SPEI:</h3>
 			<ul>
 				<li>
 					Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
@@ -376,41 +375,46 @@
 		</div>
 
 		<div id="activeContent" style="display:none;" class="contentInsc animated fadeIn">
-			<p>en Active network<br>
-			Visita e portal http://www.active.com y sigue las instrucciones:<br>
+			<p>Active network<br>
+			Visita el siguiente link al portal Active Network y sigue las instrucciones:<br>
 			<br>
 			<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn center-block">ir al portal</a>
 			</p>
 		</div>
 
 		<div id="innovaContent" style="display:none;" class="contentInsc animated fadeIn">
-			<p>- Todas las tiendas Innovasport:<br>
-			<a href="http://sucursales.innovasport.com" target="_blank">http://sucursales.innovasport.com</a></p>
+			<p>Todas las tiendas Innovasport:<br>
+			<a href="http://sucursales.innovasport.com" target="_blank" class="btn center-block">Ver Tiendas</a></p>
 			<p>Nombre / revisar info</p>
-			<div class="input-group innovaData center-block">
-			  <span class="input-group-addon" id="basic-addon1"><i class="fa fa-phone" aria-hidden="true"></i></span>
-			  <span class="form-control">Oficina:   01 (33) 3616-6428</span>
-			  <!-- <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1"> -->
-			</div>
+			<p><i class="fa fa-phone" aria-hidden="true"></i><span>Oficina:   01 (33) 3616-6428</span></p>
+			
 		</div>
 
 		<div id="paypalContent" style="display:none;" class="contentInsc animated fadeIn">
 			<p>Paypal</p>
 			<!-- FORM sample -->
-			<form>
+			<form id="paypalForm">
+
+				<div class="form-group">
+				<label for="exampleInputName1">Nombre</label>
+				<input type="name" class="form-control" id="exampleInputName" placeholder="Name">
+				</div>
+
+
+
 			  <div class="form-group">
-			    <label for="exampleInputEmail1">Email address</label>
+			    <label for="exampleInputEmail1">Email</label>
 			    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Email">
 			  </div>
 			  <div class="form-group">
 			    <label for="exampleInputPassword1">Password</label>
 			    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 			  </div>
-			  <div class="form-group">
+			  <!-- <div class="form-group">
 			    <label for="exampleInputFile">File input</label>
 			    <input type="file" id="exampleInputFile">
 			    <p class="help-block">Example block-level help text here.</p>
-			  </div>
+			  </div> -->
 			  <div class="checkbox">
 			    <label>
 			      <input type="checkbox"> Check me out
@@ -684,26 +688,7 @@
 	<div id="kchink" class="iframe"><!-- contenido de k-chink --></div>
 </section>
 
-<!-- score -->
-<!-- <section id="score" class="container-fluid">
-	<div class="container">
-		<div class="col-md-6">
-			<a href="javascript:void(0);" class="scoreLink">
-				<img src="http://www.placehold.it/600x600?text=Score+2016" alt="" class="center-block scoreLogo img-responsive">
-				<h3 class="label">Label 1</h3>
-			</a>
-		</div>
-		<div class="col-md-6">
-			<a href="javascript:void(0);" class="scoreLink">
-				<img src="http://www.placehold.it/600x600?text=Score+2017" alt="" class="center-block scoreLogo img-responsive">
-				<h3 class="label">Label 2</h3>
-			</a>
-		</div>
-	</div>
-</section> -->
-<!--
-section#lenguajes.container-fluid>(div.col-md-6.interlingua>a.link.center-block>img.img-responsive#logo-interlingua[src="http://placehold.it/600x300"])+(div.col-md-6.alianzaFr>a.link.center-block>img.img-responsive#logo-alianzaFr[src="http://placehold.it/600x300"])
--->
+<!-- LENGUAJES -->
 
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
@@ -730,11 +715,6 @@ section#lenguajes.container-fluid>(div.col-md-6.interlingua>a.link.center-block>
 		    <label for="exampleInputPassword1">Password</label>
 		    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
 		  </div>
-		  <!-- <div class="form-group">
-		    <label for="exampleInputFile">File input</label>
-		    <input type="file" id="exampleInputFile">
-		    <p class="help-block">Example block-level help text here.</p>
-		  </div> -->
 		  <div class="checkbox">
 		    <label>
 		      <input type="checkbox"> Check me out
