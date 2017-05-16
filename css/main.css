@@ -170,7 +170,7 @@ i {
 }
 img#tomtomImg{position:absolute;top:0;left:0;z-index:2;max-width:585px;}
 /* CONTADOR */
-#CounterWidget{font-size:60px;color:#fff; position:relative; z-index:3;}
+#CounterWidget{font-size:45px;color:#fff; position:relative; z-index:3;}
 section#mainVideo{height:720px;overflow:hidden;position:relative;display:block;}
 section#convocatoria{position:relative; 
 min-height:900px;

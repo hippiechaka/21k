@@ -698,7 +698,7 @@
 	</div>
 	<div class="col-md-6 alianzaFr">
 		<a href="http://alianzafrancesagdl.mx/" target="_blank" class="pull-left">
-			<img src="alianzafr.png" alt="" class="img-responsive" id="logo-alianzaFr">
+			<img src="images/alianzafr.png" alt="" class="img-responsive" id="logo-alianzaFr">
 		</a>
 	</div>
 </section>
