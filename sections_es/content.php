@@ -615,7 +615,7 @@
 				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+17" alt="" class="img-responsive cupon"></li>
 				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+18" alt="" class="img-responsive cupon"></li>
 			</ul>
-			<a href="javascript:void(0);" class="ghostButtonHome redBtn">
+			<a href="pdf/21k_cupones_descuentos.pdf" target="_blank" class="ghostButtonHome redBtn">
 				<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Cuponera 2017
 			</a>
 		</div>
