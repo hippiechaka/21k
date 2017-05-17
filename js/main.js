@@ -116,9 +116,17 @@ $( '#ri-grid' ).gridrotator( {
 
 //ScrollMagic!!!!!
 
-
 // init controller
 var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
+
+// build tween
+  var tween = TweenMax.to("#corredor", 0.5, {setClassToggle: 1.3, repeat: 5, yoyo: true});
+
+  // build scene and set duration to window height
+  var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%"})
+          .setTween(tween)
+          //.addIndicators()  add indicators (requires plugin)
+          .addTo(controller);
 
 /*new ScrollMagic.Scene({triggerElement: "#parallax1"})
         .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
