@@ -202,6 +202,7 @@
   </div>
 </section>
 <!-- convocatoria -->
+
 <section id="convocatoria" class="container-fluid">
 	<div class="col-md-9">
 		<h1 class="whiteTxt">Convocatoria</h1>
@@ -214,7 +215,7 @@
 
 		<div class="container convocatoriaSlide animated fadeIn" id="slidePrograma" style="display:none;">
 			<div class="item">
-				<div class="short">
+				<div class="short center-block">
 					<h3>1- PROGRAMA OFICIAL</h3>
 					<p>Programa oficial Medio Maratón &amp; 10K Turístico Riviera Nayarit 2017<br>
 					VIERNES 24 NOVIEMBRE: UNICO DÍA<br>
@@ -227,104 +228,117 @@
 			</div>
 			<div class="item">
 				<div class="short center-block">
-				<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
-				<p>
-				De 5:00 a 14:00 horas.&emsp;Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock.<br> 
-				De 6:15 a 10:15 horas.&emsp;Apertura de guardarropa.<br>
-				De 6:15 a 6:45 horas.&emsp;Apertura zona de calentamiento.<br>
-				De 6:30 a 6:40 horas.&emsp;Tomar su lugar en la línea de salida.<br>
-				De 6:40 a 6:55 horas.&emsp;Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.<br>
-				<br>
-				7:00 horas en punto.&emsp;Disparo de salida.<br>
-				10:00 horas.&emsp;Cierre de la carrera.<br>
-				10:00 horas.&emsp;Inicio de Premiación 10K después premiación 21K<br>
-				12:00 horas.&emsp;Cierre del evento.<br>
-				</p>
-				<p>
-				*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.</p>
+					<h3>2- SÁBADO 25 DE NOVIEMBRE:</h3>
+					<p>
+					De 5:00 a 14:00 horas.&emsp;Apertura estacionamiento en Centro Empresarial frente Hotel Hard Rock.<br> 
+					De 6:15 a 10:15 horas.&emsp;Apertura de guardarropa.<br>
+					De 6:15 a 6:45 horas.&emsp;Apertura zona de calentamiento.<br>
+					De 6:30 a 6:40 horas.&emsp;Tomar su lugar en la línea de salida.<br>
+					De 6:40 a 6:55 horas.&emsp;Honores a la Bandera e Himno Nacional. Banda de guerra de la Marina.<br>
+					<br>
+					7:00 horas en punto.&emsp;Disparo de salida.<br>
+					10:00 horas.&emsp;Cierre de la carrera.<br>
+					10:00 horas.&emsp;Inicio de Premiación 10K después premiación 21K<br>
+					12:00 horas.&emsp;Cierre del evento.<br>
+					</p>
+					<p>
+					*Por seguridad, no se permitirá terminar la carrera a aquellas personas que no lleguen a la meta en las 3 horas que dura el evento.</p>
 				</div>
 			</div>
 		</div>
 
 		<div class="container convocatoriaSlide animated fadeIn" id="slideConvocatoria">
 			<div class="item">
-				<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
-				<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
+				<div class="short center-block">
+					<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
+					<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
+				</div>
 			</div>
 			<div class="item">
-				<h3>2- BASES</h3>
+				<div class="short center-block">
+					<h3>2- BASES</h3>
+					<p>
+						<strong>Fecha:</strong> Sábado 25 de noviembre de 2017.<br>
+						<strong>Hora:</strong> 7:00 horas. Hora centro de México.<br>
+						<strong>Pruebas:</strong> Medio Maratón (21.0975 km). / 10 kilómetros.<br>
+						<strong>Ruta:</strong> Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
+					</p>
+				</div>
+			</div>
+			<div class="item">
+				<div class="short center-block">
+					<h3>3- CATEGORÍAS:</h3>
+					<p>
+						<strong>10 Kilómetros</strong><br>
+						Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
+						Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
+					</p>
 
-				<p>
-					<strong>Fecha:</strong> Sábado 25 de noviembre de 2017.<br>
-					<strong>Hora:</strong> 7:00 horas. Hora centro de México.<br>
-					<strong>Pruebas:</strong> Medio Maratón (21.0975 km). / 10 kilómetros.<br>
-					<strong>Ruta:</strong> Medido y certificado por la Asociación Internacional de Maratones y Carreras de Distancia (AIMS).
-				</p>
+					<p>
+						<strong>MEDIO MARATÓN</strong><br>
+						Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
+						Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
+					</p>
+				</div>
 			</div>
 			<div class="item">
-				<h3>3- CATEGORÍAS:</h3>
-				<p>
-					<strong>10 Kilómetros</strong><br>
-					Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
-					Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
-				</p>
-
-				<p>
-					<strong>MEDIO MARATÓN</strong><br>
-					Femenil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60 y +<br>
-					Varonil:&emsp;18-39&emsp;40-44&emsp;45-49&emsp;50-54&emsp;55-59&emsp;60-64&emsp;65 y +
-				</p>
+				<div class="short center-block">
+					<h3>4- PREMIACIÓN:</h3>
+					<p>Premiación 10K:	Trofeo para los tres primeros lugares de cada rama y categoría.</p>
+					<p>Cuota de inscripción de  Medio Maratón y 10K:</p>
+					<ul>			  
+						<li><strong>Etapa 1:</strong> 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
+						<li><strong>Etapa 2:</strong> 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
+						<li><strong>Etapa 3:</strong> 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
+					</ul>
+					<p><strong>Notas:</strong></p>
+					<ul>
+						<li>Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</li>
+						<li>La inscripción no es transferible.</li>
+					</ul>
+				</div>			
 			</div>
 			<div class="item">
-				<h3>4- PREMIACIÓN:</h3>
-				<p>Premiación 10K:	Trofeo para los tres primeros lugares de cada rama y categoría.</p>
-				<p>Cuota de inscripción de  Medio Maratón y 10K:</p>
-				<ul>			  
-					<li><strong>Etapa 1:</strong> 02 ene al 30 abr $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
-					<li><strong>Etapa 2:</strong> 01 may al 31 oct $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
-					<li><strong>Etapa 3:</strong> 01 nov al 19 nov $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
-				</ul>
-				<p><strong>Notas:</strong></p>
-				<ul>
-					<li>Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</li>
-					<li>La inscripción no es transferible.</li>
-				</ul>			
+				<div class="short center-block">
+					<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
+					<ul>
+						<li><strong>Etapa 1:</strong></srt> 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
+						<li><strong>Etapa 2:</strong></srt> 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
+						<li><strong>Etapa 3:</strong></srt> 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
+					</ul>
+					<br>
+					<p><strong>Nota:</strong> Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
+				</div>
 			</div>
 			<div class="item">
-				<h3>5- PRECIO MEDIO MARATÓN Y 10K:</h3>
-				<ul>
-					<li><strong>Etapa 1:</strong></srt> 02 enero al 30 abril $500.00 pesos M. N. (Quinientos pesos 00/100 M. N.).</li>
-					<li><strong>Etapa 2:</strong></srt> 01 mayo al 31 octubre $550.00 pesos M. N. (Quinientos cincuenta pesos 00/100 M. N.)</li> 
-					<li><strong>Etapa 3:</strong></srt> 01 noviembre al 19 noviembre $600.00 pesos M. N. (Seiscientos pesos 00/100 M. N.)</li>
-				</ul>
-				<br>
-				<p><strong>Nota:</strong> Por políticas de la empresa operadora, bajo ninguna circunstancia se rembolsará el monto de la inscripción.</p>
-			</div>
-			<div class="item">
-				<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
-				<ol>
-					<li>Playera oficial del evento.</li>
-					<li>Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.</li>
-					<li>Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.</li>
-					<li>Chip. INDISPENSABLE PARA PODER PARTICIPAR.</li>
-					<li>Hidratación a lo largo del recorrido.</li>
-					<li>Refrigerio en la zona de recuperación.</li>
-					<li>Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.</li>
-					<li>Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema ”Time Ipico-sports”.</li>
-					<li>Certificado oficial de tiempo vía internet.</li>
-				</ol>
+				<div class="short center-block">
+					<h3>6- BENEFICIOS POR INSCRIPCIÓN:</h3>
+					<ol>
+						<li>Playera oficial del evento.</li>
+						<li>Medalla conmemorativa a todos los que terminen satisfactoriamente el recorrido.</li>
+						<li>Número de Competidor, deberá ser colocado en el pecho de la playera INDISPENSABLE PARA PODER PARTICIPAR.</li>
+						<li>Chip. INDISPENSABLE PARA PODER PARTICIPAR.</li>
+						<li>Hidratación a lo largo del recorrido.</li>
+						<li>Refrigerio en la zona de recuperación.</li>
+						<li>Resultados oficiales publicados en nuestra página de internet, a partir de las 13:00 horas.</li>
+						<li>Cronometrajes de tiempo parcial en el km. 10 y en la meta, con el sistema ”Time Ipico-sports”.</li>
+						<li>Certificado oficial de tiempo vía internet.</li>
+					</ol>
+				</div>
 
 
 			</div>
 			<div class="item">
-				<h3>7- ENTREGA DE KITS:</h3>
-				<p>Para la entrega de Kits será necesario presentar la siguiente información:</p>
-				<ul class="list-group">
-					<li>Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).</li>
-					<li>Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.</li>
-					<li>Comprobante de pago.</li>
-					<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
-				</ul>				
+				<div class="short center-block">
+					<h3>7- ENTREGA DE KITS:</h3>
+					<p>Para la entrega de Kits será necesario presentar la siguiente información:</p>
+					<ul class="list-group">
+						<li>Comprobante de inscripción, (cada corredor recibirá un comprobante una vez que la inscripción se confirme mediante el pago de la misma).</li>
+						<li>Formato de autorización de uso de imagen y deslinde de responsabilidad firmado.</li>
+						<li>Comprobante de pago.</li>
+						<li>Identificación oficial con fotografía que acredite ser el titular de la inscripción, sin excepción.</li>
+					</ul>
+				</div>				
 			</div>
 		</div>		  
 	</div>
@@ -361,60 +375,79 @@
 		<hr class="ultraLight">
 
 		<div id="santanderContent" class="contentInsc animated fadeIn">
-			<h3>En banco Santander, depósito o transferencia SPEI:</h3>
-			<ul>
-				<li>
-					Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
-					<strong>Banco:</strong> Santander<br>
-					<strong>Número de cuenta:</strong> 92001068047<br>
-					<strong>Clabe:</strong> 014320920010680473<br> 
-					<strong>Sucursal:</strong> 4707 Jardines de Guadalupe.<br>
-					<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
-					<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
-				</li>
-				<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
+			<div class="short center-block">
+				<h3>En banco Santander, depósito o transferencia SPEI:</h3>
+				<ul>
+					<li>
+						Paso 1-  Realiza tu pago en la siguiente cuenta:<br>
+						<strong>Banco:</strong> Santander<br>
+						<strong>Número de cuenta:</strong> 92001068047<br>
+						<strong>Clabe:</strong> 014320920010680473<br> 
+						<strong>Sucursal:</strong> 4707 Jardines de Guadalupe.<br>
+						<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
+						<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
+					</li>
+					<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
 
-				<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
-			</ul>
+					<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
+				</ul>
+			</div>
 		</div>
 
 		<div id="activeContent" style="display:none;" class="contentInsc animated fadeIn">
-			<p>Active network<br>
-			Visita el siguiente link al portal Active Network y sigue las instrucciones:<br>
-			<br>
-			<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn center-block">ir al portal</a>
-			</p>
+			<div class="short center-block">
+				<p>Active network<br>
+				Visita el siguiente link al portal Active Network y sigue las instrucciones:<br>
+				<br>
+				<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn center-block">ir al portal</a>
+				</p>
+			</div>
 		</div>
 
 		<div id="innovaContent" style="display:none;" class="contentInsc animated fadeIn">
-			<p>Todas las tiendas Innovasport:<br>
-			<a href="http://sucursales.innovasport.com" target="_blank" class="btn center-block">Ver Tiendas</a></p>
-			<p>Nombre / revisar info</p>
-			<p><i class="fa fa-phone" aria-hidden="true"></i><span>Oficina:   01 (33) 3616-6428</span></p>
-			
+			<div class="short center-block">
+				<p>Todas las tiendas Innovasport:<br>
+				<a href="http://sucursales.innovasport.com" target="_blank" class="btn center-block">Ver Tiendas</a></p>
+				<p>Nombre / revisar info</p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i><span>Oficina:   01 (33) 3616-6428</span></p>
+			</div>
 		</div>
 
 		<div id="paypalContent" style="display:none;" class="contentInsc animated fadeIn">
-			<p>Paypal</p>
+			<div class="short center-block">
+				<p>Paypal</p>
 			<!-- FORM sample -->
-<form id="paypalForm">
-
-<div class="form-group">
-<label for="namePaypal">Nombre</label>
-<input type="name" class="form-control required" id="namePaypal" placeholder="Nombre">
-</div>
-<div class="form-group">
-<label for="mailPaypal">Email</label>
-<input type="email" class="form-control required email" id="mailPaypal" placeholder="Email">
-</div>
-
-<div class="checkbox">
-<label>
-<input type="checkbox"> Check me out
-</label>
-</div>
-<button type="submit" class="btn btn-default" id="submitPaypal">Submit</button>
-</form>
+				<form id="paypalForm">
+					<div class="form-group">
+						<label for="namePaypal">Nombre</label>
+						<input type="name" class="form-control required" id="namePaypal" placeholder="Nombre">
+					</div>
+					<div class="form-group">
+						<label for="mailPaypal">Email</label>
+						<input type="email" class="form-control required email" id="mailPaypal" placeholder="Email">
+					</div>
+					<div class="form-group col-xs-6" style="padding-left:0;">
+						<label for="-Paypal">Test</label>
+						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+					</div>
+					<div class="form-group col-xs-6" style="padding-right:0;">
+						<label for="-Paypal">Test</label>
+						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+					</div>
+					<div class="form-group">
+						<label for="-Paypal">Test</label>
+						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+					</div>
+					<hr class="ultraLight">					
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> Check me out
+						</label>
+					</div>
+					<hr class="ultraLight">
+					<button type="submit" class="btn btn-default" id="submitPaypal">Submit</button>
+				</form>
+			</div>
 		</div>
 
 </section>
@@ -426,73 +459,73 @@
 			<h2 class="whiteTxt" align="center">Hoteles</h2>
 			<hr class="ultraLight">
 			<ul id="hotelesGrid">
-				<li>
+				<li class="hotel">
 					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/marival.jpg" alt="Marival Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">Marival Resorts</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://es.hrhvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hard_rock.jpg" alt="Hard Rock Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">Hard Rock Hotel</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://paradisevillage.com.mx" target="_blank" class="linkHotel">
 						<img src="images/hoteles/paradise_village.jpg" alt="Paradise Village Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 3</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.hotelvillavaradero.com/esp" target="_blank" class="linkHotel">
 						<img src="images/hoteles/villa_varadero.jpg" alt="Villa Varadero Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 4</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.belairvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/bel_air.jpg" alt="Bel Air Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 5</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
 						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 6</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://nopall.com" target="_blank" class="linkHotel">
 						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 7</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.hiltonhotels.com/es_XM/mexico/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hilton.jpg" alt="Hilton Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 8</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.krystalvallartaresort.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/kristal.jpg" alt="Kristal Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_jalisco.jpg" alt="Rie Jalisco Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_palace.jpg" alt="Riu Palace Hotel" class="img-responsive">
 					</a>
 					<!-- <h3 class="label">hotel 9</h3> -->
 				</li>
-				<li>
+				<li class="hotel">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_vallarta.jpg" alt="Riu Vallarta Hotel" class="img-responsive">
 					</a>

@@ -114,24 +114,17 @@ $( '#ri-grid' ).gridrotator( {
         } );
 
 
+
+// ===============================================================================
 //ScrollMagic!!!!!
-
-// init controller
-var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
-
-// build tween
-  var tween = TweenMax.to("#corredor", 0.5, {setClassToggle: 1.3, repeat: 5, yoyo: true});
-
-  // build scene and set duration to window height
-  var scene = new ScrollMagic.Scene({triggerElement: "#trigger", duration: "100%"})
-          .setTween(tween)
-          //.addIndicators()  add indicators (requires plugin)
-          .addTo(controller);
-
+// ===============================================================================
+//Parallax
 /*new ScrollMagic.Scene({triggerElement: "#parallax1"})
         .setTween("#parallax1 > div", {y: "80%", ease: Linear.easeNone})
         .addTo(controller);*/
 //Cambio de Clases para menú:
+// init controller
+var controller = new ScrollMagic.Controller({globalSceneOptions: {triggerHook: "onEnter", duration: "200%"}});
 //convocatoria          
 new ScrollMagic.Scene({triggerElement: "#convocatoria"})
           .setClassToggle("#convocatoriaBtn", "current") // add class toggle
@@ -159,7 +152,33 @@ new ScrollMagic.Scene({triggerElement: "#galeria"})
 //contacto
 new ScrollMagic.Scene({triggerElement: "#contacto"})
           .setClassToggle("#contactoBtn", "current") // add class toggle
-          .addTo(controller);    
+          .addTo(controller);
+
+//CUSTOM animations
+
+/* tomtom */
+
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#tomtomImg", 3, {right: -800}, {right: 0, ease: Expo.easeOut}, 0.15);
+var scene = new ScrollMagic.Scene({triggerElement: "#top", duration: 1750})
+        .setTween(tween)
+        .addTo(controller);          
+
+/* corredor */
+
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#corredor", 3, {right: 700}, {right: 0, ease: Back.easeOut}, 0.15);
+var scene = new ScrollMagic.Scene({triggerElement: "#convocatoria", duration: 1000})
+        .setTween(tween)
+        .addTo(controller);
+
+/* corredora */
+
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#corredora", 3, {left: -300}, {left: -90, ease: Back.easeOut}, 0.15);
+var scene = new ScrollMagic.Scene({triggerElement: "#inscripciones", duration: 750})
+        .setTween(tween)
+        .addTo(controller);
 
 
 // v3.1.0

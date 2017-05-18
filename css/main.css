@@ -212,7 +212,7 @@ a.inscripcionesBtn:hover{background-color:rgba(0,0,0,0.3);}
 a.inscripcionesBtn.active{background-color:rgba(0,0,0,0.3);}
 .ultraLight{opacity:0.161803398874988}
 
-.short{width:70%;}
+.short{padding:20px 60px;}
 
 
 #k10{position: absolute;left:0;top:calc(100% - 470px);z-index:1;}
