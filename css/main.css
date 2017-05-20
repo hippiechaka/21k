@@ -793,6 +793,10 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 .bigBTN#instagramBtn{background:#3b7298;}
 .bigBTN#youtubeBtn{background:#ff0000;}
 
+
+#kchinkContainer{
+	height:100vh;
+}
 /*
 
 =========================================================  QUERIES
