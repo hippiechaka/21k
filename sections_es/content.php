@@ -730,7 +730,11 @@
 <!-- KCHINK -->
 <section id="kchinkContainer" class="container-fluid">
 	<!-- <div id="kchink" class="iframe">contenido de k-chink</div> -->
-	<img src="images/sample-kichink.jpg" alt="muestra kichink" class="img-responsive">
+	<!-- <img src="images/sample-kichink.jpg" alt="muestra kichink" class="img-responsive"> -->
+	<!-- <iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0"></iframe> -->
+<iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0">
+<div style="width:300px; margin:40% auto; font-size:20px;"> Tu navegador no permite mostrar la tienda en esta ventana. <!-- Agregar ID de tienda --> <a href="https://www.kichink.com/stores/id/72509"> Haz clic para abrir a en una nueva ventana. </a> </div> </iframe>
+
 </section>
 
 <!-- contacto -->
