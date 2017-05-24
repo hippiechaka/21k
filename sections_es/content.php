@@ -591,8 +591,8 @@
 					<!-- <h3 class="label">sponsor 12</h3> -->
 				</li>
 				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 13</h3>
+					<img src="images/sponsors/ut.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 13</h3> -->
 				</li>
 				<li>
 					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
