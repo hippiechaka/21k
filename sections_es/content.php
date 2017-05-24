@@ -678,31 +678,31 @@
 			<div id="ri-grid" class="ri-grid ri-grid-size-3">
 				<img src="http://www.placehold.it/" alt="" class="ri-loading-image">
 				<ul class="gallery">
-					<li><a href="images/galeria/sample.jpg"><img src="images/galeria/sample-thumb.jpg" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
-					<li><a href="images/galeria/sample.jpg"><img src="http://placehold.it/600x600" alt=""></a></li>
+					<li><a href="images/galeria/sample1.jpg"><img src="images/galeria/sample-thumb1.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample2.jpg"><img src="images/galeria/sample-thumb2.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample3.jpg"><img src="images/galeria/sample-thumb3.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample4.jpg"><img src="images/galeria/sample-thumb4.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample5.jpg"><img src="images/galeria/sample-thumb5.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample6.jpg"><img src="images/galeria/sample-thumb6.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample7.jpg"><img src="images/galeria/sample-thumb7.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample8.jpg"><img src="images/galeria/sample-thumb8.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample9.jpg"><img src="images/galeria/sample-thumb9.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample10.jpg"><img src="images/galeria/sample-thumb10.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample11.jpg"><img src="images/galeria/sample-thumb11.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample12.jpg"><img src="images/galeria/sample-thumb12.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample13.jpg"><img src="images/galeria/sample-thumb13.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample14.jpg"><img src="images/galeria/sample-thumb14.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample15.jpg"><img src="images/galeria/sample-thumb15.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample16.jpg"><img src="images/galeria/sample-thumb16.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample17.jpg"><img src="images/galeria/sample-thumb17.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample18.jpg"><img src="images/galeria/sample-thumb18.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample19.jpg"><img src="images/galeria/sample-thumb19.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample20.jpg"><img src="images/galeria/sample-thumb20.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample21.jpg"><img src="images/galeria/sample-thumb21.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample22.jpg"><img src="images/galeria/sample-thumb22.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample23.jpg"><img src="images/galeria/sample-thumb23.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample24.jpg"><img src="images/galeria/sample-thumb24.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample25.jpg"><img src="images/galeria/sample-thumb25.jpg" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
@@ -742,38 +742,36 @@
 	<div class="col-md-6" id="resultado">
 		<h2 class="whiteTxt">Resultados</h2>
 		<hr class="ultraLight">
-		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="disabled" title="Se activará una vez terminada la carrera">2017</a>	
+		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="scoreLsink disabled" title="Se activará una vez terminada la carrera">2017</a>	
 
 	</div>
 	<div class="col-md-6" id="contactForm">
 		<h2 class="whiteTxt">Contacto</h2>
 		<hr class="ultraLight">
-		<div class="short">
-			<form id="formaContacto">
-			  <div class="form-group">
-			    <label for="Inputname">Nombre</label>
-			    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
-			  </div>
-			  <div class="form-group">
-			    <label for="Inputplace">Ciudad/País</label>
-			    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
-			  </div>
-			  <div class="form-group">
-			    <label for="InputTel">Teléfono</label>
-			    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
-			  </div>
-			  <div class="form-group">
-			    <label for="InputMessage">Mensaje</label>
-			    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
-			  </div>
-			  <div class="checkbox">
-			    <label>
-			      <input type="checkbox"> Check me out
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-default">Submit</button>
-			</form>
-		</div>
+		<form id="formaContacto">
+		  <div class="form-group">
+		    <label for="Inputname">Nombre</label>
+		    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
+		  </div>
+		  <div class="form-group">
+		    <label for="Inputplace">Ciudad/País</label>
+		    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
+		  </div>
+		  <div class="form-group">
+		    <label for="InputTel">Teléfono</label>
+		    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
+		  </div>
+		  <div class="form-group">
+		    <label for="InputMessage">Mensaje</label>
+		    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
+		  </div>
+		  <div class="checkbox">
+		    <label>
+		      <input type="checkbox"> Check me out
+		    </label>
+		  </div>
+		  <button type="submit" class="btn btn-default">Submit</button>
+		</form>
 	</div>
 	<div class="clearfix"></div>
 </section>
