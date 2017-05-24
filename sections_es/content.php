@@ -742,36 +742,38 @@
 	<div class="col-md-6" id="resultado">
 		<h2 class="whiteTxt">Resultados</h2>
 		<hr class="ultraLight">
-		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="scoreLsink disabled" title="Se activará una vez terminada la carrera">2017</a>	
+		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="disabled" title="Se activará una vez terminada la carrera">2017</a>	
 
 	</div>
 	<div class="col-md-6" id="contactForm">
 		<h2 class="whiteTxt">Contacto</h2>
 		<hr class="ultraLight">
-		<form id="formaContacto">
-		  <div class="form-group">
-		    <label for="Inputname">Nombre</label>
-		    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
-		  </div>
-		  <div class="form-group">
-		    <label for="Inputplace">Ciudad/País</label>
-		    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
-		  </div>
-		  <div class="form-group">
-		    <label for="InputTel">Teléfono</label>
-		    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
-		  </div>
-		  <div class="form-group">
-		    <label for="InputMessage">Mensaje</label>
-		    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
-		  </div>
-		  <div class="checkbox">
-		    <label>
-		      <input type="checkbox"> Check me out
-		    </label>
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
+		<div class="short">
+			<form id="formaContacto">
+			  <div class="form-group">
+			    <label for="Inputname">Nombre</label>
+			    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
+			  </div>
+			  <div class="form-group">
+			    <label for="Inputplace">Ciudad/País</label>
+			    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
+			  </div>
+			  <div class="form-group">
+			    <label for="InputTel">Teléfono</label>
+			    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
+			  </div>
+			  <div class="form-group">
+			    <label for="InputMessage">Mensaje</label>
+			    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
 	</div>
 	<div class="clearfix"></div>
 </section>
