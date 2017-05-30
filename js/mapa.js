@@ -76,6 +76,56 @@ function initialize() {
       }
     ]
   }
+
+/*
+{
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.neighborhood",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  }
+*/
+
+
+
+
 ];
 
   /*[
@@ -160,7 +210,7 @@ function initialize() {
         position: new google.maps.LatLng(20.691319, -105.288518),
         map: map,
         title: 'Kilometro-4',
-    icon: 'images/map/pin_4.png'
+    icon: 'images/map/pin_4k.png'
     });
   google.maps.event.addListener(marker4, 'click', function() {
     cargainfo(marker4,"km4");

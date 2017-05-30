@@ -655,8 +655,8 @@
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="sideBarMapBtn">Salida/Meta</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn">Puntos de Hidratación</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn">Servicios Médicos</a>
+		<a href="javascript:void(0);" class="sideBarMapBtn" id="hidrataBtn">Puntos de Hidratación</a>
+		<a href="javascript:void(0);" class="sideBarMapBtn" id="servMedBtn">Servicios Médicos</a>
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" class="ghostButtonHome">Ver en Google Maps</a>
 		<!-- <a href="javascript:void(0);">link 4</a> -->
@@ -733,7 +733,7 @@
 	<!-- <img src="images/sample-kichink.jpg" alt="muestra kichink" class="img-responsive"> -->
 	<!-- <iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0"></iframe> -->
 <iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0">
-<div style="width:300px; margin:40% auto; font-size:20px;"> Tu navegador no permite mostrar la tienda en esta ventana. <!-- Agregar ID de tienda --> <a href="https://www.kichink.com/stores/id/72509"> Haz clic para abrir a en una nueva ventana. </a> </div> </iframe>
+<div style="width:300px; margin:40% auto; font-size:20px;"> Si puedes ver éste mensaje, es porque tu navegador no permite mostrar la tienda en esta área; clic <a href="https://www.kichink.com/stores/id/72509" target="_blank">aquí</a>para abrirla en una nueva ventana.</div> </iframe>
 
 </section>
 
@@ -742,7 +742,7 @@
 	<div class="col-md-6" id="resultado">
 		<h2 class="whiteTxt">Resultados</h2>
 		<hr class="ultraLight">
-		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLsink">2016</a> | <a href="javascript:void(0);" class="scoreLsink disabled" title="Se activará una vez terminada la carrera">2017</a>	
+		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a> | <a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a>	
 
 	</div>
 	<div class="col-md-6" id="contactForm">
