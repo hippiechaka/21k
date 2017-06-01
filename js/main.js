@@ -231,7 +231,7 @@ $('#btnSantander').click(
     $('#santanderContent').css('display','block')
   }
 );
-
+/*
 $('#btnActiveW').click(
   function () {
     $('.inscripcionesBtn').removeClass('active');
@@ -240,7 +240,7 @@ $('#btnActiveW').click(
     $('#activeContent').css('display','block')
   }
 );
-
+*/
 $('#btnInnova').click(
   function () {
     $('.inscripcionesBtn').removeClass('active');

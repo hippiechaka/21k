@@ -361,7 +361,7 @@
 			<a href="javascript:void(0);" class="btn inscripcionesBtn active" id="btnSantander">
 				<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
 			</a>
-			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnActiveW">
+			<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn inscripcionesBtn" id="btnActiveW">
 				<img src="images/inscripciones/active_white.png" alt="Active" class="logo">
 			</a>
 			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnInnova">
@@ -393,7 +393,7 @@
 				</ul>
 			</div>
 		</div>
-
+		<!--
 		<div id="activeContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
 				<p>Active network<br>
@@ -403,7 +403,7 @@
 				</p>
 			</div>
 		</div>
-
+		-->
 		<div id="innovaContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
 				<p>Todas las tiendas Innovasport:<br>
