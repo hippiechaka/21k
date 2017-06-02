@@ -148,11 +148,11 @@ i {
   padding: 0;
 }
 #weather li {
-  background: #fff;
-  background: rgba(255,255,255,0.90);
-  padding: 20px;
+  color: #fff;
+  /*background: rgba(255,255,255,0.90);
+  padding: 20px;*/
   display: inline-block;
-  border-radius: 5px;
+  /* border-radius: 5px; */
 }
 #weather .currently {
   margin: 0 20px;

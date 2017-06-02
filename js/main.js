@@ -133,6 +133,10 @@ new ScrollMagic.Scene({triggerElement: "#convocatoria"})
 new ScrollMagic.Scene({triggerElement: "#inscripciones"})
           .setClassToggle("#inscripcionesBtn", "current") // add class toggle
           .addTo(controller);
+//hoteles          
+new ScrollMagic.Scene({triggerElement: "#hoteles"})
+          .setClassToggle("#hotelesBtn", "current") // add class toggle
+          .addTo(controller);
 //patrocinadores          
 new ScrollMagic.Scene({triggerElement: "#patrocinadores"})
           .setClassToggle("#patrocinadoresBtn", "current") // add class toggle
@@ -190,6 +194,7 @@ var scene = new ScrollMagic.Scene({triggerElement: "#inscripciones", duration: 7
     unit: 'c',
     success: function(weather) {
       html = '<h2><i class="icon-'+weather.code+'"></i> '+weather.temp+'&deg;'+weather.units.temp+'</h2>';
+      //html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       html += '<ul><li>'+weather.city+', '+weather.region+'</li>';
       html += '<li class="currently">'+weather.currently+'</li>';
       html += '<li>'+weather.wind.direction+' '+weather.wind.speed+' '+weather.units.speed+'</li></ul>';

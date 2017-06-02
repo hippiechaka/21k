@@ -16,10 +16,11 @@
 			<ul class="nav navbar-nav list-inline" id="mainNav">
 				<li><a href="#convocatoria" id="convocatoriaBtn">Convocatoria</a></li>
 				<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
+				<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
 				<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
 				<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
 				<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
-				<li><a href="#galeria" id="galeriaBtn">Galería</a></li>
+				<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
@@ -132,9 +133,9 @@
 			<p>Faltan:</p>
 			<h2 id="CounterWidget"></h2>
 			<p>
+				<small style="opacity:0.5;">* días:horas:minutos:segundos</small><br>
 				<span>Para el disparo de Salida</span><br>
-				<small>Fecha: 25 Noviembre 2017, 7:00 am</small><br>
-				<small style="opacity:0.5;">*días:horas:minutos:segundos</small>
+				<small>25 Noviembre 2017, 7:00 am</small>				
 			</p>
 
 			<script>
@@ -159,8 +160,8 @@
 				    // Output the result in an element with id="CounterWidget"
 				    // document.getElementById("CounterWidget").innerHTML = days + "d " + hours + "h "
 				    // + minutes + "m " + seconds + "s ";
-				    document.getElementById("CounterWidget").innerHTML = days + "d:" + hours + "h:"
-				    + minutes + "m:" + seconds + "s";
+				    document.getElementById("CounterWidget").innerHTML = days + ":" + hours + ":"
+				    + minutes + ":" + seconds + "*";
 				    
 				    // If the count down is over, write some text 
 				    if (distance < 0) {
