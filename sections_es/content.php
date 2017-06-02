@@ -133,7 +133,7 @@
 			<p>Faltan:</p>
 			<h2 id="CounterWidget"></h2>
 			<p>
-				<small style="opacity:0.5;">* días:horas:minutos:segundos</small><br>
+				<small>* días:horas:minutos:segundos</small><br>
 				<span>Para el disparo de Salida</span><br>
 				<small>25 Noviembre 2017, 7:00 am</small>				
 			</p>
@@ -540,6 +540,11 @@
 </section>
 <!-- sponsors -->
 <section id="patrocinadores" class="container-fluid">
+	<div style="padding:30px 0;background-color:#00aeff">
+		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
+		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
+		<h3 class="whiteTxt" align="center">Patrocinadores</h3>
+	</div>
 	<div class="container">
 		<div class="row">
 			<ul id="sponsorsGrid">
@@ -609,10 +614,13 @@
 </section>
 <!-- cupones-servicios -->
 <section id="cupones-servicios" class="container-fluid">
-	<div class="bigRedTitle">
-		<h2 class="sr-only">Cupones y Servicios</h2>
-		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive">
+	<div class="bigRedTitle" style="padding:30px 0;">
+		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
+		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
+		<h3 class="whiteTxt" align="center">Cupones y Servicios</h3>
 	</div>
+	
+	<hr class="ultraLight">
 	<div class="container">
 		<div class="row">
 			<ul class="sort list-inline center-block" id="filters">
@@ -709,6 +717,9 @@
 		</div>
 	</div>
 <!-- altimetria -->
+<h3 class="whiteTxt" align="center">Altimetría</h3>
+<hr class="ultraLight">
+
 <img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
 
 </section>
@@ -753,8 +764,8 @@
 	<div class="col-md-6" id="resultado">
 		<h2 class="whiteTxt">Resultados</h2>
 		<hr class="ultraLight">
-		<a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a> | <a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a>	
-
+		<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a>&nbsp;/&nbsp;
+		<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
 	</div>
 	<div class="col-md-6" id="contactForm">
 		<h2 class="whiteTxt">Contacto</h2>
