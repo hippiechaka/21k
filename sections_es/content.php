@@ -737,6 +737,16 @@
 <div style="width:300px; margin:40% auto; font-size:20px;"> Si puedes ver éste mensaje, es porque tu navegador no permite mostrar la tienda en esta área; clic <a href="https://www.kichink.com/stores/id/72509" target="_blank">aquí</a>para abrirla en una nueva ventana.</div> </iframe>
 
 </section>
+<section class="container-fluid" id="botonzotes">
+<!-- magia emmet (botones Gigantes): 
+	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
+	-->
+	<div class="bigBtns">
+		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
+		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
+		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
+	</div>
+</section>
 
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
@@ -867,16 +877,7 @@
 
 </section>
 
-<section class="container-fluid" id="botonzotes">
-<!-- magia emmet (botones Gigantes): 
-	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
-	-->
-	<div class="bigBtns">
-		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
-		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
-		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
-	</div>
-</section>
+
 <!-- Descripciones para el MAPA -->
 <!-- SALIDA / META -->
 <div class="location descripcionoculta">
