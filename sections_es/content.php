@@ -23,7 +23,6 @@
 				<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
 				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
-				<!-- <li><a href="javascript:void(0);">Contacto</a></li> -->
 			</ul>
 			<ul class="nav navbar-nav navbar-right">
 
@@ -394,6 +393,7 @@
 				</ul>
 			</div>
 		</div>
+		<!--Éstes se quitó y va el link directo-->
 		<!--
 		<div id="activeContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
@@ -406,7 +406,7 @@
 		</div>
 		-->
 		<div id="innovaContent" style="display:none;" class="contentInsc animated fadeIn">
-			<div class="short center-block">
+			<div class="short center-block" align="center">
 				<p>Todas las tiendas Innovasport:<br>
 				<a href="http://sucursales.innovasport.com" target="_blank" class="btn center-block">Ver Tiendas</a></p>
 				<p>Nombre / revisar info</p>
@@ -728,12 +728,12 @@
 
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
-		<a href="http://www.interlingua.com.mx/" target="_blank" class="pull-right">
+		<a href="http://www.interlingua.com.mx/" target="_blank" class="center-block">
 			<img src="images/interlingua.png" alt="" class="img-responsive" id="logo-interlingua">
 		</a>
 	</div>
 	<div class="col-md-6 alianzaFr">
-		<a href="http://alianzafrancesagdl.mx/" target="_blank" class="pull-left">
+		<a href="http://alianzafrancesagdl.mx/" target="_blank" class="center-block">
 			<img src="images/alianzafr.png" alt="" class="img-responsive" id="logo-alianzaFr">
 		</a>
 	</div>
@@ -762,38 +762,42 @@
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
 	<div class="col-md-6" id="resultado">
-		<h2 class="whiteTxt">Resultados</h2>
-		<hr class="ultraLight">
-		<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a>&nbsp;/&nbsp;
-		<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
+		<div class="short center-block">
+			<h2 class="whiteTxt">Resultados</h2>
+			<hr class="ultraLight">
+			<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a><span class="hidden-sm hidden-xs">&nbsp;/&nbsp;</span>
+			<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
+		</div>
 	</div>
 	<div class="col-md-6" id="contactForm">
-		<h2 class="whiteTxt">Contacto</h2>
-		<hr class="ultraLight">
-		<form id="formaContacto">
-		  <div class="form-group">
-		    <label for="Inputname">Nombre</label>
-		    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
-		  </div>
-		  <div class="form-group">
-		    <label for="Inputplace">Ciudad/País</label>
-		    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
-		  </div>
-		  <div class="form-group">
-		    <label for="InputTel">Teléfono</label>
-		    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
-		  </div>
-		  <div class="form-group">
-		    <label for="InputMessage">Mensaje</label>
-		    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
-		  </div>
-		  <div class="checkbox">
-		    <label>
-		      <input type="checkbox"> Check me out
-		    </label>
-		  </div>
-		  <button type="submit" class="btn btn-default">Submit</button>
-		</form>
+		<div class="short center-block">
+			<h2 class="whiteTxt">Contacto</h2>
+			<hr class="ultraLight">
+			<form id="formaContacto">
+			  <div class="form-group">
+			    <label for="Inputname">Nombre</label>
+			    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
+			  </div>
+			  <div class="form-group">
+			    <label for="Inputplace">Ciudad/País</label>
+			    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
+			  </div>
+			  <div class="form-group">
+			    <label for="InputTel">Teléfono</label>
+			    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
+			  </div>
+			  <div class="form-group">
+			    <label for="InputMessage">Mensaje</label>
+			    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
+			  </div>
+			  <div class="checkbox">
+			    <label>
+			      <input type="checkbox"> Check me out
+			    </label>
+			  </div>
+			  <button type="submit" class="btn btn-default">Submit</button>
+			</form>
+		</div>
 	</div>
 	<div class="clearfix"></div>
 </section>

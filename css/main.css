@@ -8,6 +8,7 @@ body {
     color: #000;
     background:#f1f1f1;
 }
+/* section{background:none;} */
 /* section{padding-top:90px;} */
 a {
 	color: #f0f0f0;
@@ -595,10 +596,16 @@ padding: 10px 0;
   opacity: 1;
 }
 
-section#patrocinadores{background-color:#fff; padding-top:90px;}
+section#patrocinadores{/* background-color:#fff; */ padding-top:90px;}
 section#galeria{background:url(../images/galeria-bg.jpg);background-attachment:fixed;padding-top:90px;}
 section#video{background-color:#fff; padding-top:90px;}
-section#contacto{background-color:#fff; padding-top:90px;}
+section#contacto{padding-top:90px;
+background: #8ad330;
+background: -moz-linear-gradient(left, #8ad330 0%, #8ad330 50%, #2c7e0c 50%, #2c7e0c 100%);
+background: -webkit-linear-gradient(left, #8ad330 0%,#8ad330 50%,#2c7e0c 50%,#2c7e0c 100%);
+background: linear-gradient(to right, #8ad330 0%,#8ad330 50%,#2c7e0c 50%,#2c7e0c 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8ad330', endColorstr='#2c7e0c',GradientType=1 );
+}
 section#contacto form{height:510px;}
 
 
@@ -797,11 +804,9 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 #kchinkContainer{
 	height:100vh;
 }
-.scoreLink{font-size:5em;width:100%;}
+.scoreLink{font-size:5em;width:40%;display:inline-block;}
 /*
-
 =========================================================  QUERIES
-
 */
 
 @media screen and (min-width: 1280px) {
@@ -820,7 +825,7 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 	#suscribe form#suscribeForm{max-width:90%;}
 	#suscribe form input#email{width:100%;}
 	#submitButton{width:100% !important;float:none;margin:10px auto;}
-	section#patrocinadores{background-color:#fff; padding-top:0;}
+	section#patrocinadores{/* background-color:#fff; */ padding-top:0;}
 	section#galeria{background-color:#fff; padding-top:0;}
 	section#video{background-color:#fff; padding-top:0;}
 	section#contacto{background-color:#fff; padding-top:0;}
