@@ -122,7 +122,7 @@
 <section id="widgets" class="container-fluid">
 	<div class="col-md-6 weatherBg">
 		<div class="widget pull-right" id="weatherWidget">
-			<!-- Weather Channel -->
+			<!-- weather -->
 			<div id="weather"></div>
 		</div>
 	</div>
@@ -358,7 +358,7 @@
 		<hr class="ultraLight">
 
 		<div class="group-btns" id="inscripcionesControls">
-			<a href="javascript:void(0);" class="btn inscripcionesBtn active" id="btnSantander">
+			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnSantander">
 				<img src="images/inscripciones/santander_white.png" alt="Santander" class="logo">
 			</a>
 			<a href="http://www.active.com/bah-a-de-banderas-nayarit/running/distance-running-races/half-marathon-riviera-nayarit-2017?int=" target="_blank" class="btn inscripcionesBtn" id="btnActiveW">
@@ -374,7 +374,7 @@
 
 		<hr class="ultraLight">
 
-		<div id="santanderContent" class="contentInsc animated fadeIn">
+		<div id="santanderContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
 				<h3>En banco Santander, depósito o transferencia SPEI:</h3>
 				<ul>
@@ -464,7 +464,7 @@
 					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/marival.jpg" alt="Marival Hotel" class="img-responsive">
 					</a>
-					<!-- <h3 class="label">Marival Resorts</h3> -->
+					<h3 class="label">Código: 21K-17X00</h3>
 				</li>
 				<li class="hotel">
 					<a href="http://es.hrhvallarta.com/" target="_blank" class="linkHotel">
@@ -624,6 +624,7 @@
 	<div class="container">
 		<div class="row">
 			<ul class="sort list-inline center-block" id="filters">
+				<li><a href="javascript:void(0);" class="categoria" id="cat0" class="current">Todos</a></li>&nbsp;|&nbsp;
 				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a></li>&nbsp;|&nbsp;
 				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a></li>&nbsp;|&nbsp;
 				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a></li>&nbsp;|&nbsp;
@@ -807,7 +808,7 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-9">
 
-			<h1 class="whiteTxt">Preguntas Realizadas Frecuéntemente (faq)</h1>
+			<h1 class="whiteTxt">Preguntas Frecuentes (faq)</h1>
 			<hr class="ultraLight">
 
 			<div class="convocatoriaSlide" id="faqPreguntas">
