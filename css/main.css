@@ -244,12 +244,36 @@ a.inscripcionesBtn.active{background-color:rgba(0,0,0,0.3);}
   top:20%;
   left:20%;
 }
+/* #hotelesGrid li img{position:absolute;top:0;left:0;z-index:0;} */
+.linkHotel h4.codigo-hotel{
+	position:absolute;
+	width:80%;
+	height:auto;
+	text-align:center;
+	/* color:#fff; */
+	top:-45px;
+	left:10%;
+	opacity:0;
+  -webkit-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s;
+}
 .linkHotel:hover{
   opacity:1;
   border:4px solid rgba(255, 255, 255, 0.3);
 }
-/* #hotelesGrid li img{position:absolute;top:0;left:0;z-index:0;} */
-#hotelesGrid li h3{position:absolute;width:80%;height:40px;background:rgba(0,0,0,0.4);line-height:40px;text-align:center;color:#fff;top:calc(100% - 80px);left:10%;}
+
+
+.linkHotel:hover h4.codigo-hotel{
+	top:0px;
+	opacity:1;
+}
+
+
+
+
+
+
 
 #patrocinadores{background:#fff;padding-top:90px;}
 #filters{text-align:center;display:block;margin-top:20px;list-style:none;}

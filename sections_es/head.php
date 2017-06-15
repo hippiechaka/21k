@@ -19,12 +19,12 @@ if(!empty($_REQUEST['nombre'])){
     $para      = '[MAIL]';
     $titulo    = 'Contacto web';
     $mensaje = '
-    <div style="font-size: 18px; color: #242424; margin:0 auto; max-width:600px;">
+    <div style="font-size: 18px; color: #111111; margin:0 auto; max-width:600px;">
       <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
-        <img style:"text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="<?php echo($fb_img); ?>" />
+        <img style="text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="<?php echo($url); ?>/images/shareimg.jpg" />
       </div>
         <br />
-      <div style="color: #242424; font-size:25px;">
+      <div style="color: #111111; font-size:25px;">
         Tienes un comentario </div><br />
         <strong>Nombre: </strong>'.$nombre.'<br />
         <strong>E-mail: </strong>'.$email.'<br />

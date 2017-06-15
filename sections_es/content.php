@@ -13,64 +13,66 @@
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<ul class="nav navbar-nav list-inline" id="mainNav">
-				<li><a href="#convocatoria" id="convocatoriaBtn">Convocatoria</a></li>
-				<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
-				<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
-				<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
-				<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
-				<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
-				<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
-				<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
-				<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
-			</ul>
-			<ul class="nav navbar-nav navbar-right">
+			<div id="mainNav" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav list-inline">
+					<li><a href="#convocatoria" id="convocatoriaBtn">Convocatoria</a></li>
+					<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
+					<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
+					<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
+					<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
+					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
+					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
+					<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
+					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
 
-				<!-- Idioma -->
+					<!-- Idioma -->
 
-				<li class="idioma">
-					<a href="javascript:void(0);" class="flagIdioma" id="espanol">
-						<img src="images/menu/lang_mx.png" alt="Español">
-					</a>
-				</li>
-				<li class="idioma">
-					<a href="javascript:void(0);" class="flagIdioma" id="ingles">
-						<img src="images/menu/lang_eng.png" alt="Inglés">
-					</a>
-				</li>
-				<li class="idioma">
-					<a href="javascript:void(0);" class="flagIdioma" id="portugues">
-						<img src="images/menu/lang_port.png" alt="Portugués">
-					</a>
-				</li>
+					<li class="idioma">
+						<a href="javascript:void(0);" class="flagIdioma" id="espanol">
+							<img src="images/menu/lang_mx.png" alt="Español">
+						</a>
+					</li>
+					<li class="idioma">
+						<a href="javascript:void(0);" class="flagIdioma" id="ingles">
+							<img src="images/menu/lang_eng.png" alt="Inglés">
+						</a>
+					</li>
+					<li class="idioma">
+						<a href="javascript:void(0);" class="flagIdioma" id="portugues">
+							<img src="images/menu/lang_port.png" alt="Portugués">
+						</a>
+					</li>
 
-				<!-- Redes -->
+					<!-- Redes -->
 
-				<!-- <li class="redesBtn">
-					<a href="javascript:void(0);" class="redesIcon" id="facebook">
-						<i class="fa fa-facebook" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li class="redesBtn">
-					<a href="javascript:void(0);" class="redesIcon" id="instagram">
-						<i class="fa fa-instagram" aria-hidden="true"></i>
-					</a>
-				</li>
-				<li class="redesBtn">
-					<a href="javascript:void(0);" class="redesIcon" id="youtube">
-						<i class="fa fa-youtube" aria-hidden="true"></i>
-					</a>
-				</li> -->
+					<!-- <li class="redesBtn">
+						<a href="javascript:void(0);" class="redesIcon" id="facebook">
+							<i class="fa fa-facebook" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="redesBtn">
+						<a href="javascript:void(0);" class="redesIcon" id="instagram">
+							<i class="fa fa-instagram" aria-hidden="true"></i>
+						</a>
+					</li>
+					<li class="redesBtn">
+						<a href="javascript:void(0);" class="redesIcon" id="youtube">
+							<i class="fa fa-youtube" aria-hidden="true"></i>
+						</a>
+					</li> -->
 
-				<!-- KCHINK -->
+					<!-- KCHINK -->
 
-				<!-- <li id="kchink-menu">
-					<a href="javascript:void(0);">
-						<img src="http://placehold.it/30x30?text=K" alt="k-chink">
-					</a>
-				</li> -->
+					<!-- <li id="kchink-menu">
+						<a href="javascript:void(0);">
+							<img src="http://placehold.it/30x30?text=K" alt="k-chink">
+						</a>
+					</li> -->
 
-			</ul>
+				</ul>
+			</div>
 		</div>
 	</div>
 </nav>
@@ -460,77 +462,89 @@
 			<h2 class="whiteTxt" align="center">Hoteles</h2>
 			<hr class="ultraLight">
 			<ul id="hotelesGrid">
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/marival.jpg" alt="Marival Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<h3 class="label">Código: 21K-17X00</h3>
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://es.hrhvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hard_rock.jpg" alt="Hard Rock Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">Hard Rock Hotel</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://paradisevillage.com.mx" target="_blank" class="linkHotel">
 						<img src="images/hoteles/paradise_village.jpg" alt="Paradise Village Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 3</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.hotelvillavaradero.com/esp" target="_blank" class="linkHotel">
 						<img src="images/hoteles/villa_varadero.jpg" alt="Villa Varadero Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 4</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.belairvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/bel_air.jpg" alt="Bel Air Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 5</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
 						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 6</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://nopall.com" target="_blank" class="linkHotel">
 						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 7</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.hiltonhotels.com/es_XM/mexico/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hilton.jpg" alt="Hilton Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 8</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.krystalvallartaresort.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/kristal.jpg" alt="Kristal Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 9</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_jalisco.jpg" alt="Rie Jalisco Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 9</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_palace.jpg" alt="Riu Palace Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 9</h3> -->
+					
 				</li>
-				<li class="hotel">
+				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_vallarta.jpg" alt="Riu Vallarta Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
 					</a>
-					<!-- <h3 class="label">hotel 9</h3> -->
+					
 				</li>
 			</ul>
 		</div>
@@ -686,7 +700,7 @@
 		
 		<div class="gallery">
 			<div id="ri-grid" class="ri-grid ri-grid-size-3">
-				<img src="http://www.placehold.it/" alt="" class="ri-loading-image">
+				<img src="" alt="" class="ri-loading-image">
 				<ul class="gallery">
 					<li><a href="images/galeria/sample1.jpg"><img src="images/galeria/sample-thumb1.jpg" alt=""></a></li>
 					<li><a href="images/galeria/sample2.jpg"><img src="images/galeria/sample-thumb2.jpg" alt=""></a></li>

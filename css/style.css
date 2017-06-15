@@ -329,9 +329,9 @@ img{
     max-width: 18vw;
     margin: 16px;
   }
-  nav{
+  /* nav{
     display: none;
-  }
+  } */
 }
 @media screen and (max-width: 991px) {
 #btn-trailer{
