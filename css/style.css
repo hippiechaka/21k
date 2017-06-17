@@ -306,7 +306,7 @@ img{
   }
   .navbar-nav>li {
     font-size: 1em;
-    margin: -4px;
+    /*margin: -4px;*/
   }
 }
 @media screen and (max-device-width: 800px) {

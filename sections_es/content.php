@@ -5,7 +5,7 @@
 		<div class="container">
 			<div class="navbar-header">
 				<a href="#top" class="navbar-brand">
-					<img src="images/slider/logo_21k_menu.png" alt="LOGO">
+					<img src="images/slider/logo_21k_menu.png" alt="<?php echo($titulo); ?>">
 				</a>
 			</div>
 			<button class="navbar-toggle collapsed" type="button" data-toggle="collapse" data-target="#mainNav" aria-expanded="true">
@@ -20,12 +20,12 @@
 					<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
 					<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
 					<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
-					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>
-					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
-					<li><a href="#contacto" id="contactoBtn">Contacto</a></li>
+					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>					
+					<li class="unpair"><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
 					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
+					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				</ul>
-				<ul class="nav navbar-nav navbar-right">
+				<ul class="nav navbar-nav navbar-right" id="navbar-idiomas">
 
 					<!-- Idioma -->
 
@@ -100,23 +100,28 @@
 <section id="mainslideshow" class="container-fluid owl-corousel">
 	<div>
         <img src="images/slider/01.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/01s.jpg" alt="" class="hidden-lg"> 	
+        <img src="images/slider/01s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	 	
     </div>
     <div>
         <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/02s.jpg" alt="" class="hidden-lg"> 	
+        <img src="images/slider/02s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/03s.jpg" alt="" class="hidden-lg"> 	
+        <img src="images/slider/03s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/04.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/04s.jpg" alt="" class="hidden-lg"> 	
+        <img src="images/slider/04s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/05.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/05s.jpg" alt="" class="hidden-lg"> 	
+        <img src="images/slider/05s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
 </section>
 
