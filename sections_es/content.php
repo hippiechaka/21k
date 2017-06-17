@@ -785,7 +785,7 @@
 		<div class="short center-block">
 			<h2 class="whiteTxt">Resultados</h2>
 			<hr class="ultraLight">
-			<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a><span class="hidden-sm hidden-xs">&nbsp;/&nbsp;</span>
+			<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a><img src="images/loading.gif" alt="" class="visible-xs-block center-block clearfix"><span class="hidden-sm hidden-xs">&nbsp;/&nbsp;</span>
 			<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
 		</div>
 	</div>

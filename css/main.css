@@ -873,6 +873,7 @@ section#inscripciones{background: #831d80;}
 	#navbar-idiomas{width:120px;height:30px;display:block;margin:10px auto;}
 	#navbar-idiomas li.idioma{width:30px;margin:5px;float:left;}
 	#navbar-idiomas li.idioma a.flagIdioma{background: none;width: 30px;height: 30px;display: block;padding: 0;margin: 0;line-height: normal;}
+	#contemap{max-height:60vh;}
 	#corredor{height:auto;opacity:0.66;}
 	#corredora{height:auto;opacity:0.66;top:initial;bottom:0;}
 }
