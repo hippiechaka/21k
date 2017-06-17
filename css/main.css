@@ -823,8 +823,11 @@ a.circleSocialBtn#facebook:hover i{color:#fff;}
 .bigBTN#facebookBtn{background:#3b5998;}
 .bigBTN#instagramBtn{background:#3b7298;}
 .bigBTN#youtubeBtn{background:#ff0000;}
-
-
+/*
+h1 {font-size: 5.9vw;}
+h2 {font-size: 3.0vh;}
+p {font-size: 2vmin;}
+*/
 #kchinkContainer{
 	height:100vh;
 }
@@ -876,6 +879,7 @@ section#inscripciones{background: #831d80;}
 	#contemap{max-height:60vh;}
 	#corredor{height:auto;opacity:0.66;}
 	#corredora{height:auto;opacity:0.66;top:initial;bottom:0;}
+	.bigBTN{height:25vh;line-height:25vh;font-size:15vw !important;}
 }
 @media screen and (max-width: 480px) {
 	header img#mainLogo {max-width: 80%;top: calc(90px + 3vh);left: 10%;}

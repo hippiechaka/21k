@@ -812,7 +812,7 @@
 			  </div>
 			  <div class="checkbox">
 			    <label>
-			      <input type="checkbox"> Check me out
+			      <input type="checkbox">Check me out
 			    </label>
 			  </div>
 			  <button type="submit" class="btn btn-default">Submit</button>
@@ -827,7 +827,7 @@
 		<div class="col-md-3"></div>
 		<div class="col-md-9">
 
-			<h1 class="whiteTxt">Preguntas Frecuentes (faq)</h1>
+			<h1 class="whiteTxt">Preguntas Frecuentes</h1>
 			<hr class="ultraLight">
 
 			<div class="convocatoriaSlide" id="faqPreguntas">
