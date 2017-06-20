@@ -106,22 +106,37 @@
     <div>
         <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
         <img src="images/slider/02s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/02xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
         <img src="images/slider/03s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/03xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/04.jpg" alt="" class="visible-lg-block">
         <img src="images/slider/04s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/04xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/05.jpg" alt="" class="visible-lg-block">
         <img src="images/slider/05s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/05xs.jpg" alt="" class="visible-xs-block"> 	
+    </div>
+    <div>
+        <img src="images/slider/06.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/06s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/06xs.jpg" alt="" class="visible-xs-block"> 	
+    </div>
+    <div>
+        <img src="images/slider/07.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/07s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/07xs.jpg" alt="" class="visible-xs-block"> 	
+    </div>
+    <div>
+        <img src="images/slider/08.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/08s.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/08xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
 </section>
 
@@ -416,8 +431,8 @@
 			<div class="short center-block" align="center">
 				<p>Todas las tiendas Innovasport:<br>
 				<a href="http://sucursales.innovasport.com" target="_blank" class="btn center-block">Ver Tiendas</a></p>
-				<p>Nombre / revisar info</p>
-				<p><i class="fa fa-phone" aria-hidden="true"></i><span>Oficina:   01 (33) 3616-6428</span></p>
+				<!-- <p>Nombre / revisar info</p>
+				<p><i class="fa fa-phone" aria-hidden="true"></i><span>Oficina:   01 (33) 3616-6428</span></p> -->
 			</div>
 		</div>
 
@@ -732,6 +747,7 @@
 					<li><a href="images/galeria/sample23.jpg"><img src="images/galeria/sample-thumb23.jpg" alt=""></a></li>
 					<li><a href="images/galeria/sample24.jpg"><img src="images/galeria/sample-thumb24.jpg" alt=""></a></li>
 					<li><a href="images/galeria/sample25.jpg"><img src="images/galeria/sample-thumb25.jpg" alt=""></a></li>
+					<li><a href="images/galeria/sample26.jpg"><img src="images/galeria/sample-thumb26.jpg" alt=""></a></li>
 				</ul>
 			</div>
 		</div>
@@ -760,12 +776,12 @@
 </section>
 
 <!-- KCHINK -->
-<section id="kchinkContainer" class="container-fluid">
+<!-- <section id="kchinkContainer" class="container-fluid"> -->
 	<!-- <div id="kchink" class="iframe">contenido de k-chink</div> -->
 	<!-- <img src="images/sample-kichink.jpg" alt="muestra kichink" class="img-responsive"> -->
 	<!-- <iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0"></iframe> -->
-<iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0">
-<div style="width:300px; margin:40% auto; font-size:20px;"> Si puedes ver éste mensaje, es porque tu navegador no permite mostrar la tienda en esta área; clic <a href="https://www.kichink.com/stores/id/72509" target="_blank">aquí</a>para abrirla en una nueva ventana.</div> </iframe>
+<!-- <iframe src="https://www.kichink.com/stores/id/72509" width="100%" height="100%" frameborder="0">
+<div style="width:300px; margin:40% auto; font-size:20px;"> Si puedes ver éste mensaje, es porque tu navegador no permite mostrar la tienda en esta área; clic <a href="https://www.kichink.com/stores/id/72509" target="_blank">aquí</a>para abrirla en una nueva ventana.</div> </iframe> -->
 
 </section>
 <section class="container-fluid" id="botonzotes">
