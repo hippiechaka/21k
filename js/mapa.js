@@ -416,10 +416,11 @@ SEÑALÉTICA
 
 //Vuelta a la Derecha
 marker22 = new google.maps.Marker({
-    position: new google.maps.LatLng(20.708621, -105.299873),
+    // position: new google.maps.LatLng(20.708621, -105.299873),
+   position: new google.maps.LatLng(20.708486, -105.299919),
     map: map,
     title: 'Vuelta a la Derecha',
-icon: 'images/map/pin-right.png'
+icon: 'images/map/s1.png'
 });
 google.maps.event.addListener(marker22, 'click', function() {
 cargainfo(marker22,"vuelta-derecha");
