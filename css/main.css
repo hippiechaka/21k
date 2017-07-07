@@ -220,6 +220,17 @@ a.inscripcionesBtn.active{background-color:rgba(0,0,0,0.3);}
 #corredora{position: absolute;left:-7%;top:calc(100% - 740px);z-index:2;}
 .innovaData{max-width:640px;}
 .contentInsc{position:relative;z-index:999;}
+
+#santanderBtn{
+color:#fff;
+background:none;
+border:2px solid #fff;
+border-radius:4px; 
+}
+
+
+
+
 #hoteles{padding-top:90px;background:url(../images/bg-hoteles.jpg)no-repeat;background-size:cover;background-attachment:fixed;}
 #hotelesGrid{list-style:none;padding:0;margin:0;display:block;text-align:center;}
 #hotelesGrid li{display:inline-block;margin:5px;width:300px;height:300px;position:relative;overflow:hidden;}

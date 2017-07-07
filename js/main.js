@@ -30,7 +30,6 @@ $(document).ready(function() {
 
 
 $(".convocatoriaSlide").owlCarousel({
- 
       navigation : true, // Show next and prev buttons
       slideSpeed : 300,
       paginationSpeed : 400,
@@ -47,7 +46,6 @@ $(".convocatoriaSlide").owlCarousel({
   });
 
 $('#mainslideshow').owlCarousel({
-    //smartSpeed:450,
     animateOut: 'fadeOut',
     animateIn: 'fadeIn',
     singleItem: true,
@@ -59,26 +57,77 @@ $('#mainslideshow').owlCarousel({
     items: 1,
     slideSpeed: 300,
     paginationSpeed: 400,
-    //autoPlay: 3000, //autoplay n 3 sec.
-
     autoplay: true,
                 autoplayTimeout: 3000,
                 autoplayHoverPause: true,
     
-    // navText: [
-    //     "<i class='fa fa-angle-left' aria-hidden='true'></i>",
-    //     "<i class='fa fa-angle-right' aria-hidden='true'></i>"],
-
-
     });
 
-    // $(".next").click(function() {
-    //     owl.trigger('owl.next');
-    // })
-    // $(".prev").click(function() {
-    //     owl.trigger('owl.prev');
-    // })
+$(".hotels").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      nav: true,
+      controls: true,
+      items : 4,
+      itemsMobile : true,
+      loop:true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:true
+          },
+          600:{
+              items:3,
+              nav:true
+          },
+          1000:{
+              items:4,
+              nav:true,
+              loop:true
+          }
+      },
+      navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"]
+ 
+  });
 
+$(".logos").owlCarousel({
+ 
+      navigation : true, // Show next and prev buttons
+      slideSpeed : 300,
+      paginationSpeed : 400,
+      nav: true,
+      controls: true,
+      items : 5,
+      itemsMobile : true,
+      loop:true,
+      autoplay: true,
+      autoplayTimeout: 3000,
+      autoplayHoverPause: true,
+      responsiveClass:true,
+      responsive:{
+          0:{
+              items:1,
+              nav:true
+          },
+          600:{
+              items:3,
+              nav:true
+          },
+          1000:{
+              items:5,
+              nav:true,
+              loop:true
+          }
+      },
+      navText: ["<i class='fa fa-angle-left' aria-hidden='true'></i>", "<i class='fa fa-angle-right' aria-hidden='true'></i>"]
+ 
+  });
 
 /* 
 ===============================================================================
@@ -276,6 +325,17 @@ $('#servMedBtn').click(function() {
   map.setCenter(new google.maps.LatLng(20.698384, -105.296176));
     infowindow.close();
 });
+
+
+$(document).ready(function(){
+    $("#santander-btn").click(function(){
+        $("#myModal").modal();
+    });
+});
+
+
+
+
 
 });
 

@@ -226,9 +226,10 @@
 <!-- convocatoria -->
 
 <section id="convocatoria" class="container-fluid">
-	<div class="col-md-9">
-		<h1 class="whiteTxt">Convocatoria</h1>
+<h1 class="whiteTxt" align="center">Convocatoria</h1>
 		<hr class="ultraLight">
+	<div class="col-md-9">
+		
 		<div class="group-btns" id="convocatoriaControls">
 			<a href="javascript:void(0);" class="btn convocatoriaBtn active" id="btnConvocatoria">Convocatoria</a>
 			<a href="javascript:void(0);" class="btn convocatoriaBtn" id="btnPrograma">Programa Oficial</a>
@@ -374,10 +375,11 @@
 	
 	<img src="images/galeria/10k_text.png" alt="" id="k10">
 	<img src="images/galeria/corredora.png" alt="" id="corredora">
+	<h1 class="whiteTxt" align="center">Inscripciones</h1>
+		<hr class="ultraLight">
 	<div class="col-md-3"></div><!-- empty column -->
 	<div class="col-md-8 pull-right">
-		<h1 class="whiteTxt">Inscripciones</h1>
-		<hr class="ultraLight">
+		
 
 		<div class="group-btns" id="inscripcionesControls">
 			<a href="javascript:void(0);" class="btn inscripcionesBtn" id="btnSantander">
@@ -409,7 +411,7 @@
 						<strong>A nombre de:</strong> Conserviexpress, Convenciones y Servicios Express S. A. de C. V.<br>
 						<strong>En referencia:</strong> Proporciona tu nombre completo al cajero.
 					</li>
-					<li>Paso 2-  Llena la ficha de registro Aquí por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
+					<li>Paso 2-  Llena la ficha de registro  <button type="button" data-toggle="modal" data-target="#myModal" id="santanderBtn">aquí</button> por cada corredor (llena todos los campos) que se inscriba y haz click en enviar.</li>
 
 					<li>Paso 3-  Espera nuestra respuesta por correo electrónico, en la cual te informaremos la confirmación de tú inscripción.</li>
 				</ul>
@@ -481,88 +483,88 @@
 		<div class="row">
 			<h2 class="whiteTxt" align="center">Hoteles</h2>
 			<hr class="ultraLight">
-			<ul id="hotelesGrid">
+			<ul id="hotelesGrid" class="hotels">
 				<li class="hotel item">
 					<a href="http://www.marival.com.mx/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/marival.jpg" alt="Marival Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://es.hrhvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hard_rock.jpg" alt="Hard Rock Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://paradisevillage.com.mx" target="_blank" class="linkHotel">
 						<img src="images/hoteles/paradise_village.jpg" alt="Paradise Village Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.hotelvillavaradero.com/esp" target="_blank" class="linkHotel">
 						<img src="images/hoteles/villa_varadero.jpg" alt="Villa Varadero Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.belairvallarta.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/bel_air.jpg" alt="Bel Air Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
 						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://nopall.com" target="_blank" class="linkHotel">
 						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.hiltonhotels.com/es_XM/mexico/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/hilton.jpg" alt="Hilton Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.krystalvallartaresort.com/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/kristal.jpg" alt="Kristal Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_jalisco.jpg" alt="Rie Jalisco Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_palace.jpg" alt="Riu Palace Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
 					<a href="http://www.riu.com/consultar-disponibilidad/" target="_blank" class="linkHotel">
 						<img src="images/hoteles/riu_vallarta.jpg" alt="Riu Vallarta Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente] </h4>
+						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
 					</a>
 					
 				</li>
@@ -577,71 +579,71 @@
 	<div style="padding:30px 0;background-color:#00aeff">
 		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
 		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
-		<h3 class="whiteTxt" align="center">Patrocinadores</h3>
+		<h2 class="whiteTxt" align="center">Patrocinadores</h2>
 	</div>
 	<div class="container">
 		<div class="row">
-			<ul id="sponsorsGrid">
-				<li>
+			<ul id="sponsorsGrid" class="logos">
+				<li class="item">
 					<img src="images/sponsors/powerade.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">Muestra</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/innova.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 2</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/frogs.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 3</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/anytime_fitness.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 4</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/tomtom.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 5</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/ciel.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 6</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/paradise_village_convention.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 7</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/paradise_village_plaza.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 8</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/la_moderna.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 9</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/vallarta_adventures.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 10</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/centro_empresarial.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 11</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/el_tigre_club_de_golf.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 12</h3> -->
 				</li>
-				<li>
+				<li class="item">
 					<img src="images/sponsors/ut.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 13</h3> -->
 				</li>
-				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 14</h3>
-				</li>
-				<li>
-					<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
-					<h3 class="label">sponsor 15</h3>
-				</li>
+					<!-- <li class="item">
+						<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
+						<h3 class="label">sponsor 14</h3>
+					</li>
+					<li class="item">
+						<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
+						<h3 class="label">sponsor 15</h3>
+					</li> -->
 			</ul>
 		</div>
 	</div>
@@ -651,7 +653,7 @@
 	<div class="bigRedTitle" style="padding:30px 0;">
 		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
 		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
-		<h3 class="whiteTxt" align="center">Cupones y Servicios</h3>
+		<h2 class="whiteTxt" align="center">Cupones y Servicios</h2>
 	</div>
 	
 	<hr class="ultraLight">
@@ -665,25 +667,25 @@
 				<li><a href="javascript:void(0);" class="categoria" id="cat4">Transportación</a></li>
 			</ul>
 			<hr class="ultraLight">
-			<ul id="cupones-serviciosGrid">
-				<li><img src="images/cupones/sample.jpg" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+2" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+4" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+5" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+6" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+7" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+8" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+9" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+10" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+11" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+12" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+13" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+14" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+15" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+16" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+17" alt="" class="img-responsive cupon"></li>
-				<li><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+18" alt="" class="img-responsive cupon"></li>
+			<ul id="cupones-serviciosGrid"> <!-- class="logos" -->
+				<li class="item"><img src="images/cupones/sample.jpg" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+2" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+4" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+5" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+6" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+7" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+8" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+9" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+10" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+11" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+12" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+13" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+14" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+15" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+16" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+17" alt="" class="img-responsive cupon"></li>
+				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+18" alt="" class="img-responsive cupon"></li>
 			</ul>
 			<a href="pdf/21k_cupones_descuentos.pdf" target="_blank" class="ghostButtonHome redBtn">
 				<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Cuponera 2017
@@ -975,3 +977,258 @@
 <div class="descripcionoculta vuelta-glorieta">Vuelta a la glorieta</div>
 <div class="descripcionoculta vuelta-u">Vuelta en U</div>
 <div class="descripcionoculta retorno">Retorno</div>
+
+<!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+    
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4><i class="fa fa-lock" aria-hidden="true"></i> Ficha de Registro Santander</h4>
+        </div>
+        <div class="modal-body" style="padding:30px;">
+
+			<!-- <form role="form">
+				<div class="form-group">
+					<label for="usrname"><i class="fa fa-user-circle" aria-hidden="true" style="color:#000"></i> Username</label>
+					<input type="text" class="form-control" id="usrname" placeholder="Enter email">
+				</div>
+				<div class="form-group">
+					<label for="psw"><i class="fa fa-ticket" aria-hidden="true" style="color:#000"></i> Password</label>
+					<input type="text" class="form-control" id="psw" placeholder="Enter password">
+				</div>
+
+				<button type="submit" class="btn btn-danger btn-default center-block" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> Cancel</button>
+				<hr>
+				<p class="small">Not a member? <a href="#">Sign Up</a></p>
+				<p class="small">Forgot <a href="#">Password?</a></p>
+			</form> -->
+<div id="ninja_forms_form_5_cont" class="ninja-forms-cont">
+<div id="ninja_forms_form_5_wrap" class="ninja-forms-form-wrap">
+<!-- <h2 class="ninja-forms-form-title"></h2> -->
+<div id="ninja_forms_form_5_response_msg" style="" class="ninja-forms-response-msg "></div>
+<form id="ninja_forms_form_5" enctype="multipart/form-data" method="post" name="" action="http://mediomaratonrivieranayarit.com/wp-admin/admin-ajax.php?action=ninja_forms_ajax_submit" class="ninja-forms-form">
+
+<input type="hidden" id="_wpnonce" name="_wpnonce" value="1ce7102fb4" />
+<input type="hidden" name="_wp_http_referer" value="/ficha-de-inscripcion-santander/" />
+<input type="hidden" name="_ninja_forms_display_submit" value="1">
+<input type="hidden" name="_form_id"  id="_form_id" value="5">
+<div class="hp-wrap">
+<label>Si usted es un humano y está viendo este ámbito, por favor deje en blanco.
+<input type="text" value="" name="_EnsAe">
+<input type="hidden" value="_EnsAe" name="_hp_name">
+</label>
+</div>
+<div id="ninja_forms_form_5_all_fields_wrap" class="ninja-forms-all-fields-wrap">
+<div class="ninja-forms-required-items">Campos marcados con <span class="ninja-forms-req-symbol">*</span> son requeridos</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_6_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_6_type" value="text">
+<label for="ninja_forms_field_6" id="ninja_forms_field_6_label" class="">Nombre <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>
+</label>
+<input id="ninja_forms_field_6" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_6" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="6"   />
+<div id="ninja_forms_field_6_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_8_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_8_type" value="text">
+<label for="ninja_forms_field_8" id="ninja_forms_field_8_label" class="">Apellido Paterno <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>
+</label>
+<input id="ninja_forms_field_8" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_8" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="8"   />
+<div id="ninja_forms_field_8_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_9_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_9_type" value="text">
+<label for="ninja_forms_field_9" id="ninja_forms_field_9_label" class="">Apellido Materno <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>
+</label>
+<input id="ninja_forms_field_9" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_9" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="9"   />
+<div id="ninja_forms_field_9_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_11_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_11_type" value="list">
+<input type="hidden" id="ninja_forms_field_11_list_type" value="dropdown">
+<label for="ninja_forms_field_11" id="ninja_forms_field_11_label" class="">Sexo <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>
+</label>
+<select name="ninja_forms_field_11" id="ninja_forms_field_11" class="ninja-forms-field  ninja-forms-req" rel="11">
+<option value="Masculino" selected style="" >Masculino</option>
+<option value="Femenino"  style="" >Femenino</option>
+</select>
+<div id="ninja_forms_field_11_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_14_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_14_type" value="text">
+<label for="ninja_forms_field_14" id="ninja_forms_field_14_label" class="">Fecha de Nacimiento <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_14" data-mask="date" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_14" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req ninja-forms-date" value="" rel="14"   />
+<div id="ninja_forms_field_14_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_10_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_10_type" value="text">
+<label for="ninja_forms_field_10" id="ninja_forms_field_10_label" class="">Club 				</label>
+<input id="ninja_forms_field_10" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_10" type="text" placeholder="" class="ninja-forms-field  " value="" rel="10"   />
+<div id="ninja_forms_field_10_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_15_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_15_type" value="list">
+<input type="hidden" id="ninja_forms_field_15_list_type" value="dropdown">
+<label for="ninja_forms_field_15" id="ninja_forms_field_15_label" class="">Categoría <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<select name="ninja_forms_field_15" id="ninja_forms_field_15" class="ninja-forms-field  ninja-forms-req" rel="15">
+<option value="18 a 39 años" selected style="" >18 a 39 años</option>
+<option value="40 a 44 años"  style="" >40 a 44 años</option>
+<option value="45 a 49 años"  style="" >45 a 49 años</option>
+<option value="50 a 54 años"  style="" >50 a 54 años</option>
+<option value="55 a 59 años"  style="" >55 a 59 años</option>
+<option value="60 y mas Femenil"  style="" >60 y mas Femenil</option>
+<option value="60 a 64 años Varonil"  style="" >60 a 64 años Varonil</option>
+<option value="65 y mas Varonil"  style="" >65 y mas Varonil</option>
+</select>
+<div id="ninja_forms_field_15_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_16_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_16_type" value="list">
+<input type="hidden" id="ninja_forms_field_16_list_type" value="dropdown">
+<label for="ninja_forms_field_16" id="ninja_forms_field_16_label" class="">Distancia <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<select name="ninja_forms_field_16" id="ninja_forms_field_16" class="ninja-forms-field  ninja-forms-req" rel="16">
+<option value="10K" selected style="" >10K</option>
+<option value="21K"  style="" >21K</option>
+</select>
+<div id="ninja_forms_field_16_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_17_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_17_type" value="text">
+<label for="ninja_forms_field_17" id="ninja_forms_field_17_label" class="">Email 				</label>
+<input id="ninja_forms_field_17" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_17" type="text" placeholder="" class="ninja-forms-field  email " value="" rel="17"   />
+<div id="ninja_forms_field_17_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_18_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_18_type" value="text">
+<label for="ninja_forms_field_18" id="ninja_forms_field_18_label" class="">Colonia <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_18" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_18" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="18"   />
+<div id="ninja_forms_field_18_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_19_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_19_type" value="text">
+<label for="ninja_forms_field_19" id="ninja_forms_field_19_label" class="">Municipio <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_19" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_19" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="19"   />
+<div id="ninja_forms_field_19_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_20_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_20_type" value="text">
+<label for="ninja_forms_field_20" id="ninja_forms_field_20_label" class="">Estado <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_20" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_20" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="20"   />
+<div id="ninja_forms_field_20_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_21_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_21_type" value="text">
+<label for="ninja_forms_field_21" id="ninja_forms_field_21_label" class="">Ciudad <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_21" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_21" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="21"   />
+<div id="ninja_forms_field_21_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_22_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_22_type" value="text">
+<label for="ninja_forms_field_22" id="ninja_forms_field_22_label" class="">País <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_22" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_22" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="22"   />
+<div id="ninja_forms_field_22_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_23_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_23_type" value="text">
+<label for="ninja_forms_field_23" id="ninja_forms_field_23_label" class="">Código Postal <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_23" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_23" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="23"   />
+<div id="ninja_forms_field_23_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_24_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_24_type" value="text">
+<label for="ninja_forms_field_24" id="ninja_forms_field_24_label" class="">Teléfono <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>				</label>
+<input id="ninja_forms_field_24" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_24" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="24"   />
+<div id="ninja_forms_field_24_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+
+
+<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_25_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_25_type" value="text">
+<label for="ninja_forms_field_25" id="ninja_forms_field_25_label" class="">Teléfono Celular <span class='ninja-forms-req-symbol'>
+<strong>*</strong>
+</span>
+</label>
+<input id="ninja_forms_field_25" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_25" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="25"   />
+<div id="ninja_forms_field_25_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+
+<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_26_div_wrap" data-visible="1">
+	<input type="hidden" id="ninja_forms_field_26_type" value="list">
+	<input type="hidden" id="ninja_forms_field_26_list_type" value="dropdown">
+	<label for="ninja_forms_field_26" id="ninja_forms_field_26_label" class="">Talla de Playera</label>
+	<select name="ninja_forms_field_26" id="ninja_forms_field_26" class="ninja-forms-field " rel="26">
+		<option value="Chica" selected style="" >Chica</option>
+		<option value="Mediana"  style="" >Mediana</option>
+		<option value="Grande"  style="" >Grande</option>
+		<option value="Extra-Grande"  style="" >Extra-Grande</option>
+	</select>
+	<div id="ninja_forms_field_26_error" style="display:none;" class="ninja-forms-field-error"></div>
+</div>
+
+<div class="field-wrap submit-wrap label-above"  id="ninja_forms_field_7_div_wrap" data-visible="1">
+<input type="hidden" id="ninja_forms_field_7_type" value="submit">
+<div id="nf_submit_5">
+<input type="submit" name="_ninja_forms_field_7" class="ninja-forms-field " id="ninja_forms_field_7" value="Enviar" rel="7" >
+</div>
+<div id="nf_processing_5" style="display:none;">
+<input type="submit" name="_ninja_forms_field_7" class="ninja-forms-field " id="ninja_forms_field_7" value="Procesando" rel="7" disabled>
+</div>
+<div id="ninja_forms_field_7_error" style="display:none;" class="ninja-forms-field-error">
+</div>
+</div>
+</div>
+</form>
+</div>
+</div>
+
+		</div>
+      </div>
+      
+    </div>
+  </div>
