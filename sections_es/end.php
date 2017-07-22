@@ -20,6 +20,8 @@
     <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/animation.gsap.js"></script>
     <!-- <script type="text/javascript" src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script> -->
     <script src='js/jquery.simpleWeather.min.js'></script>
+    <!-- <script src='js/jquery.mixitup.min.js'></script> -->
+    <script src='http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2'></script>
     <script src="js/main.js"></script>
     
 <!-- GoogleAnalytics -->

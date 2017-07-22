@@ -78,23 +78,22 @@
 </nav>
 <!-- BLOCK -->
 <header class="block">
-<div class="container">
-	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive animated pulse">	
-	<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
-	<div class="clearfix"></div>
+	<div class="container">
+		<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive animated pulse">	
+		<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
+		<div class="clearfix"></div>
 
-	<div class="col-md-3 fooCol"></div>
-	<div class="col-md-6 center-block">
-		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs animated fadeIn">
-		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs animated fadeIn">		
+		<div class="col-md-3 fooCol"></div>
+		<div class="col-md-6 center-block">
+			<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs animated fadeIn">
+			<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs animated fadeIn">		
+		</div>
+		<div class="col-md-3 fooCol"></div>
 	</div>
-	<div class="col-md-3 fooCol"></div>
-</div>
 
 	<a href="http://distancerunning.co.uk/races/10000.html" class="pull-right" id="iaaf-aims" target="_blank">
 		<img src="images/slider/iaaf_aims.png" alt="IAAF/AIMS">
 	</a>
-
 </header>
 <!-- mainslideshow -->
 <section id="mainslideshow" class="container-fluid owl-corousel">
@@ -139,7 +138,6 @@
         <img src="images/slider/08xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
 </section>
-
 <!-- widgets -->
 <section id="widgets" class="container-fluid">
 	<div class="col-md-6 weatherBg">
@@ -195,7 +193,6 @@
 		</div>
 	</div>
 </section>
-
 <!-- suscribe -->
 <section id="suscribe" style="padding-top:30px;">
   <img src="images/fitness.png" class="img-responsive center-block" id="fitness_logo" alt="anytime fitness">
@@ -208,7 +205,6 @@
     <button type="submit" class="btn btn-4 btn-4c icon-arrow-right" id="submitButton">Enviar</button>
   </form>
 </section>
-
 <!-- mainVideo -->
 <section id="mainVideo" class="container-fluid">
   <div class="cover">
@@ -224,9 +220,8 @@
   </div>
 </section>
 <!-- convocatoria -->
-
 <section id="convocatoria" class="container-fluid">
-<h1 class="whiteTxt" align="center">Convocatoria</h1>
+	<h1 class="whiteTxt" align="center">Convocatoria</h1>
 		<hr class="ultraLight">
 	<div class="col-md-9">
 		
@@ -368,7 +363,6 @@
 	<div class="col-md-3"></div><!-- empty column -->
 	<img src="images/galeria/corredor.png" id="corredor">
 	<img src="images/galeria/21k_text.png" id="k21">
-	
 </section>
 <!-- inscripciones -->
 <section id="inscripciones" class="container-fluid">
@@ -474,7 +468,6 @@
 				</form>
 			</div>
 		</div>
-
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
@@ -571,8 +564,6 @@
 			</ul>
 		</div>
 	</div>
-
-
 </section>
 <!-- sponsors -->
 <section id="patrocinadores" class="container-fluid">
@@ -659,34 +650,69 @@
 	<hr class="ultraLight">
 	<div class="container">
 		<div class="row">
-			<ul class="sort list-inline center-block" id="filters">
-				<li><a href="javascript:void(0);" class="categoria" id="cat0" class="current">Todos</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat4">Transportación</a></li>
-			</ul>
-			<hr class="ultraLight">
-			<ul id="cupones-serviciosGrid"> <!-- class="logos" -->
-				<li class="item"><img src="images/cupones/sample.jpg" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+2" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+4" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+5" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+6" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+7" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+8" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+9" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+10" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+11" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+12" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+13" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+14" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+15" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+16" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+17" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+18" alt="" class="img-responsive cupon"></li>
-			</ul>
+
+
+			<!-- <ul class="list-inline center-block" id="filters">
+				<li><a href="javascript:void(0);" class="categoria" data-id="all" class="current">Todos</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" data-id="tour">Tours</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" data-id="rest">Restaurantes</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" data-id="auto">Renta de Autos</a></li>&nbsp;|&nbsp;
+				<li><a href="javascript:void(0);" class="categoria" data-id="trans">Transportación</a></li>
+			</ul> -->
+
+			<!-- <ul id="cupones-serviciosGrid">
+				<li data-id="rest"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon"></li>
+			</ul> -->
+
+			<div id="container">
+  
+			  <div class="form-control-static">
+			    <button class="filter float" data-filter="all">Todos</button>
+			    <!-- <button class="sort float" data-sort="myorder:asc">In Order</button>
+			    <button class="sort nofloat" data-sort="random">Randomize</button> -->
+			    <button class="filter nofloat" data-filter=".category-1">Tours</button>
+			    <button class="filter nofloat" data-filter=".category-2">Restaurantes</button>
+			    <button class="filter nofloat" data-filter=".category-3">Renta de Autos</button>
+			    <button class="filter nofloat" data-filter=".category-4">Transportación</button>
+			  </div>
+			  
+			  <div class="mix category-2" data-myorder="1">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+1" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-1" data-myorder="2">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+2" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-3" data-myorder="3">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-2" data-myorder="4">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+4" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-4" data-myorder="5">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+5" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-1" data-myorder="6">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+6" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-3" data-myorder="7">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+7" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-1" data-myorder="8">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+8" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-1" data-myorder="9">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+9" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-4" data-myorder="10">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+10" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix category-2" data-myorder="11">
+				<img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+11" alt="" class="img-responsive cupon">
+			  </div>
+			</div>
+
+			<hr class="clearfix" style="clear:both;margin-top:15px;">
+
 			<a href="pdf/21k_cupones_descuentos.pdf" target="_blank" class="ghostButtonHome redBtn">
 				<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Cuponera 2017
 			</a>
@@ -711,7 +737,6 @@
 		<div id="map_canvas"></div>
 	</div>
 	<hr class="ultralight clearfix">
-	
 </section>
 <!-- galeria -->
 <section id="galeria" class="container-fluid">
@@ -754,16 +779,13 @@
 			</div>
 		</div>
 	</div>
-<!-- altimetria -->
-<h3 class="whiteTxt" align="center">Altimetría</h3>
-<hr class="ultraLight">
+	<!-- altimetria -->
+	<h3 class="whiteTxt" align="center">Altimetría</h3>
+	<hr class="ultraLight">
 
-<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
-
+	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
 </section>
-
 <!-- LENGUAJES -->
-
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
 		<a href="http://www.interlingua.com.mx/" target="_blank" class="center-block">
@@ -787,16 +809,12 @@
 
 </section>
 <section class="container-fluid" id="botonzotes">
-<!-- magia emmet (botones Gigantes): 
-	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
-	-->
 	<div class="bigBtns">
 		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
 		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
 		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
 	</div>
 </section>
-
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
 	<div class="col-md-6" id="resultado">
@@ -839,7 +857,7 @@
 	</div>
 	<div class="clearfix"></div>
 </section>
-
+<!-- FAQ -->
 <section class="container-fluid" id="faqSection">
 	<div class="container">
 		<div class="col-md-3"></div>
@@ -927,8 +945,11 @@
 			</div>
 		</div>
 	</div>
-
 </section>
+
+<!--
+==============================================================================================
+-->
 
 
 <!-- Descripciones para el MAPA -->
@@ -990,39 +1011,18 @@
         </div>
         <div class="modal-body" style="padding:30px;">
 
-			<!-- <form role="form">
-				<div class="form-group">
-					<label for="usrname"><i class="fa fa-user-circle" aria-hidden="true" style="color:#000"></i> Username</label>
-					<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-				</div>
-				<div class="form-group">
-					<label for="psw"><i class="fa fa-ticket" aria-hidden="true" style="color:#000"></i> Password</label>
-					<input type="text" class="form-control" id="psw" placeholder="Enter password">
-				</div>
 
-				<button type="submit" class="btn btn-danger btn-default center-block" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> Cancel</button>
-				<hr>
-				<p class="small">Not a member? <a href="#">Sign Up</a></p>
-				<p class="small">Forgot <a href="#">Password?</a></p>
-			</form> -->
-<div id="ninja_forms_form_5_cont" class="ninja-forms-cont">
-<div id="ninja_forms_form_5_wrap" class="ninja-forms-form-wrap">
-<!-- <h2 class="ninja-forms-form-title"></h2> -->
-<div id="ninja_forms_form_5_response_msg" style="" class="ninja-forms-response-msg "></div>
-<form id="ninja_forms_form_5" enctype="multipart/form-data" method="post" name="" action="http://mediomaratonrivieranayarit.com/wp-admin/admin-ajax.php?action=ninja_forms_ajax_submit" class="ninja-forms-form">
 
-<input type="hidden" id="_wpnonce" name="_wpnonce" value="1ce7102fb4" />
-<input type="hidden" name="_wp_http_referer" value="/ficha-de-inscripcion-santander/" />
-<input type="hidden" name="_ninja_forms_display_submit" value="1">
-<input type="hidden" name="_form_id"  id="_form_id" value="5">
-<div class="hp-wrap">
-<label>Si usted es un humano y está viendo este ámbito, por favor deje en blanco.
-<input type="text" value="" name="_EnsAe">
-<input type="hidden" value="_EnsAe" name="_hp_name">
-</label>
-</div>
+<form id="formularioSantander" enctype="multipart/form-data" method="post" role="form" action="" class="">
+
+
+
 <div id="ninja_forms_form_5_all_fields_wrap" class="ninja-forms-all-fields-wrap">
-<div class="ninja-forms-required-items">Campos marcados con <span class="ninja-forms-req-symbol">*</span> son requeridos</div>
+
+<div class="ninja-forms-required-items">
+Campos marcados con <span class="ninja-forms-req-symbol">*</span> son requeridos
+</div>
+
 <div class="field-wrap text-wrap label-above"  id="ninja_forms_field_6_div_wrap" data-visible="1">
 <input type="hidden" id="ninja_forms_field_6_type" value="text">
 <label for="ninja_forms_field_6" id="ninja_forms_field_6_label" class="">Nombre <span class='ninja-forms-req-symbol'>
@@ -1224,8 +1224,6 @@
 </div>
 </div>
 </form>
-</div>
-</div>
 
 		</div>
       </div>
