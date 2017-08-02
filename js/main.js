@@ -326,13 +326,6 @@ $('#servMedBtn').click(function() {
     infowindow.close();
 });
 
-
-$(document).ready(function(){
-    $("#santander-btn").click(function(){
-        $("#myModal").modal();
-    });
-});
-
 });
 
 // cupones
@@ -356,5 +349,39 @@ $(function() {
       "clear", "both");
   });
 });
+
+//formularios
+
+$(function(){
+    $("#forma_contacto").validate({
+        submitHandler: function (form) {
+            $("#enviando").show();
+            $(form).ajaxSubmit(function(){
+                $("#forma_envio").slideUp(500, function(){
+                    $("#enviado").slideDown();
+                });
+            });
+            return false; 
+        }           
+    });
+
+    $("#formularioSantander").validate({
+      submitHandler: function (form) {
+            $("#enviando-s").show();
+            $(form).ajaxSubmit(function(){
+                $("#forma_envio-s").slideUp(500, function(){
+                    $("#enviado-s").slideDown();
+                });
+            });
+            return false; 
+        }
+    
+    });
+
+});
+
+
+
+
 
 
