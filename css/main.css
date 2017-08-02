@@ -1103,7 +1103,6 @@ p {font-size: 2vmin;}
 	  	margin-left: 0;
     	padding-left: 0;
 }
-
 .input__field {
 	position: relative;
 	display: block;
@@ -1119,11 +1118,9 @@ p {font-size: 2vmin;}
 	/*font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;*/
 	-webkit-appearance: none; /* for box shadows to show on iOS */
 }
-
 .input__field:focus {
 	outline: none;
 }
-
 .input__label {
 	display: inline-block;
 	float: right;
@@ -1141,21 +1138,18 @@ p {font-size: 2vmin;}
 	-ms-user-select: none;
 	user-select: none;
 }
-
 .input__label-content {
 	position: relative;
 	display: block;
 	padding: 1.6em 0;
 	width: 100%;
 }
-
 .graphic {
 	position: absolute;
 	top: 0;
 	left: 0;
 	fill: none;
 }
-
 .icon {
 	color: #ddd;
 	font-size: 150%;
@@ -1219,7 +1213,7 @@ p {font-size: 2vmin;}
 
 /* loader */
 .sk-fading-circle {
-  margin: 100px auto;
+  margin: 15px auto;
   width: 40px;
   height: 40px;
   position: relative;

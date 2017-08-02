@@ -377,6 +377,17 @@ $(function(){
         }
     
     });
+    $("#paypalForm").validate({
+      submitHandler: function (form) {
+            $("#enviando-p").show();
+            $(form).ajaxSubmit(function(){
+                $("#forma_envio-p").slideUp(500, function(){
+                    $("#enviado-p").slideDown();
+                });
+            });
+            return false; 
+        }
+    });
 
 });
 

@@ -435,37 +435,102 @@
 		<div id="paypalContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
 				<p>Paypal</p>
-			<!-- FORM sample -->
-				<form id="paypalForm">
+
+			<div id="enviado-p" style="display:none" align="center">
+	            <div style="width:100%; height:80px; display:block; clear:both;"></div>
+	            <h2 style="font-weight:300;">El mensaje fue enviado con <span style="color:#fff;">éxito</span></h2>
+	            <h1 style="font-weight:300;">Gracias!</h1>
+	            <p>(por favor, refresca el sitio, para enviar otro e-mail)</p>
+	        </div>
+
+	        <div class="forma_envio-p">
+
+			<!-- paypal -->
+				<form id="paypalForm" action="enviando-p.php" method="post">
 					<div class="form-group">
-						<label for="namePaypal">Nombre</label>
-						<input type="text" class="form-control required" id="namePaypal" placeholder="Nombre">
-					</div>
-					<div class="form-group">
-						<label for="mailPaypal">Email</label>
-						<input type="text" class="form-control required email" id="mailPaypal" placeholder="Email">
+						<label for="name-p">Nombre *</label>
+						<input type="text" class="form-control required" id="name-p" name="name-p" placeholder="Nombre" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group col-xs-6" style="padding-left:0;">
-						<label for="-Paypal">Test</label>
-						<input type="text" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="fecha-p">Fecha de Nacimiento *</label>
+						<input type="text" class="form-control required" id="fecha-p" name="fecha-p" placeholder="dd/mm/aaaa" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group col-xs-6" style="padding-right:0;">
-						<label for="-Paypal">Test</label>
-						<input type="text" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="sexo-p">Sexo *</label>
+						<input type="text" class="form-control required" id="sexo-p" name="sexo-p" placeholder="Sexo" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group">
-						<label for="-Paypal">Test</label>
-						<input type="text" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="club-p">Club (opcional)</label>
+						<input type="text" class="form-control" id="club-p" name="club-p" placeholder="Club">
 					</div>
-					<hr class="ultraLight">					
-					<div class="checkbox">
-						<label>
-							<input type="checkbox"> Check me out
-						</label>
+					<div class="form-group col-xs-6" style="padding-left:0;">
+						<label for="categoria-p">Categoría</label>
+					  <select class="form-control" id="categoria-p" name="categoria-p">
+						<option value="18 a 39 años" selected style="" >18 a 39 años</option>
+						<option value="40 a 44 años"  style="" >40 a 44 años</option>
+						<option value="45 a 49 años"  style="" >45 a 49 años</option>
+						<option value="50 a 54 años"  style="" >50 a 54 años</option>
+						<option value="55 a 59 años"  style="" >55 a 59 años</option>
+						<option value="60 y mas Femenil"  style="" >60 y mas Femenil</option>
+						<option value="60 a 64 años Varonil"  style="" >60 a 64 años Varonil</option>
+						<option value="65 y mas Varonil"  style="" >65 y mas Varonil</option>
+					  </select>
+					</div>		
+					<div class="radio form-group col-xs-6" style="padding-right:0;">
+						<label>Distancia *</label>
+						<label class="radio-inline"><input type="radio" name="categoria-p" class="required" value="10k"> 10K</label>
+						<label class="radio-inline"><input type="radio" name="categoria-p" value="21k"> 21K</label>
+						<label for="categoria-p" class="error" style="display:none;">Selecciona una</label>
 					</div>
+					<hr class="ultraLight clearfix" style="clear:both;width:100%;display:block;">
+					<div class="form-group">
+						<label for="email-p">Email *</label>
+						<input type="text" class="form-control required email" id="email-p" placeholder="Email" title="Este campo es obligatorio">
+					</div>
+					<div class="form-group">
+						<label for="telefono-p">Teléfono/Whatsapp *</label>
+						<input type="text" class="form-control required number digits" id="telefono-p" placeholder="0000000000" title="Este campo es obligatorio (10 dígitos)">
+					</div>
+					<div class="form-group">
+						<label for="lugar-p">Ciudad/Estado/País/CP *</label>
+						<input type="text" class="form-control required" id="lugar-p" placeholder="Ciudad/Estado/País/CP">
+					</div>
+					<div class="radio form-group">
+						<label>Talla *</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" class="required" value="CH"> CH</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="ME"> ME</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="GD"> GD</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="XG"> XG</label>
+						<label for="talla-p" class="error" style="display:none;">Selecciona una</label>
+					</div>
+
+					<hr class="ultraLight">	
+
+					<button type="submit" href="javascript:void(0);" class="btn btn-default" id="submitPaypal">Pagar con Paypal Aquí</button>
+
+
 					<hr class="ultraLight">
-					<button type="submit" class="btn btn-default" id="submitPaypal">Submit</button>
+
+
 				</form>
+				<div id="enviando" style="display:none">
+                    <div class="sk-fading-circle">
+					  <div class="sk-circle1 sk-circle"></div>
+					  <div class="sk-circle2 sk-circle"></div>
+					  <div class="sk-circle3 sk-circle"></div>
+					  <div class="sk-circle4 sk-circle"></div>
+					  <div class="sk-circle5 sk-circle"></div>
+					  <div class="sk-circle6 sk-circle"></div>
+					  <div class="sk-circle7 sk-circle"></div>
+					  <div class="sk-circle8 sk-circle"></div>
+					  <div class="sk-circle9 sk-circle"></div>
+					  <div class="sk-circle10 sk-circle"></div>
+					  <div class="sk-circle11 sk-circle"></div>
+					  <div class="sk-circle12 sk-circle"></div>
+					</div>
+					<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
+                </div>
+            </div>
 			</div>
 		</div>
 </section>
@@ -890,7 +955,7 @@
 								  <div class="sk-circle11 sk-circle"></div>
 								  <div class="sk-circle12 sk-circle"></div>
 								</div>
-								Enviando..
+								<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
                             </div>
                         </div>
                     </div> 
@@ -1092,7 +1157,7 @@
 
 					<div class="form-group">
 					  <label for="sexo-s">Sexo</label>
-					  <select class="form-control" id="sexo-s">
+					  <select class="form-control" id="sexo-s" name="sexo-s">
 					    <option value="Masculino">Masculino</option>
 					    <option value="Femenino">Femenino</option>
 					  </select>
@@ -1111,7 +1176,7 @@
 
 					<div class="form-group">
 					  <label for="categoria-s">Categoría</label>
-					  <select class="form-control" id="categoria-s">
+					  <select class="form-control" id="categoria-s" name="categoria-s">
 						<option value="18 a 39 años" selected style="" >18 a 39 años</option>
 						<option value="40 a 44 años"  style="" >40 a 44 años</option>
 						<option value="45 a 49 años"  style="" >45 a 49 años</option>
@@ -1125,7 +1190,7 @@
 
 					<div class="form-group">
 					  <label for="distancia-s">Distancia</label>
-					  <select class="form-control" id="distancia-s">
+					  <select class="form-control" id="distancia-s" name="distancia-s">
 					    <option value="10K">10K</option>
 					    <option value="21K">21K</option>
 					  </select>
@@ -1148,22 +1213,22 @@
 
 					<div class="form-group">
 						<label for="codigoP-s">Código Postal *</label>
-						<input type="text" class="form-control required digits number" id="codigoP-s" name="codigoP-s" placeholder="00000" maxlength="5" title="Este campo es obligatorio">
+						<input type="text" class="form-control required digits number" id="codigoP-s" name="codigoP-s" placeholder="00000" maxlength="5" title="Este campo es obligatorio (5 dígitos)">
 					</div>
 
 					<div class="form-group">
-						<label for="telefono-s">Teléfono (opcional)</label>
-						<input type="text" class="form-control" id="telefono-s" name="telefono-s" placeholder="0000000000" maxlength="10" class="number">
+						<label for="telefono-s">Teléfono *</label>
+						<input type="text" class="form-control number digits required" id="telefono-s" name="telefono-s" placeholder="0000000000" maxlength="10" title="Este campo es obligatorio (10 dígitos)">
 					</div>
 
 					<div class="form-group">
 						<label for="celular">Celular (opcional)</label>
-						<input type="text" class="form-control" id="celular" name="celular" placeholder="0000000000" maxlength="10" class="number">
+						<input type="text" class="form-control number" id="celular" name="celular" placeholder="0000000000" maxlength="10">
 					</div>
 
 					<div class="form-group">
 					  <label for="talla">Talla</label>
-					  <select class="form-control" id="talla">
+					  <select class="form-control" id="talla" name="talla">
 					    <option value="Chica" selected style="" >Chica</option>
 						<option value="Mediana"  style="" >Mediana</option>
 						<option value="Grande"  style="" >Grande</option>
@@ -1190,7 +1255,7 @@
 					  <div class="sk-circle11 sk-circle"></div>
 					  <div class="sk-circle12 sk-circle"></div>
 					</div>
-					Enviando..
+					<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
 	            </div>
 
             </div>
