@@ -233,6 +233,22 @@ var scene = new ScrollMagic.Scene({triggerElement: "#inscripciones", duration: 7
         .setTween(tween)
         .addTo(controller);
 
+/* corredor-faq */
+
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#corredor-faq", 3, {right: 700}, {right: 0, ease: Back.easeOut}, 0.15);
+var scene = new ScrollMagic.Scene({triggerElement: "#faqSection", duration: 1000})
+        .setTween(tween)
+        .addTo(controller);
+
+/* corredora-faq */
+
+var controller = new ScrollMagic.Controller();
+var tween = TweenMax.staggerFromTo("#corredora-faq", 3, {left: -300}, {left: -90, ease: Back.easeOut}, 0.15);
+var scene = new ScrollMagic.Scene({triggerElement: "#faqSection", duration: 750})
+        .setTween(tween)
+        .addTo(controller);
+
 
 // v3.1.0
 //Docs at http://simpleweatherjs.com
@@ -356,7 +372,7 @@ $(function(){
     $("#forma_contacto").validate({
         submitHandler: function (form) {
             $("#enviando").show();
-            $(form).ajaxSubmit(function(){
+            $("#forma_contacto").ajaxSubmit(function(){
                 $("#forma_envio").slideUp(500, function(){
                     $("#enviado").slideDown();
                 });
@@ -368,7 +384,7 @@ $(function(){
     $("#formularioSantander").validate({
       submitHandler: function (form) {
             $("#enviando-s").show();
-            $(form).ajaxSubmit(function(){
+            $("#formularioSantander").ajaxSubmit(function(){
                 $("#forma_envio-s").slideUp(500, function(){
                     $("#enviado-s").slideDown();
                 });
@@ -380,7 +396,7 @@ $(function(){
     $("#paypalForm").validate({
       submitHandler: function (form) {
             $("#enviando-p").show();
-            $(form).ajaxSubmit(function(){
+            $("#paypalForm").ajaxSubmit(function(){
                 $("#forma_envio-p").slideUp(500, function(){
                     $("#enviado-p").slideDown();
                 });

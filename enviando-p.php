@@ -1,12 +1,17 @@
-  <?
+<?
   $enviado = 0;
-  if(!empty($_REQUEST['nombre'])){
+  if(!empty($_REQUEST['name-p'])){
     $body2 = "
-    Nombre: ".$_REQUEST['nombre']."<br />
-    E-mail: ".$_REQUEST['email']."<br />
-    City: ".$_REQUEST['city']."<br />
-    Activity: ".$_REQUEST['activity']."<br />
-    Mensaje: ".nl2br($_REQUEST['mensaje']);
+    Nombre: ".$_REQUEST['name-p']."<br />
+    Fecha de Nacimiento: ".$_REQUEST['fecha-p']."<br />
+    Sexo: ".$_REQUEST['sexo-p']."<br />
+    Club: ".$_REQUEST['club-p']."<br />
+    Categoria: ".$_REQUEST['categoria-p']."<br />
+    Distancia: ".$_REQUEST['distancia-p']."<br />
+    E-mail: ".$_REQUEST['email-p']."<br />
+    Teléfono: ".$_REQUEST['telefono-p']."<br />
+    Ciudad/Estado/País/CP: ".$_REQUEST['lugar-p']."<br />
+    Talla: ".nl2br($_REQUEST['talla-p']);
 
     $headers = "From: Medio Maratón Riviera Nayarit <no-reply@mediomaratonrivieranayarit.com>\n";
     $headers .= "Reply-To: Medio Maratón Riviera Nayarit <no-reply@mediomaratonrivieranayarit.com>\n";
@@ -26,7 +31,7 @@
 
     $from   = "Medio Maratón Riviera Nayarit <no-reply@mediomaratonrivieranayarit.com>";
     $to     = "hippiechaka@gmail.com";
-    $subject  = "Medio Maratón Riviera Nayarit - Comentario de ".$_REQUEST['nombre'];
+    $subject  = "Medio Maratón Riviera Nayarit - Registro Paypal ".$_REQUEST['name-p'];
 
     @mail($to , $subject, $body2, $headers);
 

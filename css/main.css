@@ -759,7 +759,10 @@ section#contacto form{height:510px;}
 section#lenguajes{}
 section#lenguajes .interlingua{background-color:#117079;padding:150px 0;}
 section#lenguajes .alianzaFr{background-color:#ffd200;padding:150px 0;}
-section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;background-image:url(../images/runner_girl.png), url(../images/runner_man.png);background-repeat:no-repeat;}
+section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;/* background-image:url(../images/runner_girl.png), url(../images/runner_man.png);background-repeat:no-repeat; */position:relative;}
+
+#corredor-faq{position: absolute;left:calc(50%-200px);top:calc(100% - 740px);width:777px;height:714px;z-index:2;}
+#corredora-faq{position: absolute;left:calc(50%-300px);top:calc(100% - 740px);width:757px;height:827px;z-index:1;}
 
 .large-header{
 	min-height:100vh;
@@ -994,6 +997,13 @@ p {font-size: 2vmin;}
 /*
 =================================================================================== CONTACTO
 */
+#paypalForm{}
+#paypalForm label.error{color:#ffec70;}
+
+#formularioSantander{}
+#formularioSantander label.error{color:#bd5151;}
+
+
 #contenedorContacto{
 	width:562px;
 	height:430px;
@@ -1362,7 +1372,8 @@ p {font-size: 2vmin;}
  @media screen and (max-width: 1200px) {
 section#convocatoria{background: #8bd331;}
 section#inscripciones{background: #00aeff;}
- }
+#inscripcionesControls a.inscripcionesBtn{width: 45%;max-width: inherit;padding: 5px 10px;margin: 5px;}
+}
 @media screen and (max-width: 991px) {
 	#weatherWidget{float:none !important;padding-top:60px;}
 }
@@ -1400,4 +1411,5 @@ section#inscripciones{background: #00aeff;}
 }
 @media screen and (max-width: 480px) {
 	header img#mainLogo {max-width: 80%;top: calc(90px + 3vh);left: 10%;}
+  #inscripcionesControls a.inscripcionesBtn{width: 100%;max-width: inherit;padding: 5px 10px;margin: 5px auto;}
 }

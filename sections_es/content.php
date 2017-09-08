@@ -478,22 +478,22 @@
 					</div>		
 					<div class="radio form-group col-xs-6" style="padding-right:0;">
 						<label>Distancia *</label>
-						<label class="radio-inline"><input type="radio" name="categoria-p" class="required" value="10k"> 10K</label>
-						<label class="radio-inline"><input type="radio" name="categoria-p" value="21k"> 21K</label>
-						<label for="categoria-p" class="error" style="display:none;">Selecciona una</label>
+						<label class="radio-inline"><input type="radio" name="distancia-p" class="required" value="10k"> 10K</label>
+						<label class="radio-inline"><input type="radio" name="distancia-p" value="21k"> 21K</label>
+						<label for="distancia-p" class="error" style="display:none;">Selecciona una</label>
 					</div>
 					<hr class="ultraLight clearfix" style="clear:both;width:100%;display:block;">
 					<div class="form-group">
 						<label for="email-p">Email *</label>
-						<input type="text" class="form-control required email" id="email-p" placeholder="Email" title="Este campo es obligatorio">
+						<input type="text" class="form-control required email" id="email-p" name="email-p" placeholder="Email" title="Por favor, ingresa un e-mail válido">
 					</div>
 					<div class="form-group">
 						<label for="telefono-p">Teléfono/Whatsapp *</label>
-						<input type="text" class="form-control required number digits" id="telefono-p" placeholder="0000000000" title="Este campo es obligatorio (10 dígitos)">
+						<input type="text" class="form-control required number digits" id="telefono-p" name="telefono-p" placeholder="0000000000" title="Este campo es obligatorio (sólo números)">
 					</div>
 					<div class="form-group">
 						<label for="lugar-p">Ciudad/Estado/País/CP *</label>
-						<input type="text" class="form-control required" id="lugar-p" placeholder="Ciudad/Estado/País/CP">
+						<input type="text" class="form-control required" id="lugar-p" name="lugar-p" placeholder="Ciudad/Estado/País/CP" title="Este campo es obligatorio">
 					</div>
 					<div class="radio form-group">
 						<label>Talla *</label>
@@ -506,7 +506,7 @@
 
 					<hr class="ultraLight">	
 
-					<button type="submit" href="javascript:void(0);" class="btn btn-default" id="submitPaypal">Pagar con Paypal Aquí</button>
+					<button type="submit" class="btn btn-default" id="submitPaypal">Pagar con Paypal Aquí</button>
 
 
 					<hr class="ultraLight">
@@ -781,11 +781,11 @@
 		<hr class="ultraLight">
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
-		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="sideBarMapBtn">Salida/Meta</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn" id="hidrataBtn">Puntos de Hidratación</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn" id="servMedBtn">Servicios Médicos</a>
+		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="ghostButtonHome">Salida/Meta</a>
+		<a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn">Puntos de Hidratación</a>
+		<a href="javascript:void(0);" class="ghostButtonHome" id="servMedBtn">Servicios Médicos</a>
 		<hr class="ultraLight">
-		<a href="javascript:void(0);" class="ghostButtonHome">Ver en Google Maps</a>
+		<!-- <a href="javascript:void(0);" class="sideBarMap">Ver en Google Maps</a> -->
 		<!-- <a href="javascript:void(0);">link 4</a> -->
 	</div>
 	<div id="contemap" class="col-md-9 col-xs-12">
@@ -922,7 +922,7 @@
                                 <div style="width:100%; height:10px; display:block; clear:both;"></div>
 
                                 <label><span style="color:#ef9863;">*</span> Actividad:</label>
-                                <select id="activity" name="activity" style="width:330px; margin:8px 0 7px 7px; float:right" title="Selecciona una actividad">
+                                <select id="activity" name="activity" style="width:100%; height:40px; margin:8px 0 7px 7px; float:right" title="Selecciona una actividad">
                                     <option value="Ninguna">Selecciona una actividad</option>
                                     <option value="Atleta veterano">Atleta veterano</option>
                                     <option value="Deportista de alto rendimiento">Deportista de alto rendimiento</option>
@@ -1059,6 +1059,8 @@
 			</div>
 		</div>
 	</div>
+	<img src="images/runner_girl.png" id="corredora-faq">
+	<img src="images/runner_man.png" id="corredor-faq">
 </section>
 
 <!--
@@ -1213,12 +1215,12 @@
 
 					<div class="form-group">
 						<label for="codigoP-s">Código Postal *</label>
-						<input type="text" class="form-control required digits number" id="codigoP-s" name="codigoP-s" placeholder="00000" maxlength="5" title="Este campo es obligatorio (5 dígitos)">
+						<input type="text" class="form-control required digits number" id="codigoP-s" name="codigoP-s" placeholder="00000" maxlength="5" title="Este campo es obligatorio (sólo números)">
 					</div>
 
 					<div class="form-group">
 						<label for="telefono-s">Teléfono *</label>
-						<input type="text" class="form-control number digits required" id="telefono-s" name="telefono-s" placeholder="0000000000" maxlength="10" title="Este campo es obligatorio (10 dígitos)">
+						<input type="text" class="form-control number digits required" id="telefono-s" name="telefono-s" placeholder="0000000000" maxlength="10" title="Este campo es obligatorio (sólo números)">
 					</div>
 
 					<div class="form-group">
