@@ -761,8 +761,8 @@ section#lenguajes .interlingua{background-color:#117079;padding:150px 0;}
 section#lenguajes .alianzaFr{background-color:#ffd200;padding:150px 0;}
 section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;/* background-image:url(../images/runner_girl.png), url(../images/runner_man.png);background-repeat:no-repeat; */position:relative;}
 
-#corredor-faq{position: absolute;left:calc(50%-200px);top:calc(100% - 740px);width:777px;height:714px;z-index:2;}
-#corredora-faq{position: absolute;left:calc(50%-300px);top:calc(100% - 740px);width:757px;height:827px;z-index:1;}
+#corredor-faq{position: absolute;left:calc(50%-200px);top:calc(100% - 740px);width:750px;height:689px;z-index:2;}
+#corredora-faq{position: absolute;left:calc(50%-300px);top:calc(100% - 740px);width:640px;height:699px;z-index:1;}
 
 .large-header{
 	min-height:100vh;
