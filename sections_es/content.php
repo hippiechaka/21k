@@ -838,7 +838,8 @@
 	<h3 class="whiteTxt" align="center">Altimetría</h3>
 	<hr class="ultraLight">
 
-	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
+	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive hidden-sm hidden-xs">
+	<img src="images/altimetria/altimetria-mobile.png" alt="" id="altimetriaImg" class="img-responsive visible-sm-block visible-xs-block">
 </section>
 <!-- LENGUAJES -->
 <section id="lenguajes" class="container-fluid">
