@@ -104,9 +104,9 @@
         <img src="images/slider/01xsa.jpg" alt="" class="visible-xs-block"> 	 	
     </div>
     <div>
-        <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/02s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/02xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/02a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/02sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/02xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
