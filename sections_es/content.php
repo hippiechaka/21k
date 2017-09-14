@@ -99,9 +99,9 @@
 <!-- mainslideshow -->
 <section id="mainslideshow" class="container-fluid owl-corousel">
 	<div>
-        <img src="images/slider/01.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/01s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	 	
+        <img src="images/slider/01a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/01sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xsa.jpg" alt="" class="visible-xs-block"> 	 	
     </div>
     <div>
         <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
