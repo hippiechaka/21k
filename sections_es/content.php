@@ -109,14 +109,14 @@
         <img src="images/slider/02xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
-        <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/03s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/03xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/03a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/03sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/03xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
-        <img src="images/slider/04.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/04s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/04xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/04a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/04sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/04xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/05.jpg" alt="" class="visible-lg-block">
