@@ -579,16 +579,44 @@
 					
 				</li>
 				<li class="hotel item">
-					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
-						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/palmarvallartamxn/2017-11-22/2017-11-28//?cp=mediomaratonep" target="_blank" class="linkHotel">
+						<img src="images/hoteles/villa_del_palmar_puerto_vallarta.jpg" alt="Villa del Palmar Puerto Vallarta Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
-					<a href="http://reservas.villagroupresorts.com/bookcore/availability/villamarmxn/2017-11-22/2017-11-28/?cp=mediomaratonep" target="_blank" class="linkHotel">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/palmarvallartamxn/2017-11-22/2017-11-28/?cp=mediomaratonai" target="_blank" class="linkHotel">
+						<img src="images/hoteles/villa_del_palmar_puerto_vallarta.jpg" alt="Villa del Palmar Puerto Vallarta Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href=http://reservas.villagroupresorts.com/bookcore/availability/villaestanciamxn/2017-11-22/2017-11-28/?cp=mediomaratonep" target="_blank" class="linkHotel">
+						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
+						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/flamingosmxn/2017-11-22/2017-11-28/?cp=mediomaratonep" target="_blank" class="linkHotel">
 						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/flamingosmxn/2017-11-22/2017-11-28/?cp=mediomaratonai" target="_blank" class="linkHotel">
+						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
 					</a>
 					
 				</li>
@@ -839,8 +867,7 @@
 	<h3 class="whiteTxt" align="center">Altimetría</h3>
 	<hr class="ultraLight">
 
-	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive hidden-sm hidden-xs">
-	<img src="images/altimetria/altimetria-mobile.png" alt="" id="altimetriaImg" class="img-responsive visible-sm-block visible-xs-block">
+	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
 </section>
 <!-- LENGUAJES -->
 <section id="lenguajes" class="container-fluid">
