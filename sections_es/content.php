@@ -811,7 +811,8 @@
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="ghostButtonHome">Salida/Meta</a>
-		<a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn">Puntos de Hidratación</a>
+
+		<a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn" onclick="toggleLayers(0);">Puntos de Hidratación</a>
 		<a href="javascript:void(0);" class="ghostButtonHome" id="servMedBtn">Servicios Médicos</a>
 		<hr class="ultraLight">
 		<!-- <a href="javascript:void(0);" class="sideBarMap">Ver en Google Maps</a> -->
@@ -1143,6 +1144,27 @@
 <div class="descripcionoculta vuelta-glorieta">Vuelta a la glorieta</div>
 <div class="descripcionoculta vuelta-u">Vuelta en U</div>
 <div class="descripcionoculta retorno">Retorno</div>
+<!-- Puntos de Hidratación -->
+<div class="descripcionoculta punto-h-ciel-km3">Punto hidratación Ciel km3</div>
+<div class="descripcionoculta punto-h-ciel-km6">Punto hidratación Ciel km6</div>
+<div class="descripcionoculta punto-h-ciel-km8">Punto hidratación Ciel km8</div>
+<div class="descripcionoculta punto-h-ciel-km10">Punto hidratación Ciel km10</div>
+<div class="descripcionoculta punto-h-ciel-km12">Punto hidratación Ciel km12</div>
+<div class="descripcionoculta punto-h-ciel-km14">Punto hidratación Ciel km14</div>
+<div class="descripcionoculta punto-h-ciel-km16">Punto hidratación Ciel km16</div>
+<div class="descripcionoculta punto-h-ciel-km18">Punto hidratación Ciel km18</div>
+<div class="descripcionoculta punto-h-ciel-km20">Punto hidratación Ciel km20</div>
+<div class="descripcionoculta punto-h-powerade-km6">Punto hidratación Powerade km6</div>
+<div class="descripcionoculta punto-h-powerade-km10">Punto hidratación Powerade km10</div>
+<div class="descripcionoculta punto-h-powerade-km12">Punto hidratación Powerade km12</div>
+<div class="descripcionoculta punto-h-powerade-km14">Punto hidratación Powerade km14</div>
+<div class="descripcionoculta punto-h-powerade-km16">Punto hidratación Powerade km16</div>
+<div class="descripcionoculta punto-h-powerade-km18">Punto hidratación Powerade km18</div>
+<div class="descripcionoculta punto-h-powerade-km20">Punto hidratación Powerade km20</div>
+<!-- 
+Ciel 3, 6, 8, 10, 12, 14, 16, 18, 20
+Powerade 6, 10, 12, 14, 16, 18, 20
+-->
 
 <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">

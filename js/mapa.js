@@ -31,10 +31,19 @@ marker30,
 marker31,
 marker32,
 marker33,
+marker34,
+marker35,
+marker36,
 infowindow,
 map;
 
 var MY_MAPTYPE_ID = 'hiphop';
+
+var layers=[];
+layers[0] = new  google.maps.KmlLayer("https://www.google.com/maps/d/kml?hl=es-419&mid=1YJF2ZtNMBCUptydLrRidUnklj2o&cid=mp&cv=xsTMQ9t5Loc.es_419.",   
+ {preserveViewport: true});
+
+var map;
 
 function initialize() {
     
@@ -577,6 +586,24 @@ google.maps.event.addListener(marker36, 'click', function() {
 cargainfo(marker36,"vuelta-derecha");
 });
 
+/*
+=================================================================
+Puntos de hidratación
+=================================================================
+*/
+
+}
+
+function toggleLayers(i)
+{
+        
+  if(layers[i].getMap()==null) {
+    layers[i].setMap(map);
+  }
+  else {
+    layers[i].setMap(null);
+  }
+  document.getElementById('status').innerHTML += "toggleLayers("+i+") [setMap("+layers[i].getMap()+"] returns status: "+layers[i].getStatus()+"<br>";
 }
   
 function cargainfo(marcador,classinfo){

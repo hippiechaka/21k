@@ -330,12 +330,13 @@ $('#btnPaypal').click(
 );
 
 //botones Mapa
-
+/*
 $('#hidrataBtn').click(function() {
   map.setZoom(17);
   map.setCenter(new google.maps.LatLng(20.698195, -105.281926));
     infowindow.close();
 });
+*/
 $('#servMedBtn').click(function() {
   map.setZoom(14);
   map.setCenter(new google.maps.LatLng(20.698384, -105.296176));
