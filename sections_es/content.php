@@ -150,7 +150,7 @@
 	<div class="col-md-6 counterBg">
 		<div class="widget pull-left" id="CounterWidgetContainer">
 			<!--00:00:00-->
-			<p>Faltan:</p>
+			<p>Tomtom | Faltan:</p>
 			<h2 id="CounterWidget"></h2>
 			<p>
 				<small>* días:horas:minutos:segundos</small><br>
