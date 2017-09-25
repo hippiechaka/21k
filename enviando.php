@@ -25,7 +25,7 @@
     $headers .= "X-Source-Dir: \n";
 
     $from   = "Medio Maratón Riviera Nayarit <no-reply@mediomaratonrivieranayarit.com>";
-    $to     = "hippiechaka@gmail.com";
+    $to     = "ruth@conserviexpress.com, hippiechaka@gmail.com";
     $subject  = "Medio Maratón Riviera Nayarit - Comentario de ".$_REQUEST['nombre'];
 
     @mail($to , $subject, $body2, $headers);

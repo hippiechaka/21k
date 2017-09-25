@@ -1,10 +1,10 @@
 
 <?php
-  $titulo     = 'Medio Maratón Rivera Nayarit';
-  $descripcion  = '';
-  $keywords     = '';
-  $fb_img     = '';
-  $url     = '';
+  $titulo     = 'Medio Maratón Rivera Nayarit 2017';
+  $descripcion  = '9° Medio Maratón Riviera Nayarit y 10K 2017, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.';
+  $keywords     = 'medio maraton, riviera nayarit, carrera, nuevo vallarta, diez kilometros, mexico';
+  $fb_img     = 'http://mediomaratonrivieranayarit.com/images/shareimg.jpg';
+  $url     = 'http://mediomaratonrivieranayarit.com/';
 ?>
 
 <head>
