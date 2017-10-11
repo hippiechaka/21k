@@ -786,6 +786,21 @@ section#faqSection{background-color:#1893b6;color:#fff;min-height:850px;/* backg
     background: rgba(27, 68, 137, 0.9);
     color: #fff !important;
 }
+.ghostBloque{
+    /* background: #83c070; */
+    border: 1px solid #fff;
+    display: block;
+    width: 100%;
+    /* max-width: 300px; */
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    color: #fff !important;
+    font-size: 18px;
+    margin:20px auto;
+}
+.ghostBloque i{float:left;width:40px;height:40px;margin:10px;}
+.ghostBloque span{float:left;}
 
 .bg-cover {
     background-size: cover;
@@ -999,6 +1014,13 @@ p {font-size: 2vmin;}
 */
 #paypalForm{}
 #paypalForm label.error{color:#ffec70;}
+#paypalForm #submitPaypal.disabled{color:#000;}
+#paypalForm #pagarPaypal{float:left;}
+#paypalForm #submitPaypal{float:right;}
+
+
+
+
 
 #formularioSantander{}
 #formularioSantander label.error{color:#bd5151;}
@@ -1357,7 +1379,9 @@ p {font-size: 2vmin;}
   0%, 39%, 100% { opacity: 0; }
   40% { opacity: 1; } 
 }
-
+footer{
+  background:#;
+}
 /*
 =========================================================  QUERIES
 */

@@ -34,16 +34,39 @@ marker33,
 marker34,
 marker35,
 marker36,
+marker37,
+marker38,
+marker39,
+marker40,
+marker41,
+marker42,
+marker43,
+marker44,
+marker45,
+marker46,
+marker47,
+marker48,
+marker49,
+marker50,
+marker51,
+marker52,
+marker53,
+marker54,
+marker55,
+marker56,
+
 infowindow,
 map;
 
 var MY_MAPTYPE_ID = 'hiphop';
 
+/*
 var layers=[];
 layers[0] = new  google.maps.KmlLayer("https://www.google.com/maps/d/kml?hl=es-419&mid=1YJF2ZtNMBCUptydLrRidUnklj2o&cid=mp&cv=xsTMQ9t5Loc.es_419.",   
  {preserveViewport: true});
 
 var map;
+*/
 
 function initialize() {
     
@@ -88,6 +111,55 @@ function initialize() {
       }
     ]
   }
+
+/*
+{
+    "featureType": "administrative.land_parcel",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "administrative.neighborhood",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "poi",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "road",
+    "elementType": "labels",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  },
+  {
+    "featureType": "water",
+    "elementType": "labels.text",
+    "stylers": [
+      {
+        "visibility": "off"
+      }
+    ]
+  }
+*/
+
+
+
 
 ];
 
@@ -217,7 +289,8 @@ function initialize() {
         position: new google.maps.LatLng(20.698195, -105.281926),
         map: map,
         title: 'Kilometro-8',
-    icon: 'images/map/pin_8k.png'
+    icon: 'images/map/pin_8k.png',
+    zIndex:999
     });
   google.maps.event.addListener(marker8, 'click', function() {
     cargainfo(marker8,"km8");
@@ -543,8 +616,222 @@ Puntos de hidratación
 =================================================================
 */
 
-}
+//CIEL
 
+////////////////////////////////////////////////////////////////KM3
+marker37 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.699540, -105.292976),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker37, 'click', function() {
+cargainfo(marker37,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km6
+marker38 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.700297, -105.289320),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker38, 'click', function() {
+cargainfo(marker38,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km8
+marker39 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.698183, -105.281939),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker39, 'click', function() {
+cargainfo(marker39,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km10
+marker40 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.706788, -105.292909),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker40, 'click', function() {
+cargainfo(marker40,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km12
+marker41 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.718116, -105.303817),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker41, 'click', function() {
+cargainfo(marker41,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km14
+marker42 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.736037, -105.313652),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker42, 'click', function() {
+cargainfo(marker42,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km16
+marker43 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.738517, -105.317938),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker43, 'click', function() {
+cargainfo(marker43,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km18
+marker44 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.724203, -105.306846),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker44, 'click', function() {
+cargainfo(marker44,"punto-hidratacion-ciel");
+});
+////////////////////////////////////////////////////////////////km20
+marker45 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.707238, -105.299669),
+    map: map,
+    title: 'Punto de Hidratación Ciel',
+icon: 'images/map/ciel_3k.png'
+});
+google.maps.event.addListener(marker45, 'click', function() {
+cargainfo(marker45,"punto-hidratacion-ciel");
+}); 
+
+// POWERADE
+
+////////////////////////////////////////////////////////////////KM6
+marker46 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.700314, -105.289444),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker46, 'click', function() {
+cargainfo(marker46,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km10
+marker47 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.706849, -105.292986),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker47, 'click', function() {
+cargainfo(marker47,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km12
+marker48 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.718116, -105.303817),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker48, 'click', function() {
+cargainfo(marker48,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km14
+marker49 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.736130, -105.313759),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker49, 'click', function() {
+cargainfo(marker49,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km16
+marker50 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.738563, -105.317963),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker50, 'click', function() {
+cargainfo(marker50,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km18
+marker51 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.724395, -105.306933),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker51, 'click', function() {
+cargainfo(marker51,"punto-hidratacion-powerade");
+});
+////////////////////////////////////////////////////////////////km20
+marker52 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.707276, -105.299675),
+    map: map,
+    title: 'Punto de Hidratación Powerade',
+icon: 'images/map/powerade_6k.png'
+});
+google.maps.event.addListener(marker52, 'click', function() {
+cargainfo(marker52,"punto-hidratacion-powerade");
+});
+
+/*
+=================================================================
+Servicios Médicos
+=================================================================
+*/
+
+//////////////////////////////////////////////////////////////// 1
+marker53 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.698624, -105.296453),
+    map: map,
+    title: 'servicios Médicos',
+icon: 'images/map/servicios_medicos.png'
+});
+google.maps.event.addListener(marker53, 'click', function() {
+cargainfo(marker53,"servicios-medicos");
+});
+//////////////////////////////////////////////////////////////// 2
+marker54 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.699058, -105.292352),
+    map: map,
+    title: 'servicios Médicos',
+icon: 'images/map/servicios_medicos.png'
+});
+google.maps.event.addListener(marker54, 'click', function() {
+cargainfo(marker54,"servicios-medicos");
+});
+//////////////////////////////////////////////////////////////// 3
+marker55 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.738868, -105.318111),
+    map: map,
+    title: 'servicios Médicos',
+icon: 'images/map/servicios_medicos.png'
+});
+google.maps.event.addListener(marker55, 'click', function() {
+cargainfo(marker55,"servicios-medicos");
+});
+//////////////////////////////////////////////////////////////// 4
+marker56 = new google.maps.Marker({
+    position: new google.maps.LatLng(20.719002, -105.304117),
+    map: map,
+    title: 'Servicios Médicos',
+icon: 'images/map/servicios_medicos.png'
+});
+google.maps.event.addListener(marker56, 'click', function() {
+cargainfo(marker56,"servicios-medicos");
+});
+
+
+}
+/*
 function toggleLayers(i)
 {
         
@@ -556,7 +843,7 @@ function toggleLayers(i)
   }
   document.getElementById('status').innerHTML += "toggleLayers("+i+") [setMap("+layers[i].getMap()+"] returns status: "+layers[i].getStatus()+"<br>";
 }
-  
+*/
 function cargainfo(marcador,classinfo){
 	infowindow.setContent($("."+classinfo).html());
 	infowindow.open(map,marcador);

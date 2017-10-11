@@ -505,12 +505,11 @@
 						<label for="talla-p" class="error" style="display:none;">Selecciona una</label>
 					</div>
 
-					<hr class="ultraLight">	
-
-					<button type="submit" class="btn btn-default" id="submitPaypal">Pagar con Paypal Aquí</button>
-
-
 					<hr class="ultraLight">
+
+					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BNXAJEFD6WDB2" class="btn btn-default" target="_blank" id="pagarPaypal">Pagar con Paypal</a>
+					<button type="submit" class="btn btn-default disabled" id="submitPaypal">Enviar Información</button>
+					<div class="clearfix" style="height:90px;"></div>
 
 
 				</form>
@@ -812,8 +811,21 @@
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="ghostButtonHome">Salida/Meta</a>
 
-		<a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn" onclick="toggleLayers(0);">Puntos de Hidratación</a>
-		<a href="javascript:void(0);" class="ghostButtonHome" id="servMedBtn">Servicios Médicos</a>
+		<div class="ghostBloque">
+		  <i><img src="images/map/ciel_3k.png" alt="Punto de hidratación Ciel" class="img-responsive"></i>
+		  <span>Puntos de Hidratación</span> 
+		</div>
+		<div class="ghostBloque">
+		  <i><img src="images/map/powerade_6k.png" alt="Punto de hidratación Ciel" class="img-responsive"></i>
+		  <span>Puntos de Hidratación</span> 
+		</div>
+		<div class="ghostBloque">
+		  <i><img src="images/map/servicios_medicos-big.png" alt="Servicios Médicos" class="img-responsive"></i>
+		  <span>Servicios Médicos</span> 
+		</div>
+
+		<!-- <a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn" onclick="toggleLayers(0);">Puntos de Hidratación</a> -->
+		<!-- <a href="javascript:void(0);" class="ghostButtonHome" id="servMedBtn">Servicios Médicos</a> -->
 		<hr class="ultraLight">
 		<!-- <a href="javascript:void(0);" class="sideBarMap">Ver en Google Maps</a> -->
 		<!-- <a href="javascript:void(0);">link 4</a> -->
@@ -1113,6 +1125,11 @@
     	</div>
  	</div> 
 </div>
+
+<div class="descripcionoculta punto-hidratacion-ciel">Punto de Hidratación Ciel</div>
+<div class="descripcionoculta punto-hidratacion-powerade">Punto de Hidratación Powerade</div>
+<div class="descripcionoculta servicios-medicos">Servicios Médicos</div>
+
 <!-- magia emmet (descripción de kilómetros):
 (div.descripcionoculta.km-${kilómetro-$})*21
 -->

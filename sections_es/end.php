@@ -1,3 +1,22 @@
+<footer class="container-fluid" style="background:#010101;">
+    <div class="container">
+            <p align="center">Medio Maratón Rivera Nayarit &copy;<?php echo date("Y") ?></p>
+            <hr class="dividerW">
+            <p align="center">            
+                <a href="#convocatoria">Convocatoria</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#inscripciones">Inscripciones</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#hoteles">Hoteles</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#patrocinadores">Patrocinadores</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#cupones-servicios">Cupones</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#ubicacion" onClick="cargainfo(marker21,'location');">Ruta</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <a href="#contacto">Contacto</a>
+            </p>
+            <br>
+            
+    </div>
+    
+</footer>
+
 <script src="http://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>window.jQuery || document.write('<script src="js/jquery-1.12.4.min.js"><\/script>')</script>
 
@@ -11,6 +30,7 @@
     <!-- <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&key=AIzaSyCY_BssCBGL-82XQ2CqY2gNzzYGgE2Tp3s"></script> -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCY_BssCBGL-82XQ2CqY2gNzzYGgE2Tp3s&callback=initialize"
     async defer></script>
+    
     <script type="text/javascript" src="js/mapa.js"></script>
 
     <script type="text/javascript" src="js/video-bg.js"></script>

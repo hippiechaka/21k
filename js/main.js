@@ -1,5 +1,9 @@
 $(document).ready(function() {
 
+  $("#pagarPaypal").click(function(){
+    $("#submitPaypal").removeClass("disabled");
+});
+
 // magnificPopup  http://dimsemenov.com/plugins/magnific-popup/documentation.html
   $('.home').magnificPopup({type:'iframe'});
 
@@ -370,6 +374,23 @@ $(function() {
 //formularios
 
 $(function(){
+
+/*$("#paypalForm").validate({
+      ignore: [],
+      submitHandler: function (form) {
+            $("#enviando-p").show();
+            $("#paypalForm").ajaxSubmit(function(){
+                $("#forma_envio-p").slideUp(500, function(){
+                    $("#enviado-p").slideDown();
+                });
+            });
+            return false; 
+        }
+    });
+*/
+
+
+
     $("#forma_contacto").validate({
         submitHandler: function (form) {
             $("#enviando").show();
@@ -382,7 +403,9 @@ $(function(){
         }           
     });
 
+    /*
     $("#formularioSantander").validate({
+      ignore: [],
       submitHandler: function (form) {
             $("#enviando-s").show();
             $("#formularioSantander").ajaxSubmit(function(){
@@ -394,14 +417,29 @@ $(function(){
         }
     
     });
-    $("#paypalForm").validate({
-      submitHandler: function (form) {
+    */
+    
+
+});
+
+$(document).ready(function () {
+
+    $('#paypalForm').validate({ // initialize the plugin
+        submitHandler: function (form) {
+          $("#paypalForm").ajaxSubmit(function(){
             $("#enviando-p").show();
-            $("#paypalForm").ajaxSubmit(function(){
-                $("#forma_envio-p").slideUp(500, function(){
-                    $("#enviado-p").slideDown();
-                });
-            });
+            alert('La Información ha sido enviada, refresque el sitio para enviar otro');
+          });
+            return false;
+        }
+    });
+
+    $('#formularioSantander').validate({ // initialize the plugin
+        submitHandler: function (form) { 
+          $("#formularioSantander").ajaxSubmit(function(){
+            $("#enviando-s").show();
+            alert('La Información ha sido enviada, refresque el sitio para enviar otro');
+          });
             return false; 
         }
     });
