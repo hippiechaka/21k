@@ -907,9 +907,12 @@
 </section>
 <section class="container-fluid" id="botonzotes">
 	<div class="bigBtns">
-		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
-		<a href="https://www.instagram.com/21krivieranayarit/" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
-		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
+		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+		</a>
+		<a href="https://www.instagram.com/21krivieranayarit/" class="bigBTN" id="instagramBtn" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+		</a>
+		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>
+		</a>
 	</div>
 </section>
 <!-- contacto -->
