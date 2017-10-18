@@ -810,7 +810,11 @@
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
 		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="ghostButtonHome">Salida/Meta</a>
-
+		
+		<div class="ghostBloque">
+		  <i><img src="images/map/pin_km.png" alt="Kilómetros" class="img-responsive"></i>
+		  <span>Kilómetros</span> 
+		</div>
 		<div class="ghostBloque">
 		  <i><img src="images/map/ciel_3k.png" alt="Punto de hidratación Ciel" class="img-responsive"></i>
 		  <span>Puntos de Hidratación</span> 
