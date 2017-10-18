@@ -918,8 +918,10 @@
 		<div class="short center-block">
 			<h2 class="whiteTxt">Resultados</h2>
 			<hr class="ultraLight">
-			<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a><img src="images/loading.gif" alt="" class="visible-xs-block center-block clearfix"><span class="hidden-sm hidden-xs">&nbsp;/&nbsp;</span>
+			
 			<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
+
+			<h3 class= "whiteTxt">Los resultados de la carrera MEDIO MARATÓN RIVIERA NAYARIT 2017 serán publicados 2 horas después de que el último participante haya concluído el circuito.</h2>
 		</div>
 	</div>
 	<div class="col-md-6" id="contactForm">
