@@ -19,7 +19,7 @@
 					<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
 					<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
 					<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
-					<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
+					<!-- <li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li> -->
 					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>					
 					<li class="unpair"><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
 					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
