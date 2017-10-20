@@ -21,7 +21,7 @@
 					<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
 					<!-- <li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li> -->
 					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>					
-					<li class="unpair"><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
+					<li><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
 					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				</ul>
@@ -507,8 +507,8 @@
 
 					<hr class="ultraLight">
 
-					<a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BNXAJEFD6WDB2" class="btn btn-default" target="_blank" id="pagarPaypal">Pagar con Paypal</a>
-					<button type="submit" class="btn btn-default disabled" id="submitPaypal">Enviar Información</button>
+					<!-- <a href="" class="btn btn-default" target="_blank" id="pagarPaypal">Pagar con Paypal</a> -->
+					<button type="submit" class="btn btn-default" id="submitPaypal">Enviar Información</button>
 					<div class="clearfix" style="height:90px;"></div>
 
 
@@ -733,10 +733,9 @@
 	</div>
 </section>
 <!-- cupones-servicios -->
+<!--
 <section id="cupones-servicios" class="container-fluid">
 	<div class="bigRedTitle" style="padding:30px 0;">
-		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
-		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
 		<h2 class="whiteTxt" align="center">Cupones y Servicios</h2>
 	</div>
 	
@@ -745,11 +744,6 @@
 		<div class="row">
 
 			<div id="container" align="center" style="min-height:240px;">
-  
-			  <div class="form-control-static">
-			    <button class="filter float" data-filter="all">Todos</button>
-			    <!-- <button class="sort float" data-sort="myorder:asc">In Order</button>
-			    <button class="sort nofloat" data-sort="random">Randomize</button> -->
 			    <button class="filter nofloat" data-filter=".tours">Tours</button>
 			    <button class="filter nofloat" data-filter=".restaurantes">Restaurantes</button>
 			    <button class="filter nofloat" data-filter=".renta-auto">Renta de Autos</button>
@@ -802,6 +796,7 @@
 		</div>
 	</div>
 </section>
+-->
 <!-- ubicacion -->
 <section id="ubicacion" class="container-fluid">
 	<div id="sidebarMap" class="col-md-3 hidden-xs">

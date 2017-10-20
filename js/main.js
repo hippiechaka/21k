@@ -1,9 +1,20 @@
 $(document).ready(function() {
 
-  $("#pagarPaypal").click(function(){
-    $("#submitPaypal").removeClass("disabled");
+  $("#submitPaypal").click(function(){
+    window.open("https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BNXAJEFD6WDB2");
+    //$("#").removeClass("disabled");
 });
 
+$('.navbar-nav li a').on('click', function(){
+    if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+    }
+});
+$('.navbar-brand').on('click', function(){
+    if ( $( '.navbar-collapse' ).hasClass('in') ) {
+        $('.navbar-toggle').click();
+    }
+});
 // magnificPopup  http://dimsemenov.com/plugins/magnific-popup/documentation.html
   $('.home').magnificPopup({type:'iframe'});
 
@@ -431,6 +442,7 @@ $(document).ready(function () {
             alert('La Información ha sido enviada, refresque el sitio para enviar otro');
           });
             return false;
+
         }
     });
 

@@ -7,7 +7,7 @@
                 <a href="#inscripciones">Inscripciones</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#hoteles">Hoteles</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#patrocinadores">Patrocinadores</a>&nbsp;&nbsp;|&nbsp;&nbsp;
-                <a href="#cupones-servicios">Cupones</a>&nbsp;&nbsp;|&nbsp;&nbsp;
+                <!-- <a href="#cupones-servicios">Cupones</a>&nbsp;&nbsp;|&nbsp;&nbsp; -->
                 <a href="#ubicacion" onClick="cargainfo(marker21,'location');">Ruta</a>&nbsp;&nbsp;|&nbsp;&nbsp;
                 <a href="#contacto">Contacto</a>
             </p>

@@ -452,10 +452,10 @@ button + label{
 	padding:0;
 
 }
-section#ubicacion{padding-top:90px;background:rgba(0,0,0,0);}
+section#ubicacion{padding-top:90px;background:rgba(0,0,0,0);height:1000px;}
 #sidebarMap{
 	background:#47a3da;
-	height:900px;
+	height:1000px;
 }
 .sideBarMapBtn{
 	width:80%;
@@ -473,7 +473,7 @@ section#ubicacion{padding-top:90px;background:rgba(0,0,0,0);}
 }
 #contemap{
 	/* width:100%; */
-	height:900px;
+	height:1000px;
 	position:relative;
 	padding:0 !important;
 }
@@ -1390,8 +1390,8 @@ footer{
 	#suscribe form#suscribeForm{max-width:960px;}
 }
 @media screen and (max-width: 1281px) {
-	#sidebarMap{height:650px;}
-	#contemap{height:650px;}
+	/* #sidebarMap{height:650px;}
+	#contemap{height:650px;} */
 }
  @media screen and (max-width: 1200px) {
 section#convocatoria{background: #8bd331;}
