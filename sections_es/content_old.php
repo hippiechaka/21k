@@ -22,7 +22,6 @@
 					<!-- <li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li> -->
 					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>					
 					<li><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
-					<li><a href="http://mediomaratonrivieranayarit.com/pdf/about_the_2017_half_marathon_and_10k_riviera_nayarit.pdf" target="_blank" id="infoBtn">English Info</a></li>
 					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				</ul>
@@ -271,7 +270,7 @@
 			<div class="item">
 				<div class="short center-block">
 					<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
-					<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit 21k y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
+					<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
 				</div>
 			</div>
 			<div class="item">
@@ -702,7 +701,7 @@
 					<!-- <h3 class="label">sponsor 8</h3> -->
 				</li>
 				<li class="item">
-					<img src="images/sponsors/etn_turistar.jpg" alt="" class="img-responsive sponsor">
+					<img src="images/sponsors/la_moderna.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 9</h3> -->
 				</li>
 				<li class="item">
@@ -719,18 +718,6 @@
 				</li>
 				<li class="item">
 					<img src="images/sponsors/ut.jpg" alt="" class="img-responsive sponsor">
-					<!-- <h3 class="label">sponsor 13</h3> -->
-				</li>
-				<li class="item">
-					<img src="images/sponsors/san_jose.jpg" alt="" class="img-responsive sponsor">
-					<!-- <h3 class="label">sponsor 13</h3> -->
-				</li>
-				<li class="item">
-					<img src="images/sponsors/aquaventuras.jpg" alt="" class="img-responsive sponsor">
-					<!-- <h3 class="label">sponsor 13</h3> -->
-				</li>
-				<li class="item">
-					<img src="images/sponsors/grand-odyssey.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 13</h3> -->
 				</li>
 					<!-- <li class="item">
@@ -934,10 +921,9 @@
 			<h2 class="whiteTxt">Resultados</h2>
 			<hr class="ultraLight">
 			
-			<a href="http://www.marcate.com.mx/resultado/SPTMCAR1508878474" class="scoreLink center-block" title="Se activará una vez terminada la carrera" target="_blank" style="text-align:center !important;">Resultados<br>2017</a></p>
+			<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
 
-			<!-- <h3 class= "whiteTxt">Los resultados de la carrera MEDIO MARATÓN RIVIERA NAYARIT 2017 serán publicados 2 horas después de que el último participante haya concluído el circuito.</h2> -->
-			<small class= "whiteTxt">(Click para ver los resultados)</small>
+			<h3 class= "whiteTxt">Los resultados de la carrera MEDIO MARATÓN RIVIERA NAYARIT 2017 serán publicados 2 horas después de que el último participante haya concluído el circuito.</h2>
 		</div>
 	</div>
 	<div class="col-md-6" id="contactForm">

@@ -1,43 +1,11 @@
 
 <?php
-  $titulo     = 'Medio Maratón Rivera Nayarit';
-  $descripcion  = '';
-  $keywords     = '';
-  $fb_img     = '';
-  $url     = '';
+  $titulo     = 'Medio Maratón Rivera Nayarit 2017';
+  $descripcion  = '9° Medio Maratón Riviera Nayarit y 10K 2017, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.';
+  $keywords     = 'medio maraton, riviera nayarit, carrera, nuevo vallarta, diez kilometros, mexico';
+  $fb_img     = 'http://mediomaratonrivieranayarit.com/images/shareimg.jpg';
+  $url     = 'http://mediomaratonrivieranayarit.com/';
 ?>
-
-<?php
-$enviado = 0;
-if(!empty($_REQUEST['nombre'])){
-    $remitente = '[MAIL]' ;
-    $nombre = utf8_decode(empty($_POST['nombre']) ? 0 : $_POST['nombre']);
-    $email = empty($_POST['email']) ? 0 : $_POST['email'];
-    $comentarios = utf8_decode(empty($_POST['comentarios']) ? 0 : $_POST['comentarios']);
-    $asunto = 'Contacto web';
-    $destino = '[MAIL]';
-    $para      = '[MAIL]';
-    $titulo    = 'Contacto web';
-    $mensaje = '
-    <div style="font-size: 18px; color: #111111; margin:0 auto; max-width:600px;">
-      <div style="font-size: 18px; background-color: #000; color: #fff; width: 100%; padding:15px; text-align:center;">
-        <img style="text-align:center; margin:0 auto; left:0; right:0; width:100%; height:auto;"  src="<?php echo($url); ?>/images/shareimg.jpg" />
-      </div>
-        <br />
-      <div style="color: #111111; font-size:25px;">
-        Tienes un comentario </div><br />
-        <strong>Nombre: </strong>'.$nombre.'<br />
-        <strong>E-mail: </strong>'.$email.'<br />
-        <strong>Comentarios: </strong>'.$comentarios.'<br /><br/>
-      </div>
-    </div>';
-    // Cabecera que especifica que es un HMTL
-    $cabeceras  = 'MIME-Version: 1.0' . "\r\n";
-    $cabeceras .= 'Content-type: text/html; charset=iso-8859-1' . "\r\n";
-    $cabeceras .= 'From: Contacto web <?php echo($url); ?>' . "\r\n";
-    mail($para, $titulo, $mensaje, $cabeceras);
-    $enviado = 1;
-}?>
 
 <head>
 	<meta charset="utf-8">

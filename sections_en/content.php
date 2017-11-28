@@ -1,3 +1,9 @@
+<!-- INGLÉS -->
+<!--
+?lang=es
+?lang=en
+-->
+
 <div class="clearfix" id="top"></div><!-- ALTO DE NAVBAR-->
 <!-- navbar -->
 <nav class="navbar navbar-inverse navbar-fixed-top">
@@ -16,20 +22,21 @@
 			<div id="mainNav" class="navbar-collapse collapse">
 				<ul class="nav navbar-nav list-inline">
 					<li><a href="#convocatoria" id="convocatoriaBtn">Convocatoria</a></li>
-					<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li>
+					<li><a href="#inscripciones" id="inscripcionesBtn">Inscripciones</a></li> 
 					<li><a href="#hoteles" id="hotelesBtn">Hoteles</a></li>
 					<li><a href="#patrocinadores" id="patrocinadoresBtn">Patrocinadores</a></li>
-					<li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li>
+					<!-- <li><a href="#cupones-servicios" id="cupones-serviciosBtn">Cupones</a></li> -->
 					<li><a href="#ubicacion" onClick="cargainfo(marker21,'location');" id="ubicacionBtn">Ruta</a></li>					
-					<li class="unpair"><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
+					<li><a href="#contacto" id="contactoBtn">Contacto</a></li><!-- class="unpair" para hacerlo al 100% -->
+					<li><a href="http://mediomaratonrivieranayarit.com/pdf/about_the_2017_half_marathon_and_10k_riviera_nayarit.pdf" target="_blank" id="infoBtn">English Info</a></li>
 					<!-- <li><a href="javascript:void(0);">Tienda</a></li> -->
 					<!-- <li><a href="#galeria" id="galeriaBtn">Galería</a></li> -->
 				</ul>
-				<ul class="nav navbar-nav navbar-right" id="navbar-idiomas">
+				<!-- <ul class="nav navbar-nav navbar-right" id="navbar-idiomas"> -->
 
 					<!-- Idioma -->
 
-					<li class="idioma">
+					<!-- <li class="idioma">
 						<a href="javascript:void(0);" class="flagIdioma" id="espanol">
 							<img src="images/menu/lang_mx.png" alt="Español">
 						</a>
@@ -43,7 +50,7 @@
 						<a href="javascript:void(0);" class="flagIdioma" id="portugues">
 							<img src="images/menu/lang_port.png" alt="Portugués">
 						</a>
-					</li>
+					</li> -->
 
 					<!-- Redes -->
 
@@ -71,57 +78,57 @@
 						</a>
 					</li> -->
 
-				</ul>
+				<!-- </ul> -->
 			</div>
 		</div>
 	</div>
 </nav>
 <!-- BLOCK -->
 <header class="block">
-<div class="container">
-	<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive animated pulse">	
-	<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
-	<div class="clearfix"></div>
+	<div class="container">
+		<img src="images/slider/logo_21k_slider.png" alt="logo" id="mainLogo" class="img-responsive animated pulse">	
+		<!-- <a href="javascript:void(0);" class="ghostButton" id="llamanosBtn">Llámanos <i class="fa fa-phone" aria-hidden="true"></i></a> -->
+		<div class="clearfix"></div>
 
-	<div class="col-md-3 fooCol"></div>
-	<div class="col-md-6 center-block">
-		<img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs animated fadeIn">
-		<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs animated fadeIn">		
+		<div class="col-md-3 fooCol"></div>
+		<div class="col-md-6 center-block">
+			<!-- <img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit" class="pull-left hidden-xs animated fadeIn"> -->
+			<a href="http://www.rivieranayarit.com.mx/calendario_de_eventos15#tab11" class="pull-left hidden-xs animated fadeIn" target="_blank"><img src="images/slider/riviera_nayarit.png" alt="Riviera Nayarit"></a>
+			<img src="images/slider/visit_mexico.png" alt="Visit México" class="pull-right hidden-xs animated fadeIn">		
+		</div>
+		<div class="col-md-3 fooCol"></div>
 	</div>
-	<div class="col-md-3 fooCol"></div>
-</div>
 
 	<a href="http://distancerunning.co.uk/races/10000.html" class="pull-right" id="iaaf-aims" target="_blank">
 		<img src="images/slider/iaaf_aims.png" alt="IAAF/AIMS">
 	</a>
-
 </header>
 <!-- mainslideshow -->
 <section id="mainslideshow" class="container-fluid owl-corousel">
 	<div>
-        <img src="images/slider/01.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/01s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/01xs.jpg" alt="" class="visible-xs-block"> 	 	
+        <img src="images/slider/01a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/01sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/01xsa.jpg" alt="" class="visible-xs-block"> 	 	
     </div>
     <div>
-        <img src="images/slider/02.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/02s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/02xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/02a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/02sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/02xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
-        <img src="images/slider/03.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/03s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/03xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/03a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/03sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/03xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
-        <img src="images/slider/04.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/04s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/04xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/04a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/04sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/04xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
-        <img src="images/slider/05.jpg" alt="" class="visible-lg-block">
-        <img src="images/slider/05s.jpg" alt="" class="hidden-lg hidden-xs">
-        <img src="images/slider/05xs.jpg" alt="" class="visible-xs-block"> 	
+        <img src="images/slider/05a.jpg" alt="" class="visible-lg-block">
+        <img src="images/slider/05sa.jpg" alt="" class="hidden-lg hidden-xs">
+        <img src="images/slider/05xsa.jpg" alt="" class="visible-xs-block"> 	
     </div>
     <div>
         <img src="images/slider/06.jpg" alt="" class="visible-lg-block">
@@ -139,7 +146,6 @@
         <img src="images/slider/08xs.jpg" alt="" class="visible-xs-block"> 	
     </div>
 </section>
-
 <!-- widgets -->
 <section id="widgets" class="container-fluid">
 	<div class="col-md-6 weatherBg">
@@ -151,7 +157,7 @@
 	<div class="col-md-6 counterBg">
 		<div class="widget pull-left" id="CounterWidgetContainer">
 			<!--00:00:00-->
-			<p>Faltan:</p>
+			<p>Tomtom | Faltan:</p>
 			<h2 id="CounterWidget"></h2>
 			<p>
 				<small>* días:horas:minutos:segundos</small><br>
@@ -195,7 +201,6 @@
 		</div>
 	</div>
 </section>
-
 <!-- suscribe -->
 <section id="suscribe" style="padding-top:30px;">
   <img src="images/fitness.png" class="img-responsive center-block" id="fitness_logo" alt="anytime fitness">
@@ -208,7 +213,6 @@
     <button type="submit" class="btn btn-4 btn-4c icon-arrow-right" id="submitButton">Enviar</button>
   </form>
 </section>
-
 <!-- mainVideo -->
 <section id="mainVideo" class="container-fluid">
   <div class="cover">
@@ -224,9 +228,8 @@
   </div>
 </section>
 <!-- convocatoria -->
-
 <section id="convocatoria" class="container-fluid">
-<h1 class="whiteTxt" align="center">Convocatoria</h1>
+	<h1 class="whiteTxt" align="center">Convocatoria</h1>
 		<hr class="ultraLight">
 	<div class="col-md-9">
 		
@@ -274,7 +277,7 @@
 			<div class="item">
 				<div class="short center-block">
 					<h3>1- CONSERVIEXPRESS S. A. de C. V.</h3>
-					<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
+					<p>Invita a todos los corredores a participar en el “9° Medio Maratón Riviera Nayarit 21k y 10K 2017”, que se llevará a cabo en los desarrollos turísticos Nuevo Vallarta, Flamingos y campo de golf El Tigre ubicados en la Riviera Nayarit, México.</p>
 				</div>
 			</div>
 			<div class="item">
@@ -367,13 +370,12 @@
 	</div>
 	<div class="col-md-3"></div><!-- empty column -->
 	<img src="images/galeria/corredor.png" id="corredor">
-	<img src="images/galeria/21k_text.png" id="k21">
-	
+	<!-- <img src="images/galeria/21k_text.png" id="k21"> -->
 </section>
 <!-- inscripciones -->
 <section id="inscripciones" class="container-fluid">
 	
-	<img src="images/galeria/10k_text.png" alt="" id="k10">
+	<!-- <img src="images/galeria/10k_text.png" alt="" id="k10"> -->
 	<img src="images/galeria/corredora.png" alt="" id="corredora">
 	<h1 class="whiteTxt" align="center">Inscripciones</h1>
 		<hr class="ultraLight">
@@ -441,40 +443,103 @@
 		<div id="paypalContent" style="display:none;" class="contentInsc animated fadeIn">
 			<div class="short center-block">
 				<p>Paypal</p>
-			<!-- FORM sample -->
-				<form id="paypalForm">
+
+			<div id="enviado-p" style="display:none" align="center">
+	            <div style="width:100%; height:80px; display:block; clear:both;"></div>
+	            <h2 style="font-weight:300;">El mensaje fue enviado con <span style="color:#fff;">éxito</span></h2>
+	            <h1 style="font-weight:300;">Gracias!</h1>
+	            <p>(por favor, refresca el sitio, para enviar otro e-mail)</p>
+	        </div>
+
+	        <div class="forma_envio-p">
+
+			<!-- paypal -->
+				<form id="paypalForm" action="enviando-p.php" method="post">
 					<div class="form-group">
-						<label for="namePaypal">Nombre</label>
-						<input type="name" class="form-control required" id="namePaypal" placeholder="Nombre">
-					</div>
-					<div class="form-group">
-						<label for="mailPaypal">Email</label>
-						<input type="email" class="form-control required email" id="mailPaypal" placeholder="Email">
+						<label for="name-p">Nombre *</label>
+						<input type="text" class="form-control required" id="name-p" name="name-p" placeholder="Nombre" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group col-xs-6" style="padding-left:0;">
-						<label for="-Paypal">Test</label>
-						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="fecha-p">Fecha de Nacimiento *</label>
+						<input type="text" class="form-control required" id="fecha-p" name="fecha-p" placeholder="dd/mm/aaaa" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group col-xs-6" style="padding-right:0;">
-						<label for="-Paypal">Test</label>
-						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="sexo-p">Sexo *</label>
+						<input type="text" class="form-control required" id="sexo-p" name="sexo-p" placeholder="Sexo" title="Este campo es obligatorio">
 					</div>
 					<div class="form-group">
-						<label for="-Paypal">Test</label>
-						<input type="-" class="form-control " id="-Paypal" placeholder="Test">
+						<label for="club-p">Club (opcional)</label>
+						<input type="text" class="form-control" id="club-p" name="club-p" placeholder="Club">
 					</div>
-					<hr class="ultraLight">					
-					<div class="checkbox">
-						<label>
-							<input type="checkbox"> Check me out
-						</label>
+					<div class="form-group col-xs-6" style="padding-left:0;">
+						<label for="categoria-p">Categoría</label>
+					  <select class="form-control" id="categoria-p" name="categoria-p">
+						<option value="18 a 39 años" selected style="" >18 a 39 años</option>
+						<option value="40 a 44 años"  style="" >40 a 44 años</option>
+						<option value="45 a 49 años"  style="" >45 a 49 años</option>
+						<option value="50 a 54 años"  style="" >50 a 54 años</option>
+						<option value="55 a 59 años"  style="" >55 a 59 años</option>
+						<option value="60 y mas Femenil"  style="" >60 y mas Femenil</option>
+						<option value="60 a 64 años Varonil"  style="" >60 a 64 años Varonil</option>
+						<option value="65 y mas Varonil"  style="" >65 y mas Varonil</option>
+					  </select>
+					</div>		
+					<div class="radio form-group col-xs-6" style="padding-right:0;">
+						<label>Distancia *</label>
+						<label class="radio-inline"><input type="radio" name="distancia-p" class="required" value="10k"> 10K</label>
+						<label class="radio-inline"><input type="radio" name="distancia-p" value="21k"> 21K</label>
+						<label for="distancia-p" class="error" style="display:none;">Selecciona una</label>
 					</div>
+					<hr class="ultraLight clearfix" style="clear:both;width:100%;display:block;">
+					<div class="form-group">
+						<label for="email-p">Email *</label>
+						<input type="text" class="form-control required email" id="email-p" name="email-p" placeholder="Email" title="Por favor, ingresa un e-mail válido">
+					</div>
+					<div class="form-group">
+						<label for="telefono-p">Teléfono/Whatsapp *</label>
+						<input type="text" class="form-control required number digits" id="telefono-p" name="telefono-p" placeholder="0000000000" title="Este campo es obligatorio (sólo números)">
+					</div>
+					<div class="form-group">
+						<label for="lugar-p">Ciudad/Estado/País/CP *</label>
+						<input type="text" class="form-control required" id="lugar-p" name="lugar-p" placeholder="Ciudad/Estado/País/CP" title="Este campo es obligatorio">
+					</div>
+					<div class="radio form-group">
+						<label>Talla *</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" class="required" value="CH"> CH</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="ME"> ME</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="GD"> GD</label>
+						<label class="radio-inline"><input type="radio" name="talla-p" value="XG"> XG</label>
+						<label for="talla-p" class="error" style="display:none;">Selecciona una</label>
+					</div>
+
 					<hr class="ultraLight">
-					<button type="submit" class="btn btn-default" id="submitPaypal">Submit</button>
+
+					<!-- <a href="" class="btn btn-default" target="_blank" id="pagarPaypal">Pagar con Paypal</a> -->
+					<button type="submit" class="btn btn-default" id="submitPaypal">Enviar Información</button>
+					<div class="clearfix" style="height:90px;"></div>
+
+
 				</form>
+				<div id="enviando" style="display:none">
+                    <div class="sk-fading-circle">
+					  <div class="sk-circle1 sk-circle"></div>
+					  <div class="sk-circle2 sk-circle"></div>
+					  <div class="sk-circle3 sk-circle"></div>
+					  <div class="sk-circle4 sk-circle"></div>
+					  <div class="sk-circle5 sk-circle"></div>
+					  <div class="sk-circle6 sk-circle"></div>
+					  <div class="sk-circle7 sk-circle"></div>
+					  <div class="sk-circle8 sk-circle"></div>
+					  <div class="sk-circle9 sk-circle"></div>
+					  <div class="sk-circle10 sk-circle"></div>
+					  <div class="sk-circle11 sk-circle"></div>
+					  <div class="sk-circle12 sk-circle"></div>
+					</div>
+					<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
+                </div>
+            </div>
 			</div>
 		</div>
-
 </section>
 <!-- hoteles -->
 <section id="hoteles" class="container-fluid">
@@ -520,16 +585,44 @@
 					
 				</li>
 				<li class="hotel item">
-					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
-						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/palmarvallartamxn/2017-11-22/2017-11-28//?cp=mediomaratonep" target="_blank" class="linkHotel">
+						<img src="images/hoteles/villa_del_palmar_puerto_vallarta.jpg" alt="Villa del Palmar Puerto Vallarta Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
 					</a>
 					
 				</li>
 				<li class="hotel item">
-					<a href="http://nopall.com" target="_blank" class="linkHotel">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/palmarvallartamxn/2017-11-22/2017-11-28/?cp=mediomaratonai" target="_blank" class="linkHotel">
+						<img src="images/hoteles/villa_del_palmar_puerto_vallarta.jpg" alt="Villa del Palmar Puerto Vallarta Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href=http://reservas.villagroupresorts.com/bookcore/availability/villaestanciamxn/2017-11-22/2017-11-28/?cp=mediomaratonep" target="_blank" class="linkHotel">
+						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://www.villalaestancia.com/riviera-nayarit" target="_blank" class="linkHotel">
+						<img src="images/hoteles/la_estancia.jpg" alt="Villa la Estancia Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/flamingosmxn/2017-11-22/2017-11-28/?cp=mediomaratonep" target="_blank" class="linkHotel">
 						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
-						<h4 class="codigo-hotel" align="center"><small>Código:</small><br> [pendiente]</h4>
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>SIN ALIMENTOS</h4>
+					</a>
+					
+				</li>
+				<li class="hotel item">
+					<a href="http://reservas.villagroupresorts.com/bookcore/availability/flamingosmxn/2017-11-22/2017-11-28/?cp=mediomaratonai" target="_blank" class="linkHotel">
+						<img src="images/hoteles/flamingos.jpg" alt="Villa del Palmar Flamingos Hotel" class="img-responsive">
+						<h4 class="codigo-hotel" align="center"><small>Reserve:</small><br>TODO INCLUÍDO</h4>
 					</a>
 					
 				</li>
@@ -571,12 +664,10 @@
 			</ul>
 		</div>
 	</div>
-
-
 </section>
 <!-- sponsors -->
 <section id="patrocinadores" class="container-fluid">
-	<div style="padding:30px 0;background-color:#00aeff">
+	<div style="padding:30px 0;background-color:#002d71">
 		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
 		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
 		<h2 class="whiteTxt" align="center">Patrocinadores</h2>
@@ -617,7 +708,7 @@
 					<!-- <h3 class="label">sponsor 8</h3> -->
 				</li>
 				<li class="item">
-					<img src="images/sponsors/la_moderna.jpg" alt="" class="img-responsive sponsor">
+					<img src="images/sponsors/etn_turistar.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 9</h3> -->
 				</li>
 				<li class="item">
@@ -636,6 +727,10 @@
 					<img src="images/sponsors/ut.jpg" alt="" class="img-responsive sponsor">
 					<!-- <h3 class="label">sponsor 13</h3> -->
 				</li>
+				<li class="item">
+					<img src="images/sponsors/san_jose.jpg" alt="" class="img-responsive sponsor">
+					<!-- <h3 class="label">sponsor 13</h3> -->
+				</li>
 					<!-- <li class="item">
 						<img src="http://placehold.it/600x600?text=tu+logo+AQUÍ" alt="" class="img-responsive sponsor">
 						<h3 class="label">sponsor 14</h3>
@@ -649,50 +744,70 @@
 	</div>
 </section>
 <!-- cupones-servicios -->
+<!--
 <section id="cupones-servicios" class="container-fluid">
 	<div class="bigRedTitle" style="padding:30px 0;">
-		<!-- <h2 class="sr-only">Cupones y Servicios</h2>
-		<img src="images/cupones/head.jpg" alt="Cupones y Servicios" class="img-responsive"> -->
 		<h2 class="whiteTxt" align="center">Cupones y Servicios</h2>
 	</div>
 	
 	<hr class="ultraLight">
 	<div class="container">
 		<div class="row">
-			<ul class="sort list-inline center-block" id="filters">
-				<li><a href="javascript:void(0);" class="categoria" id="cat0" class="current">Todos</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat1">Tours</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat2">Restaurantes</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat3">Renta de Autos</a></li>&nbsp;|&nbsp;
-				<li><a href="javascript:void(0);" class="categoria" id="cat4">Transportación</a></li>
-			</ul>
-			<hr class="ultraLight">
-			<ul id="cupones-serviciosGrid"> <!-- class="logos" -->
-				<li class="item"><img src="images/cupones/sample.jpg" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+2" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+3" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+4" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+5" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+6" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+7" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+8" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+9" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+10" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+11" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+12" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+13" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+14" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+15" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+16" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+17" alt="" class="img-responsive cupon"></li>
-				<li class="item"><img src="http://placehold.it/600x600/ffffff/cccccc?text=cupon+18" alt="" class="img-responsive cupon"></li>
-			</ul>
+
+			<div id="container" align="center" style="min-height:240px;">
+			    <button class="filter nofloat" data-filter=".tours">Tours</button>
+			    <button class="filter nofloat" data-filter=".restaurantes">Restaurantes</button>
+			    <button class="filter nofloat" data-filter=".renta-auto">Renta de Autos</button>
+			    <button class="filter nofloat" data-filter=".transportacion">Transportación</button>
+			  </div>
+			  
+			  <div class="mix restaurantes" data-myorder="1">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix tours" data-myorder="2">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix renta-auto" data-myorder="3">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix restaurantes" data-myorder="4">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix transportacion" data-myorder="5">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix tours" data-myorder="6">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix renta-auto" data-myorder="7">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix tours" data-myorder="8">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix tours" data-myorder="9">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix transportacion" data-myorder="10">
+			  	<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix restaurantes" data-myorder="11">
+				<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			  <div class="mix restaurantes" data-myorder="12">
+				<img src="http://placehold.it/600x600/ffffff/cccccc?text=Tu+logo+Aquí" alt="" class="img-responsive cupon">
+			  </div>
+			</div>
+
+			<hr class="clearfix" style="clear:both;margin-top:15px;">
+
 			<a href="pdf/21k_cupones_descuentos.pdf" target="_blank" class="ghostButtonHome redBtn">
 				<i class="fa fa-file-pdf-o" aria-hidden="true"></i> Cuponera 2017
 			</a>
 		</div>
 	</div>
 </section>
+-->
 <!-- ubicacion -->
 <section id="ubicacion" class="container-fluid">
 	<div id="sidebarMap" class="col-md-3 hidden-xs">
@@ -700,18 +815,35 @@
 		<hr class="ultraLight">
 		<img src="images/map/powerade.png" alt="Tu Logo AQUÍ" class="center-block">
 		<hr class="ultraLight">
-		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="sideBarMapBtn">Salida/Meta</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn" id="hidrataBtn">Puntos de Hidratación</a>
-		<a href="javascript:void(0);" class="sideBarMapBtn" id="servMedBtn">Servicios Médicos</a>
+		<a href="javascript:void(0);" onClick="cargainfo(marker21,'location');" class="ghostButtonHome">Salida/Meta</a>
+		
+		<div class="ghostBloque">
+		  <i><img src="images/map/pin_km.png" alt="Kilómetros" class="img-responsive"></i>
+		  <span>Kilómetros</span> 
+		</div>
+		<div class="ghostBloque">
+		  <i><img src="images/map/ciel_3k.png" alt="Punto de hidratación Ciel" class="img-responsive"></i>
+		  <span>Puntos de Hidratación</span> 
+		</div>
+		<div class="ghostBloque">
+		  <i><img src="images/map/powerade_6k.png" alt="Punto de hidratación Ciel" class="img-responsive"></i>
+		  <span>Puntos de Hidratación</span> 
+		</div>
+		<div class="ghostBloque">
+		  <i><img src="images/map/servicios_medicos-big.png" alt="Servicios Médicos" class="img-responsive"></i>
+		  <span>Servicios Médicos</span> 
+		</div>
+
+		<!-- <a href="javascript:void(0);" class="ghostButtonHome" id="hidrataBtn" onclick="toggleLayers(0);">Puntos de Hidratación</a> -->
+		<!-- <a href="javascript:void(0);" class="ghostButtonHome" id="servMedBtn">Servicios Médicos</a> -->
 		<hr class="ultraLight">
-		<a href="javascript:void(0);" class="ghostButtonHome">Ver en Google Maps</a>
+		<!-- <a href="javascript:void(0);" class="sideBarMap">Ver en Google Maps</a> -->
 		<!-- <a href="javascript:void(0);">link 4</a> -->
 	</div>
 	<div id="contemap" class="col-md-9 col-xs-12">
 		<div id="map_canvas"></div>
 	</div>
 	<hr class="ultralight clearfix">
-	
 </section>
 <!-- galeria -->
 <section id="galeria" class="container-fluid">
@@ -754,16 +886,13 @@
 			</div>
 		</div>
 	</div>
-<!-- altimetria -->
-<h3 class="whiteTxt" align="center">Altimetría</h3>
-<hr class="ultraLight">
+	<!-- altimetria -->
+	<h3 class="whiteTxt" align="center">Altimetría</h3>
+	<hr class="ultraLight">
 
-<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
-
+	<img src="images/pirma_water.png" alt="" id="altimetriaImg" class="img-responsive">
 </section>
-
 <!-- LENGUAJES -->
-
 <section id="lenguajes" class="container-fluid">
 	<div class="col-md-6 interlingua">
 		<a href="http://www.interlingua.com.mx/" target="_blank" class="center-block">
@@ -787,59 +916,119 @@
 
 </section>
 <section class="container-fluid" id="botonzotes">
-<!-- magia emmet (botones Gigantes): 
-	div.bigBtns>(a-link.bigBTN#facebookBtn[target="_blank"]{facebook})+(a-link.bigBTN#instagramBtn[target="_blank"]{instagram})+(a-link.bigBTN#youtubeBtn[target="_blank"]{youtube})
-	-->
 	<div class="bigBtns">
-		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank">facebook</a>
-		<a href="https://instagram.com/Mediomaratonrivieranayarit" class="bigBTN" id="instagramBtn" target="_blank">instagram</a>
-		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank">youtube</a>
+		<a href="https://facebook.com/21KRivieraNayarit" class="bigBTN" id="facebookBtn" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i>
+		</a>
+		<a href="https://www.instagram.com/21krivieranayarit/" class="bigBTN" id="instagramBtn" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i>
+		</a>
+		<a href="https://www.youtube.com/channel/UCI1cK7BHlh_3PTa0MspJF4A" class="bigBTN" id="youtubeBtn" target="_blank"><i class="fa fa-youtube" aria-hidden="true"></i>
+		</a>
 	</div>
 </section>
-
 <!-- contacto -->
 <section id="contacto" class="container-fluid">
 	<div class="col-md-6" id="resultado">
 		<div class="short center-block">
 			<h2 class="whiteTxt">Resultados</h2>
 			<hr class="ultraLight">
-			<p align="center"><a href="http://www.time-mx.com/resultados/eventov.php?idevento=450" target="_blank" class="scoreLink">2016</a><img src="images/loading.gif" alt="" class="visible-xs-block center-block clearfix"><span class="hidden-sm hidden-xs">&nbsp;/&nbsp;</span>
+			
 			<a href="javascript:void(0);" class="scoreLink disabled" title="Se activará una vez terminada la carrera">2017</a></p>
+
+			<h3 class= "whiteTxt">Los resultados de la carrera MEDIO MARATÓN RIVIERA NAYARIT 2017 serán publicados 2 horas después de que el último participante haya concluído el circuito.</h2>
 		</div>
 	</div>
 	<div class="col-md-6" id="contactForm">
 		<div class="short center-block">
 			<h2 class="whiteTxt">Contacto</h2>
 			<hr class="ultraLight">
-			<form id="formaContacto">
-			  <div class="form-group">
-			    <label for="Inputname">Nombre</label>
-			    <input type="name" class="form-control" id="Inputname" placeholder="Nombre">
-			  </div>
-			  <div class="form-group">
-			    <label for="Inputplace">Ciudad/País</label>
-			    <input type="place" class="form-control" id="Inputplace" placeholder="Ciudad/País">
-			  </div>
-			  <div class="form-group">
-			    <label for="InputTel">Teléfono</label>
-			    <input type="tel" class="form-control" id="InputTel" placeholder="Teléfono">
-			  </div>
-			  <div class="form-group">
-			    <label for="InputMessage">Mensaje</label>
-			    <textarea type="message" class="form-control" id="InputMessage" placeholder="Mensaje"></textarea>
-			  </div>
-			  <div class="checkbox">
-			    <label>
-			      <input type="checkbox">Check me out
-			    </label>
-			  </div>
-			  <button type="submit" class="btn btn-default">Submit</button>
-			</form>
+
+
+			<!-- CONTENIDO BLOQUE -->
+                <div style="padding:10px;" align="justify">
+
+                    <div id="contacto" align="left">
+
+                        <div id="enviado" style="display:none" align="center">
+                            <div style="width:100%; height:80px; display:block; clear:both;"></div>
+                            <h2 style="font-weight:300;">El mensaje fue enviado con <span style="color:#fff;">éxito</span></h2>
+                            <h1 style="font-weight:300;">Gracias!</h1>
+                            <p>(por favor, refresca el sitio, para enviar otro e-mail)</p>
+                        </div>
+
+                        <div id="forma_envio">
+                            <div style="text-align:center;margin:0 auto;">
+                                <p style="margin:0; padding:0;">Por favor llena <span style="color:#fff;">todos los campos</span> para ponernos en contacto</p>
+                                <!--<p style="margin:0; padding:0;">In order to get a quote.</p>-->
+                            </div>
+                            <form action="enviando.php" method="post" id="forma_contacto" >
+                                
+
+                                <label><span style="color:#ef9863;">*</span> Nombre:</label>
+                                <input type="text" name="nombre" class="text_input required" title="Este campo es obligatorio" id="contactname"/>
+
+                                <div style="width:100%; height:10px; display:block; clear:both;"></div>
+
+                                <label><span style="color:#ef9863;">*</span> E-mail:</label>
+                                <input type="text" name="email" class="text_input required email" title="Por favor, ingresa un e-mail válido" id="email"/>
+                                
+                                <div style="width:100%; height:10px; display:block; clear:both;"></div>
+
+                                <label><span style="color:#ef9863;">*</span> Ciudad:</label>
+                                <input type="text" name="city" class="text_input required" title="Este campo es obligatorio" id="city"/>
+                                
+                                <div style="width:100%; height:10px; display:block; clear:both;"></div>
+
+                                <label><span style="color:#ef9863;">*</span> Actividad:</label>
+                                <select id="activity" name="activity" style="width:100%; height:40px; margin:8px 0 7px 7px; float:right" title="Selecciona una actividad">
+                                    <option value="Ninguna">Selecciona una actividad</option>
+                                    <option value="Atleta veterano">Atleta veterano</option>
+                                    <option value="Deportista de alto rendimiento">Deportista de alto rendimiento</option>
+                                    <option value="Corredor aficionado">Corredor aficionado</option>
+                                    <option value="Otro">Otro</option>
+                                </select>
+
+                                <div style="width:100%; height:10px; display:block; clear:both;"></div>
+                                
+                                <label><span style="color:#ef9863;">*</span> Mensaje:</label>
+                                <textarea class="text_area required" name="mensaje" title="Déjanos un mensaje" id="message"></textarea>
+                                
+                                <div style="width:100%; height:10px; display:block; clear:both;"></div>
+                                
+                                <input type="submit" value="Enviar" name="submit" id="enviar_btn" style="border:none" />
+
+                            </form>
+                            <div id="enviando" style="display:none">
+                                <div class="sk-fading-circle">
+								  <div class="sk-circle1 sk-circle"></div>
+								  <div class="sk-circle2 sk-circle"></div>
+								  <div class="sk-circle3 sk-circle"></div>
+								  <div class="sk-circle4 sk-circle"></div>
+								  <div class="sk-circle5 sk-circle"></div>
+								  <div class="sk-circle6 sk-circle"></div>
+								  <div class="sk-circle7 sk-circle"></div>
+								  <div class="sk-circle8 sk-circle"></div>
+								  <div class="sk-circle9 sk-circle"></div>
+								  <div class="sk-circle10 sk-circle"></div>
+								  <div class="sk-circle11 sk-circle"></div>
+								  <div class="sk-circle12 sk-circle"></div>
+								</div>
+								<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
+                            </div>
+                        </div>
+                    </div> 
+                    <div class="clearb" style="height:10px;"></div>
+                  
+                </div>
+            </div>            
+                <!-- END CONTENIDO BLOQUE -->
+			
+
+
 		</div>
 	</div>
 	<div class="clearfix"></div>
 </section>
-
+<!-- FAQ -->
 <section class="container-fluid" id="faqSection">
 	<div class="container">
 		<div class="col-md-3"></div>
@@ -927,8 +1116,13 @@
 			</div>
 		</div>
 	</div>
-
+	<img src="images/runner_girl.png" id="corredora-faq">
+	<img src="images/runner_man.png" id="corredor-faq">
 </section>
+
+<!--
+============================================================================================== contenido adicional
+-->
 
 
 <!-- Descripciones para el MAPA -->
@@ -946,6 +1140,11 @@
     	</div>
  	</div> 
 </div>
+
+<div class="descripcionoculta punto-hidratacion-ciel">Punto de Hidratación Ciel</div>
+<div class="descripcionoculta punto-hidratacion-powerade">Punto de Hidratación Powerade</div>
+<div class="descripcionoculta servicios-medicos">Servicios Médicos</div>
+
 <!-- magia emmet (descripción de kilómetros):
 (div.descripcionoculta.km-${kilómetro-$})*21
 -->
@@ -977,6 +1176,27 @@
 <div class="descripcionoculta vuelta-glorieta">Vuelta a la glorieta</div>
 <div class="descripcionoculta vuelta-u">Vuelta en U</div>
 <div class="descripcionoculta retorno">Retorno</div>
+<!-- Puntos de Hidratación -->
+<div class="descripcionoculta punto-h-ciel-km3">Punto hidratación Ciel km3</div>
+<div class="descripcionoculta punto-h-ciel-km6">Punto hidratación Ciel km6</div>
+<div class="descripcionoculta punto-h-ciel-km8">Punto hidratación Ciel km8</div>
+<div class="descripcionoculta punto-h-ciel-km10">Punto hidratación Ciel km10</div>
+<div class="descripcionoculta punto-h-ciel-km12">Punto hidratación Ciel km12</div>
+<div class="descripcionoculta punto-h-ciel-km14">Punto hidratación Ciel km14</div>
+<div class="descripcionoculta punto-h-ciel-km16">Punto hidratación Ciel km16</div>
+<div class="descripcionoculta punto-h-ciel-km18">Punto hidratación Ciel km18</div>
+<div class="descripcionoculta punto-h-ciel-km20">Punto hidratación Ciel km20</div>
+<div class="descripcionoculta punto-h-powerade-km6">Punto hidratación Powerade km6</div>
+<div class="descripcionoculta punto-h-powerade-km10">Punto hidratación Powerade km10</div>
+<div class="descripcionoculta punto-h-powerade-km12">Punto hidratación Powerade km12</div>
+<div class="descripcionoculta punto-h-powerade-km14">Punto hidratación Powerade km14</div>
+<div class="descripcionoculta punto-h-powerade-km16">Punto hidratación Powerade km16</div>
+<div class="descripcionoculta punto-h-powerade-km18">Punto hidratación Powerade km18</div>
+<div class="descripcionoculta punto-h-powerade-km20">Punto hidratación Powerade km20</div>
+<!-- 
+Ciel 3, 6, 8, 10, 12, 14, 16, 18, 20
+Powerade 6, 10, 12, 14, 16, 18, 20
+-->
 
 <!-- Modal -->
   <div class="modal fade" id="myModal" role="dialog">
@@ -984,248 +1204,148 @@
     
       <!-- Modal content-->
       <div class="modal-content">
+
         <div class="modal-header">
           <button type="button" class="close" data-dismiss="modal">&times;</button>
           <h4><i class="fa fa-lock" aria-hidden="true"></i> Ficha de Registro Santander</h4>
         </div>
+        
+
         <div class="modal-body" style="padding:30px;">
 
-			<!-- <form role="form">
-				<div class="form-group">
-					<label for="usrname"><i class="fa fa-user-circle" aria-hidden="true" style="color:#000"></i> Username</label>
-					<input type="text" class="form-control" id="usrname" placeholder="Enter email">
-				</div>
-				<div class="form-group">
-					<label for="psw"><i class="fa fa-ticket" aria-hidden="true" style="color:#000"></i> Password</label>
-					<input type="text" class="form-control" id="psw" placeholder="Enter password">
-				</div>
 
-				<button type="submit" class="btn btn-danger btn-default center-block" data-dismiss="modal"><i class="fa fa-times" aria-hidden="true"></i> Cancel</button>
-				<hr>
-				<p class="small">Not a member? <a href="#">Sign Up</a></p>
-				<p class="small">Forgot <a href="#">Password?</a></p>
-			</form> -->
-<div id="ninja_forms_form_5_cont" class="ninja-forms-cont">
-<div id="ninja_forms_form_5_wrap" class="ninja-forms-form-wrap">
-<!-- <h2 class="ninja-forms-form-title"></h2> -->
-<div id="ninja_forms_form_5_response_msg" style="" class="ninja-forms-response-msg "></div>
-<form id="ninja_forms_form_5" enctype="multipart/form-data" method="post" name="" action="http://mediomaratonrivieranayarit.com/wp-admin/admin-ajax.php?action=ninja_forms_ajax_submit" class="ninja-forms-form">
+	        <div id="enviado-s" style="display:none" align="center">
+	            <div style="width:100%; height:80px; display:block; clear:both;"></div>
+	            <h2 style="font-weight:300;">El mensaje fue enviado con <span style="color:#fff;">éxito</span></h2>
+	            <h1 style="font-weight:300;">Gracias!</h1>
+	            <p>(por favor, refresca el sitio, para enviar otro e-mail)</p>
+	        </div>
 
-<input type="hidden" id="_wpnonce" name="_wpnonce" value="1ce7102fb4" />
-<input type="hidden" name="_wp_http_referer" value="/ficha-de-inscripcion-santander/" />
-<input type="hidden" name="_ninja_forms_display_submit" value="1">
-<input type="hidden" name="_form_id"  id="_form_id" value="5">
-<div class="hp-wrap">
-<label>Si usted es un humano y está viendo este ámbito, por favor deje en blanco.
-<input type="text" value="" name="_EnsAe">
-<input type="hidden" value="_EnsAe" name="_hp_name">
-</label>
-</div>
-<div id="ninja_forms_form_5_all_fields_wrap" class="ninja-forms-all-fields-wrap">
-<div class="ninja-forms-required-items">Campos marcados con <span class="ninja-forms-req-symbol">*</span> son requeridos</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_6_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_6_type" value="text">
-<label for="ninja_forms_field_6" id="ninja_forms_field_6_label" class="">Nombre <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>
-</label>
-<input id="ninja_forms_field_6" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_6" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="6"   />
-<div id="ninja_forms_field_6_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_8_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_8_type" value="text">
-<label for="ninja_forms_field_8" id="ninja_forms_field_8_label" class="">Apellido Paterno <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>
-</label>
-<input id="ninja_forms_field_8" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_8" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="8"   />
-<div id="ninja_forms_field_8_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_9_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_9_type" value="text">
-<label for="ninja_forms_field_9" id="ninja_forms_field_9_label" class="">Apellido Materno <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>
-</label>
-<input id="ninja_forms_field_9" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_9" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="9"   />
-<div id="ninja_forms_field_9_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_11_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_11_type" value="list">
-<input type="hidden" id="ninja_forms_field_11_list_type" value="dropdown">
-<label for="ninja_forms_field_11" id="ninja_forms_field_11_label" class="">Sexo <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>
-</label>
-<select name="ninja_forms_field_11" id="ninja_forms_field_11" class="ninja-forms-field  ninja-forms-req" rel="11">
-<option value="Masculino" selected style="" >Masculino</option>
-<option value="Femenino"  style="" >Femenino</option>
-</select>
-<div id="ninja_forms_field_11_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_14_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_14_type" value="text">
-<label for="ninja_forms_field_14" id="ninja_forms_field_14_label" class="">Fecha de Nacimiento <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_14" data-mask="date" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_14" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req ninja-forms-date" value="" rel="14"   />
-<div id="ninja_forms_field_14_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_10_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_10_type" value="text">
-<label for="ninja_forms_field_10" id="ninja_forms_field_10_label" class="">Club 				</label>
-<input id="ninja_forms_field_10" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_10" type="text" placeholder="" class="ninja-forms-field  " value="" rel="10"   />
-<div id="ninja_forms_field_10_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_15_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_15_type" value="list">
-<input type="hidden" id="ninja_forms_field_15_list_type" value="dropdown">
-<label for="ninja_forms_field_15" id="ninja_forms_field_15_label" class="">Categoría <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<select name="ninja_forms_field_15" id="ninja_forms_field_15" class="ninja-forms-field  ninja-forms-req" rel="15">
-<option value="18 a 39 años" selected style="" >18 a 39 años</option>
-<option value="40 a 44 años"  style="" >40 a 44 años</option>
-<option value="45 a 49 años"  style="" >45 a 49 años</option>
-<option value="50 a 54 años"  style="" >50 a 54 años</option>
-<option value="55 a 59 años"  style="" >55 a 59 años</option>
-<option value="60 y mas Femenil"  style="" >60 y mas Femenil</option>
-<option value="60 a 64 años Varonil"  style="" >60 a 64 años Varonil</option>
-<option value="65 y mas Varonil"  style="" >65 y mas Varonil</option>
-</select>
-<div id="ninja_forms_field_15_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_16_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_16_type" value="list">
-<input type="hidden" id="ninja_forms_field_16_list_type" value="dropdown">
-<label for="ninja_forms_field_16" id="ninja_forms_field_16_label" class="">Distancia <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<select name="ninja_forms_field_16" id="ninja_forms_field_16" class="ninja-forms-field  ninja-forms-req" rel="16">
-<option value="10K" selected style="" >10K</option>
-<option value="21K"  style="" >21K</option>
-</select>
-<div id="ninja_forms_field_16_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_17_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_17_type" value="text">
-<label for="ninja_forms_field_17" id="ninja_forms_field_17_label" class="">Email 				</label>
-<input id="ninja_forms_field_17" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="" name="ninja_forms_field_17" type="text" placeholder="" class="ninja-forms-field  email " value="" rel="17"   />
-<div id="ninja_forms_field_17_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_18_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_18_type" value="text">
-<label for="ninja_forms_field_18" id="ninja_forms_field_18_label" class="">Colonia <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_18" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_18" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="18"   />
-<div id="ninja_forms_field_18_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_19_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_19_type" value="text">
-<label for="ninja_forms_field_19" id="ninja_forms_field_19_label" class="">Municipio <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_19" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_19" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="19"   />
-<div id="ninja_forms_field_19_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_20_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_20_type" value="text">
-<label for="ninja_forms_field_20" id="ninja_forms_field_20_label" class="">Estado <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_20" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_20" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="20"   />
-<div id="ninja_forms_field_20_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_21_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_21_type" value="text">
-<label for="ninja_forms_field_21" id="ninja_forms_field_21_label" class="">Ciudad <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_21" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_21" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="21"   />
-<div id="ninja_forms_field_21_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_22_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_22_type" value="text">
-<label for="ninja_forms_field_22" id="ninja_forms_field_22_label" class="">País <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_22" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_22" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="22"   />
-<div id="ninja_forms_field_22_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_23_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_23_type" value="text">
-<label for="ninja_forms_field_23" id="ninja_forms_field_23_label" class="">Código Postal <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_23" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_23" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="23"   />
-<div id="ninja_forms_field_23_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_24_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_24_type" value="text">
-<label for="ninja_forms_field_24" id="ninja_forms_field_24_label" class="">Teléfono <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>				</label>
-<input id="ninja_forms_field_24" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_24" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="24"   />
-<div id="ninja_forms_field_24_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
+	        <div class="forma_envio-s"> 
+
+				<form id="formularioSantander" method="post" role="form" action="enviando-s.php" class="">
+
+					<div class="form-group">
+						<label for="name-s">Nombre *</label>
+						<input type="text" class="form-control required" id="name-s" name="name-s" placeholder="Nombre" title="Este campo es obligatorio">
+					</div>
+
+					<div class="form-group">
+						<label for="apellidoP-s">Apellido Paterno *</label>
+						<input type="text" class="form-control required" id="apellidoP-s" name="apellidoP-s" placeholder="Apellido Paterno" title="Este campo es obligatorio">
+					</div>
+
+					<div class="form-group">
+						<label for="apellidoM-s">Apellido Materno *</label>
+						<input type="text" class="form-control required" id="apellidoM-s" name="apellidoM-s" placeholder="Apellido Materno" title="Este campo es obligatorio">
+					</div>
+
+					<div class="form-group">
+					  <label for="sexo-s">Sexo</label>
+					  <select class="form-control" id="sexo-s" name="sexo-s">
+					    <option value="Masculino">Masculino</option>
+					    <option value="Femenino">Femenino</option>
+					  </select>
+					</div>
+
+					<div class="form-group">
+						<label for="fecha-s">Fecha de Nacimiento *</label>
+						<input type="text" class="form-control required" id="fecha-s" name="fecha-s" placeholder="dd/mm/aaaa" title="Este campo es obligatorio">
+					</div>
 
 
-<div class="field-wrap text-wrap label-above"  id="ninja_forms_field_25_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_25_type" value="text">
-<label for="ninja_forms_field_25" id="ninja_forms_field_25_label" class="">Teléfono Celular <span class='ninja-forms-req-symbol'>
-<strong>*</strong>
-</span>
-</label>
-<input id="ninja_forms_field_25" data-mask="" data-input-limit="" data-input-limit-type="char" data-input-limit-msg="tipos restantes" name="ninja_forms_field_25" type="text" placeholder="" class="ninja-forms-field  ninja-forms-req " value="" rel="25"   />
-<div id="ninja_forms_field_25_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
+					<div class="form-group">
+						<label for="club-s">Club (opcional)</label>
+						<input type="text" class="form-control" id="club-s" name="club-s" placeholder="Club">
+					</div>
 
-<div class="field-wrap list-dropdown-wrap label-above"  id="ninja_forms_field_26_div_wrap" data-visible="1">
-	<input type="hidden" id="ninja_forms_field_26_type" value="list">
-	<input type="hidden" id="ninja_forms_field_26_list_type" value="dropdown">
-	<label for="ninja_forms_field_26" id="ninja_forms_field_26_label" class="">Talla de Playera</label>
-	<select name="ninja_forms_field_26" id="ninja_forms_field_26" class="ninja-forms-field " rel="26">
-		<option value="Chica" selected style="" >Chica</option>
-		<option value="Mediana"  style="" >Mediana</option>
-		<option value="Grande"  style="" >Grande</option>
-		<option value="Extra-Grande"  style="" >Extra-Grande</option>
-	</select>
-	<div id="ninja_forms_field_26_error" style="display:none;" class="ninja-forms-field-error"></div>
-</div>
+					<div class="form-group">
+					  <label for="categoria-s">Categoría</label>
+					  <select class="form-control" id="categoria-s" name="categoria-s">
+						<option value="18 a 39 años" selected style="" >18 a 39 años</option>
+						<option value="40 a 44 años"  style="" >40 a 44 años</option>
+						<option value="45 a 49 años"  style="" >45 a 49 años</option>
+						<option value="50 a 54 años"  style="" >50 a 54 años</option>
+						<option value="55 a 59 años"  style="" >55 a 59 años</option>
+						<option value="60 y mas Femenil"  style="" >60 y mas Femenil</option>
+						<option value="60 a 64 años Varonil"  style="" >60 a 64 años Varonil</option>
+						<option value="65 y mas Varonil"  style="" >65 y mas Varonil</option>
+					  </select>
+					</div>
 
-<div class="field-wrap submit-wrap label-above"  id="ninja_forms_field_7_div_wrap" data-visible="1">
-<input type="hidden" id="ninja_forms_field_7_type" value="submit">
-<div id="nf_submit_5">
-<input type="submit" name="_ninja_forms_field_7" class="ninja-forms-field " id="ninja_forms_field_7" value="Enviar" rel="7" >
-</div>
-<div id="nf_processing_5" style="display:none;">
-<input type="submit" name="_ninja_forms_field_7" class="ninja-forms-field " id="ninja_forms_field_7" value="Procesando" rel="7" disabled>
-</div>
-<div id="ninja_forms_field_7_error" style="display:none;" class="ninja-forms-field-error">
-</div>
-</div>
-</div>
-</form>
-</div>
-</div>
+					<div class="form-group">
+					  <label for="distancia-s">Distancia</label>
+					  <select class="form-control" id="distancia-s" name="distancia-s">
+					    <option value="10K">10K</option>
+					    <option value="21K">21K</option>
+					  </select>
+					</div>
+
+					<div class="form-group">
+						<label for="email-s">Email *</label>
+						<input type="text" class="form-control required email" id="email-s" name="email-s" placeholder="Email" title="Por favor, ingresa un e-mail válido">
+					</div>
+
+					<div class="form-group">
+						<label for="pais-s">País *</label>
+						<input type="text" class="form-control required" id="pais-s" name="pais-s" placeholder="País" title="Este campo es obligatorio">
+					</div>
+
+					<div class="form-group">
+						<label for="ciudad-s">Ciudad *</label>
+						<input type="text" class="form-control required" id="ciudad-s" name="ciudad-s" placeholder="Ciudad" title="Este campo es obligatorio">
+					</div>
+
+					<div class="form-group">
+						<label for="codigoP-s">Código Postal *</label>
+						<input type="text" class="form-control required digits number" id="codigoP-s" name="codigoP-s" placeholder="00000" maxlength="5" title="Este campo es obligatorio (sólo números)">
+					</div>
+
+					<div class="form-group">
+						<label for="telefono-s">Teléfono *</label>
+						<input type="text" class="form-control number digits required" id="telefono-s" name="telefono-s" placeholder="0000000000" maxlength="10" title="Este campo es obligatorio (sólo números)">
+					</div>
+
+					<div class="form-group">
+						<label for="celular">Celular (opcional)</label>
+						<input type="text" class="form-control number" id="celular" name="celular" placeholder="0000000000" maxlength="10">
+					</div>
+
+					<div class="form-group">
+					  <label for="talla">Talla</label>
+					  <select class="form-control" id="talla" name="talla">
+					    <option value="Chica" selected style="" >Chica</option>
+						<option value="Mediana"  style="" >Mediana</option>
+						<option value="Grande"  style="" >Grande</option>
+						<option value="Extra-Grande"  style="" >Extra-Grande</option>
+					  </select>
+					</div>
+
+					<button type="submit" class="btn btn-default center-block">Enviar</button>
+
+				</form>
+
+				<div id="enviando-s" style="display:none">
+	                <div class="sk-fading-circle">
+					  <div class="sk-circle1 sk-circle"></div>
+					  <div class="sk-circle2 sk-circle"></div>
+					  <div class="sk-circle3 sk-circle"></div>
+					  <div class="sk-circle4 sk-circle"></div>
+					  <div class="sk-circle5 sk-circle"></div>
+					  <div class="sk-circle6 sk-circle"></div>
+					  <div class="sk-circle7 sk-circle"></div>
+					  <div class="sk-circle8 sk-circle"></div>
+					  <div class="sk-circle9 sk-circle"></div>
+					  <div class="sk-circle10 sk-circle"></div>
+					  <div class="sk-circle11 sk-circle"></div>
+					  <div class="sk-circle12 sk-circle"></div>
+					</div>
+					<span style="clear:both;display:block;margin:0 auto;text-align:center;">Enviando..</span>
+	            </div>
+
+            </div>
+
+
 
 		</div>
       </div>

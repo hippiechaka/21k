@@ -48,6 +48,7 @@
     <script src='http://cdn.jsdelivr.net/jquery.mixitup/latest/jquery.mixitup.min.js?v=2.1.2'></script>
     <script src="js/main.js"></script>
     
-<!-- GoogleAnalytics -->
+
+
 
 
